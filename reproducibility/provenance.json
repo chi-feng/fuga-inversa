@@ -1,0 +1,244 @@
+{
+  "scope": "Origins of copied artifacts; paths identify files relative to the composition workspace. New bundle reports and scripts are identified by MANIFEST.json.",
+  "copied_artifacts": [
+    {
+      "path": "fugue.ly",
+      "original_artifact": "fugue.ly",
+      "original_sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+      "transformation": "none"
+    },
+    {
+      "path": "fugue.midi",
+      "original_artifact": "fugue.midi",
+      "original_sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+      "transformation": "none"
+    },
+    {
+      "path": "audit_midi.py",
+      "original_artifact": "audit_midi.py",
+      "original_sha256": "dcb5abaf673da75ab94503c164d43e83c082aac39c0b5659a27151ea8bb81ee8",
+      "transformation": "none"
+    },
+    {
+      "path": "prepare_organ_midi.py",
+      "original_artifact": "prepare_organ_midi.py",
+      "original_sha256": "2212a054d5b0e4e4b8a4e7db3aed6f9a29d87c37df540ef2eedb534d5912d3a2",
+      "transformation": "none"
+    },
+    {
+      "path": "prepare_performance.py",
+      "original_artifact": "prepare_performance.py",
+      "original_sha256": "decac42e20e92b7ae7a03f37279c1d8717485d6e055ef84343a38a04a27bee4c",
+      "transformation": "none"
+    },
+    {
+      "path": "render_audio.py",
+      "original_artifact": "render_audio.py",
+      "original_sha256": "56222ff2db6e3f482cbbdfe406bc79fcce3c108b5eca7e17d2c28909c94ced00",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-a/fugue-a.ly",
+      "original_artifact": "candidate-a/fugue-a.ly",
+      "original_sha256": "6ebc13ad9c2d5c95ca928d3846e9860703fb52923f42c3f4863ee39a7c5d1a05",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-a/fugue-a.midi",
+      "original_artifact": "candidate-a/fugue-a.midi",
+      "original_sha256": "98d37c74cf0bb8f21ab46dbbd2ed0daa3e8e213f84f72b2e4798f4c4cd56ffd4",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-a/fugue-a-audit.json",
+      "original_artifact": "candidate-a/fugue-a-audit.json",
+      "original_sha256": "747c2b04b8643fe88b0dedfe47d7687a3e25b098c46edae5572dd9c10e55ac2d",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-a/fugue-a.midi"
+    },
+    {
+      "path": "candidate-a/NOTES.md",
+      "original_artifact": "candidate-a/NOTES.md",
+      "original_sha256": "d8b8ede7425f5b9ec34a46bf4ac3a04de62bfa186851d158ffd6e7ca9f45dcfd",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-b/fugue-b.ly",
+      "original_artifact": "candidate-b/fugue-b.ly",
+      "original_sha256": "02b9252f474eceac6810e46b0e2a86d1e567e9bab8b264c8a8062241ef59bc72",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-b/fugue-b.midi",
+      "original_artifact": "candidate-b/fugue-b.midi",
+      "original_sha256": "bc1c770275da32930fdb5dc843fed3cf8ec4d56ab3403b2e2886355fb7d4d82d",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-b/fugue-b-audit.json",
+      "original_artifact": "candidate-b/fugue-b-audit.json",
+      "original_sha256": "8822d395a1d12dd48c26e03c6b0c4f054bcbe18d69aa36e7b07b51babf3e8864",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-b/fugue-b.midi"
+    },
+    {
+      "path": "candidate-b/candidate-notes.json",
+      "original_artifact": "candidate-b/candidate-notes.json",
+      "original_sha256": "eab5dead4d6f6ba4386c95b631d2c4c8da1e66c0328b82a576580b64eb527a15",
+      "transformation": "JSON formatting only; values are unchanged."
+    },
+    {
+      "path": "candidate-c/fugue-c.ly",
+      "original_artifact": "candidate-c/fugue-c.ly",
+      "original_sha256": "79360b616d641a39b6c8975254e7b803b61ec2facc8e171d8b1885b85947cfd2",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-c/fugue-c.midi",
+      "original_artifact": "candidate-c/fugue-c.midi",
+      "original_sha256": "edeb5405dcbf0579a82c6ab03545d0e1f4482d72778acd8de0214a83e1a049e3",
+      "transformation": "none"
+    },
+    {
+      "path": "candidate-c/audit.json",
+      "original_artifact": "candidate-c/audit.json",
+      "original_sha256": "c4f7321674577c5207bb1612d67fe73a61750e6faaf05124e4e77dfb52f34432",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-c/fugue-c.midi"
+    },
+    {
+      "path": "candidate-c/REVIEW.md",
+      "original_artifact": "candidate-c/REVIEW.md",
+      "original_sha256": "37704d585bddff1e5acb6966e32694da85076371dc2858c0005f4a856b8e2c5d",
+      "transformation": "none"
+    },
+    {
+      "path": "reports/final-audit.json",
+      "original_artifact": "render/final-audit.json",
+      "original_sha256": "25b8a045ba0f2b2cd02a4253c4ad959bf72596a8298bee02925f2f769709d9d3",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "fugue.midi"
+    },
+    {
+      "path": "reports/final-ledger.txt",
+      "original_artifact": "render/final-ledger.txt",
+      "original_sha256": "815943ac590a931110d2c0deba1968b47056647c6fa813e0af1e263355a520d2",
+      "transformation": "none"
+    },
+    {
+      "path": "history/candidate-a-first-audit.json",
+      "original_artifact": "render/candidate-a-first-audit.json",
+      "original_sha256": "42182578d630ab10c794628cb035a032f82cff9c7744f90081399af96ce16f5c",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-a/fugue-a.midi"
+    },
+    {
+      "path": "history/candidate-a-first-ledger.txt",
+      "original_artifact": "render/candidate-a-first-ledger.txt",
+      "original_sha256": "58b7fd25afd690c1c3741b63bcaa39a43050730854fe57350a281777dc36c700",
+      "transformation": "none"
+    },
+    {
+      "path": "history/candidate-a-revised-audit.json",
+      "original_artifact": "render/candidate-a-revised-audit.json",
+      "original_sha256": "747c2b04b8643fe88b0dedfe47d7687a3e25b098c46edae5572dd9c10e55ac2d",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-a/fugue-a.midi"
+    },
+    {
+      "path": "history/candidate-a-revised-ledger.txt",
+      "original_artifact": "render/candidate-a-revised-ledger.txt",
+      "original_sha256": "18559494a877e6133d0f349d0cb7c792ded863575c24f27e28baa9fb83560125",
+      "transformation": "none"
+    },
+    {
+      "path": "history/candidate-b-first-audit.json",
+      "original_artifact": "render/candidate-b-first-audit.json",
+      "original_sha256": "ae42844d05b995778b216b210088e68784b61a20b80e515f72ed96af8f64351a",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-b/fugue-b.midi"
+    },
+    {
+      "path": "history/candidate-b-first-ledger.txt",
+      "original_artifact": "render/candidate-b-first-ledger.txt",
+      "original_sha256": "64802e7565cce4e292c6b99a237f804cfdbbaa02a013f976dc0702ce273a15c8",
+      "transformation": "none"
+    },
+    {
+      "path": "history/candidate-c-first-audit.json",
+      "original_artifact": "render/candidate-c-first-audit.json",
+      "original_sha256": "933e0e15b1f1256f148a76399a9c9c439702362f6123f75f4b4faf236a3f556e",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-c/fugue-c.midi"
+    },
+    {
+      "path": "history/candidate-c-first-ledger.txt",
+      "original_artifact": "render/candidate-c-first-ledger.txt",
+      "original_sha256": "92e3e343ba947e1679ff84e63ad41694f33a8e650252bcc6a9f7202192b82ff0",
+      "transformation": "none"
+    },
+    {
+      "path": "history/candidate-c-revised-audit.json",
+      "original_artifact": "render/candidate-c-revised-audit.json",
+      "original_sha256": "23847326e81e7d9a60ffb7e1ab86adf8aa175992fa8a512f8f738576b04386ab",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "candidate-c/fugue-c.midi"
+    },
+    {
+      "path": "history/candidate-c-revised-ledger.txt",
+      "original_artifact": "render/candidate-c-revised-ledger.txt",
+      "original_sha256": "8b022f20b340d0db7ed3c9da495b7ddfaa25384046c1bd3f3922673d78d7d378",
+      "transformation": "none"
+    },
+    {
+      "path": "history/candidate-c-revised.midi",
+      "original_artifact": "candidate-a/review-c.midi",
+      "original_sha256": "3e0d703f8b5d00a1c8a8d53ff1c3cee6b81acd6f31baef06eba98e7cda409e7e",
+      "transformation": "none"
+    },
+    {
+      "path": "fixtures/channel-fixture.ly",
+      "original_artifact": "render/channel-fixture.ly",
+      "original_sha256": "0cd38387de9b05246aede2fdb4c80a4f0eb218622a67e5cadb12b5a71429d8a4",
+      "transformation": "none"
+    },
+    {
+      "path": "fixtures/channel-fixture.midi",
+      "original_artifact": "render/channel-fixture.midi",
+      "original_sha256": "99ed6c3b950b31523492dfe84791cf24c44001d6316caad0483678fc39cf6333",
+      "transformation": "none"
+    },
+    {
+      "path": "fixtures/channel-fixture-organ.midi",
+      "original_artifact": "render/channel-fixture-organ.midi",
+      "original_sha256": "cdc0a9f1a6187821db76e206a32bd8ff74fa8175fb988a8f9904201951f958ce",
+      "transformation": "none"
+    },
+    {
+      "path": "fixtures/channel-fixture-audit.json",
+      "original_artifact": "render/channel-fixture-audit.json",
+      "original_sha256": "c6374c6949bb13b6294c13190f41ed29b4f74bc3b03c33754627aceca0b96903",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "render/channel-fixture.midi"
+    },
+    {
+      "path": "paper-process/stretto-study.ly",
+      "original_artifact": "paper-process/stretto-study.ly",
+      "original_sha256": "69ba9764cf86ed9be0db669fff3cff8fd6559dac38c4496ec7e19faf118d492c",
+      "transformation": "none"
+    },
+    {
+      "path": "paper-process/stretto-study.midi",
+      "original_artifact": "paper-process/stretto-study.midi",
+      "original_sha256": "324d6033efc9afc532657ecb73b87b5ac04d381ffd7f7aeeb22b22bada48c50a",
+      "transformation": "none"
+    },
+    {
+      "path": "paper-process/stretto-study-audit.json",
+      "original_artifact": "paper-process/stretto-study-audit.json",
+      "original_sha256": "3d22c250f09dff05ea59f85fe79e8f974f86d683d07cb952f61fb8cfb310ea41",
+      "transformation": "Only the source locator changed to a public relative path; audit findings are unchanged.",
+      "original_report_source": "paper-process/stretto-study.midi"
+    }
+  ]
+}

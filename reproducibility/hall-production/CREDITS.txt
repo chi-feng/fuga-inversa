@@ -1,0 +1,4 @@
+Hall impulse response: "Spokane Woman's Club," James Cadwallader / OpenAIR.
+Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/
+Source: https://webfiles.york.ac.uk/OPENAIR/IRs/spokane-womans-club/stereo/spokane_womans_club_ir.wav
+Resampled, trimmed and filtered for this mix.

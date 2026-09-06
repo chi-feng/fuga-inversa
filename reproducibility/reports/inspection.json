@@ -1,0 +1,264 @@
+{
+  "scope": "Every file supplied before inspection.json and MANIFEST.json were generated, including binary MIDI metadata.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5215,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "audit_midi.py",
+      "bytes": 14822,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "candidate-a/NOTES.md",
+      "bytes": 3397,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "candidate-a/fugue-a-audit.json",
+      "bytes": 48588,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "candidate-a/fugue-a.ly",
+      "bytes": 3877,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "candidate-a/fugue-a.midi",
+      "bytes": 3462,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "candidate-b/candidate-notes.json",
+      "bytes": 2684,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "candidate-b/fugue-b-audit.json",
+      "bytes": 38417,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "candidate-b/fugue-b.ly",
+      "bytes": 2643,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "candidate-b/fugue-b.midi",
+      "bytes": 3389,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "candidate-c/REVIEW.md",
+      "bytes": 4970,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "candidate-c/audit.json",
+      "bytes": 43843,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "candidate-c/fugue-c.ly",
+      "bytes": 3278,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "candidate-c/fugue-c.midi",
+      "bytes": 3527,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "check_hands.py",
+      "bytes": 12589,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "fixtures/channel-fixture-audit.json",
+      "bytes": 3744,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "fixtures/channel-fixture-organ.midi",
+      "bytes": 290,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "fixtures/channel-fixture.ly",
+      "bytes": 336,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "fixtures/channel-fixture.midi",
+      "bytes": 257,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "fixtures/channel-remap-report.json",
+      "bytes": 1495,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "fixtures/missing-alto-transfer-report.json",
+      "bytes": 138612,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "fixtures/missing-alto-transfer.ly",
+      "bytes": 4953,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "fugue.ly",
+      "bytes": 4923,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "fugue.midi",
+      "bytes": 3667,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "history/README.md",
+      "bytes": 1474,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "history/candidate-a-first-audit.json",
+      "bytes": 52905,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "history/candidate-a-first-ledger.txt",
+      "bytes": 8581,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "history/candidate-a-revised-audit.json",
+      "bytes": 48588,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "history/candidate-a-revised-ledger.txt",
+      "bytes": 8581,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "history/candidate-b-first-audit.json",
+      "bytes": 46896,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "history/candidate-b-first-ledger.txt",
+      "bytes": 8581,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "history/candidate-c-first-audit.json",
+      "bytes": 15029,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "history/candidate-c-first-ledger.txt",
+      "bytes": 3109,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "history/candidate-c-revised-audit.json",
+      "bytes": 44460,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "history/candidate-c-revised-ledger.txt",
+      "bytes": 7973,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "history/candidate-c-revised.midi",
+      "bytes": 3536,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "history/index.json",
+      "bytes": 3136,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "paper-process/stretto-study-audit.json",
+      "bytes": 7996,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "paper-process/stretto-study.ly",
+      "bytes": 1205,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "paper-process/stretto-study.midi",
+      "bytes": 795,
+      "inspection": "MIDI, every track/event parsed; all textual metadata inspected"
+    },
+    {
+      "path": "prepare_organ_midi.py",
+      "bytes": 2953,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "prepare_performance.py",
+      "bytes": 8354,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 10971,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "render_audio.py",
+      "bytes": 3996,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "reports/final-audit.json",
+      "bytes": 43173,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "reports/final-ledger.txt",
+      "bytes": 7973,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "reports/printed-hands.json",
+      "bytes": 133906,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "reports/printed-hands.md",
+      "bytes": 2181,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    },
+    {
+      "path": "reports/reproduction.json",
+      "bytes": 4244,
+      "inspection": "JSON, fully parsed; all string values inspected"
+    },
+    {
+      "path": "test_check_hands.py",
+      "bytes": 2448,
+      "inspection": "UTF-8 text, fully decoded and reviewed"
+    }
+  ],
+  "excluded_categories": [
+    "soundfonts and sampled instruments",
+    "audio masters and room impulse responses",
+    "raw conversations",
+    "credentials and local machine paths",
+    "bytecode caches, Finder metadata, and temporary compilation outputs"
+  ],
+  "path_and_secret_pattern_matches": 0,
+  "limits": "The privacy check combines direct file review with pattern checks. It is not a general secret-detection guarantee."
+}

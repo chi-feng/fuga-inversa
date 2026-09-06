@@ -1,0 +1,69 @@
+{
+  "status": "Historical snapshots from composition and revision; these are not audits of the final fugue.",
+  "stage_order": "First and revised are ordered within each candidate; these labels do not establish a total order across agents.",
+  "missing_artifacts": "The first-draft MIDI files and sources for A, B, and C were not retained. Their saved audit findings and sampled ledgers are evidence of the recorded checks, but cannot be independently regenerated from a retained first draft.",
+  "revised_c": "The revised C MIDI is retained from the comparison copy; its exact source snapshot is not retained. Candidate C changed again before its final candidate source was saved.",
+  "candidate_b": "No separately named revised B audit was saved. The corrected B result is candidate-b/fugue-b-audit.json.",
+  "snapshots": [
+    {
+      "stage": "candidate-a-first",
+      "audit": "history/candidate-a-first-audit.json",
+      "ledger": "history/candidate-a-first-ledger.txt",
+      "recorded_midi_sha256": "dfa698a7ac456b9dcb3017c96cd79d984d26e791d8c710593793378d5029dbe1",
+      "retained_midi": null,
+      "retained_source": null,
+      "bars": 28.0,
+      "adjacent_perfect_flags": 9,
+      "quarter_reduction_flags": 4,
+      "abstract_reach_failures": 0
+    },
+    {
+      "stage": "candidate-a-revised",
+      "audit": "history/candidate-a-revised-audit.json",
+      "ledger": "history/candidate-a-revised-ledger.txt",
+      "recorded_midi_sha256": "98d37c74cf0bb8f21ab46dbbd2ed0daa3e8e213f84f72b2e4798f4c4cd56ffd4",
+      "retained_midi": "candidate-a/fugue-a.midi",
+      "retained_source": "candidate-a/fugue-a.ly",
+      "bars": 28.0,
+      "adjacent_perfect_flags": 0,
+      "quarter_reduction_flags": 0,
+      "abstract_reach_failures": 0
+    },
+    {
+      "stage": "candidate-b-first",
+      "audit": "history/candidate-b-first-audit.json",
+      "ledger": "history/candidate-b-first-ledger.txt",
+      "recorded_midi_sha256": "7a201e53da999a32530b214e4699e1f720214aefec33fcbccdbd83e6a59b027d",
+      "retained_midi": null,
+      "retained_source": null,
+      "bars": 28.0,
+      "adjacent_perfect_flags": 4,
+      "quarter_reduction_flags": 13,
+      "abstract_reach_failures": 0
+    },
+    {
+      "stage": "candidate-c-first",
+      "audit": "history/candidate-c-first-audit.json",
+      "ledger": "history/candidate-c-first-ledger.txt",
+      "recorded_midi_sha256": "85145d61564bb4d28144e0d6e053976a8571530222e6243c9bc23f4189906c44",
+      "retained_midi": null,
+      "retained_source": null,
+      "bars": 10.0,
+      "adjacent_perfect_flags": 0,
+      "quarter_reduction_flags": 1,
+      "abstract_reach_failures": 1
+    },
+    {
+      "stage": "candidate-c-revised",
+      "audit": "history/candidate-c-revised-audit.json",
+      "ledger": "history/candidate-c-revised-ledger.txt",
+      "recorded_midi_sha256": "3e0d703f8b5d00a1c8a8d53ff1c3cee6b81acd6f31baef06eba98e7cda409e7e",
+      "retained_midi": "history/candidate-c-revised.midi",
+      "retained_source": null,
+      "bars": 26.0,
+      "adjacent_perfect_flags": 0,
+      "quarter_reduction_flags": 0,
+      "abstract_reach_failures": 0
+    }
+  ]
+}

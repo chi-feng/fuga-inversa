@@ -1,0 +1,6251 @@
+{
+  "source": "fugue.ly",
+  "source_sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+  "midi": "fugue.midi",
+  "midi_sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+  "source_midi_agreement": {
+    "method": "Exact pitch, onset, and tied duration matching for each complete voice",
+    "matched_notes": 382,
+    "voices": {
+      "Soprano": {
+        "track": 1,
+        "channel": 1,
+        "notes": 131
+      },
+      "Alto": {
+        "track": 2,
+        "channel": 1,
+        "notes": 150
+      },
+      "Bass": {
+        "track": 3,
+        "channel": 1,
+        "notes": 101
+      }
+    }
+  },
+  "duration_quarters": 104.0,
+  "limit_semitones": 12,
+  "initial_staff_assignment": {
+    "Soprano": "upper",
+    "Alto": "upper",
+    "Bass": "lower"
+  },
+  "staff_hand_convention": {
+    "upper": "RH",
+    "lower": "LH"
+  },
+  "written_staff_transfers": [
+    {
+      "voice": "Alto",
+      "bar": 3,
+      "beat": 1.0,
+      "quarter": 8.0,
+      "staff": "lower",
+      "hand": "LH",
+      "source_line": 74
+    },
+    {
+      "voice": "Alto",
+      "bar": 5,
+      "beat": 1.0,
+      "quarter": 16.0,
+      "staff": "upper",
+      "hand": "RH",
+      "source_line": 77
+    },
+    {
+      "voice": "Alto",
+      "bar": 9,
+      "beat": 4.0,
+      "quarter": 35.0,
+      "staff": "lower",
+      "hand": "LH",
+      "source_line": 83
+    },
+    {
+      "voice": "Alto",
+      "bar": 10,
+      "beat": 1.0,
+      "quarter": 36.0,
+      "staff": "upper",
+      "hand": "RH",
+      "source_line": 85
+    },
+    {
+      "voice": "Alto",
+      "bar": 11,
+      "beat": 1.0,
+      "quarter": 40.0,
+      "staff": "lower",
+      "hand": "LH",
+      "source_line": 87
+    },
+    {
+      "voice": "Alto",
+      "bar": 13,
+      "beat": 1.0,
+      "quarter": 48.0,
+      "staff": "upper",
+      "hand": "RH",
+      "source_line": 90
+    },
+    {
+      "voice": "Alto",
+      "bar": 25,
+      "beat": 1.0,
+      "quarter": 96.0,
+      "staff": "lower",
+      "hand": "LH",
+      "source_line": 103
+    }
+  ],
+  "maximum_span_semitones": {
+    "RH": 12,
+    "LH": 12
+  },
+  "passes": true,
+  "violations": [],
+  "interval_count": 177,
+  "sounding_intervals": [
+    {
+      "bar": 1,
+      "beat": 1.0,
+      "start_quarters": 0.0,
+      "end_quarters": 0.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 1,
+      "beat": 1.5,
+      "start_quarters": 0.5,
+      "end_quarters": 1.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 1,
+      "beat": 2.0,
+      "start_quarters": 1.0,
+      "end_quarters": 1.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "B3",
+              "midi_pitch": 59,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 1,
+      "beat": 2.5,
+      "start_quarters": 1.5,
+      "end_quarters": 2.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 1,
+      "beat": 3.0,
+      "start_quarters": 2.0,
+      "end_quarters": 3.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 1,
+      "beat": 4.0,
+      "start_quarters": 3.0,
+      "end_quarters": 3.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 1,
+      "beat": 4.5,
+      "start_quarters": 3.5,
+      "end_quarters": 5.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 72
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 2,
+      "beat": 2.0,
+      "start_quarters": 5.0,
+      "end_quarters": 5.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 73
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 2,
+      "beat": 2.5,
+      "start_quarters": 5.5,
+      "end_quarters": 6.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 73
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 2,
+      "beat": 3.0,
+      "start_quarters": 6.0,
+      "end_quarters": 7.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 73
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 2,
+      "beat": 4.0,
+      "start_quarters": 7.0,
+      "end_quarters": 7.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 73
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 2,
+      "beat": 4.5,
+      "start_quarters": 7.5,
+      "end_quarters": 8.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 73
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": []
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 1.0,
+      "start_quarters": 8.0,
+      "end_quarters": 8.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 1.5,
+      "start_quarters": 8.5,
+      "end_quarters": 9.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 2.0,
+      "start_quarters": 9.0,
+      "end_quarters": 9.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "F#4",
+              "midi_pitch": 66,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 2.5,
+      "start_quarters": 9.5,
+      "end_quarters": 10.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 3.0,
+      "start_quarters": 10.0,
+      "end_quarters": 11.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "B3",
+              "midi_pitch": 59,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 4.0,
+      "start_quarters": 11.0,
+      "end_quarters": 11.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "B4",
+              "midi_pitch": 71,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G#3",
+              "midi_pitch": 56,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 3,
+      "beat": 4.5,
+      "start_quarters": 11.5,
+      "end_quarters": 12.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 75
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 4,
+      "beat": 1.0,
+      "start_quarters": 12.0,
+      "end_quarters": 13.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 37
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 4,
+      "beat": 2.0,
+      "start_quarters": 13.0,
+      "end_quarters": 13.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "B4",
+              "midi_pitch": 71,
+              "source_line": 38
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 4,
+      "beat": 2.5,
+      "start_quarters": 13.5,
+      "end_quarters": 14.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 38
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 4,
+      "beat": 3.0,
+      "start_quarters": 14.0,
+      "end_quarters": 15.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 38
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 4,
+      "beat": 4.0,
+      "start_quarters": 15.0,
+      "end_quarters": 15.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 38
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 4,
+      "beat": 4.5,
+      "start_quarters": 15.5,
+      "end_quarters": 16.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 38
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 76
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 1.0,
+      "start_quarters": 16.0,
+      "end_quarters": 16.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 1.5,
+      "start_quarters": 16.5,
+      "end_quarters": 17.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 2.0,
+      "start_quarters": 17.0,
+      "end_quarters": 17.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "B2",
+              "midi_pitch": 47,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 2.5,
+      "start_quarters": 17.5,
+      "end_quarters": 18.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 3.0,
+      "start_quarters": 18.0,
+      "end_quarters": 19.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 4.0,
+      "start_quarters": 19.0,
+      "end_quarters": 19.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 5,
+      "beat": 4.5,
+      "start_quarters": 19.5,
+      "end_quarters": 20.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 78
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 40
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 6,
+      "beat": 1.0,
+      "start_quarters": 20.0,
+      "end_quarters": 21.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 79
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 41
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 116
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 6,
+      "beat": 2.0,
+      "start_quarters": 21.0,
+      "end_quarters": 21.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 79
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 41
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 6,
+      "beat": 2.5,
+      "start_quarters": 21.5,
+      "end_quarters": 22.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 79
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 41
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 6,
+      "beat": 3.0,
+      "start_quarters": 22.0,
+      "end_quarters": 23.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 79
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 41
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 6,
+      "beat": 4.0,
+      "start_quarters": 23.0,
+      "end_quarters": 23.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 79
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 41
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 6,
+      "beat": 4.5,
+      "start_quarters": 23.5,
+      "end_quarters": 24.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 79
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 41
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 1.0,
+      "start_quarters": 24.0,
+      "end_quarters": 24.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 1.5,
+      "start_quarters": 24.5,
+      "end_quarters": 24.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 2,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 1.75,
+      "start_quarters": 24.75,
+      "end_quarters": 25.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 2.0,
+      "start_quarters": 25.0,
+      "end_quarters": 25.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 2.5,
+      "start_quarters": 25.5,
+      "end_quarters": 25.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 2.75,
+      "start_quarters": 25.75,
+      "end_quarters": 26.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 3.0,
+      "start_quarters": 26.0,
+      "end_quarters": 26.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 3.5,
+      "start_quarters": 26.5,
+      "end_quarters": 26.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 3.75,
+      "start_quarters": 26.75,
+      "end_quarters": 27.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 4.0,
+      "start_quarters": 27.0,
+      "end_quarters": 27.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F2",
+              "midi_pitch": 41,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 4.5,
+      "start_quarters": 27.5,
+      "end_quarters": 27.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F2",
+              "midi_pitch": 41,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 7,
+      "beat": 4.75,
+      "start_quarters": 27.75,
+      "end_quarters": 28.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 80
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 42
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F2",
+              "midi_pitch": 41,
+              "source_line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 1.0,
+      "start_quarters": 28.0,
+      "end_quarters": 28.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 1.5,
+      "start_quarters": 28.5,
+      "end_quarters": 28.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 2,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 1.75,
+      "start_quarters": 28.75,
+      "end_quarters": 29.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 2.0,
+      "start_quarters": 29.0,
+      "end_quarters": 30.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 3.0,
+      "start_quarters": 30.0,
+      "end_quarters": 30.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 3.5,
+      "start_quarters": 30.5,
+      "end_quarters": 31.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 8,
+      "beat": 4.0,
+      "start_quarters": 31.0,
+      "end_quarters": 32.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 81
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F#4",
+              "midi_pitch": 66,
+              "source_line": 43
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 119
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 1.0,
+      "start_quarters": 32.0,
+      "end_quarters": 32.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 82
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 44
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 1.5,
+      "start_quarters": 32.5,
+      "end_quarters": 33.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 82
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 44
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 2.0,
+      "start_quarters": 33.0,
+      "end_quarters": 33.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 82
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 44
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 2.5,
+      "start_quarters": 33.5,
+      "end_quarters": 34.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 82
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 44
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 120
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 3.0,
+      "start_quarters": 34.0,
+      "end_quarters": 35.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 82
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 44
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 122
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 4.0,
+      "start_quarters": 35.0,
+      "end_quarters": 35.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 46
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 122
+            },
+            {
+              "voice": "Alto",
+              "pitch": "F#3",
+              "midi_pitch": 54,
+              "source_line": 84
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 9,
+      "beat": 4.5,
+      "start_quarters": 35.5,
+      "end_quarters": 36.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 46
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 122
+            },
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 84
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 10,
+      "beat": 1.0,
+      "start_quarters": 36.0,
+      "end_quarters": 37.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 86
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 46
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 124
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 10,
+      "beat": 2.0,
+      "start_quarters": 37.0,
+      "end_quarters": 37.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 86
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 48
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F2",
+              "midi_pitch": 41,
+              "source_line": 124
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 10,
+      "beat": 2.5,
+      "start_quarters": 37.5,
+      "end_quarters": 38.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 86
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 48
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 124
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 10,
+      "beat": 3.0,
+      "start_quarters": 38.0,
+      "end_quarters": 39.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 86
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 48
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 124
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 10,
+      "beat": 4.0,
+      "start_quarters": 39.0,
+      "end_quarters": 39.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 86
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 48
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "B2",
+              "midi_pitch": 47,
+              "source_line": 124
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 10,
+      "beat": 4.5,
+      "start_quarters": 39.5,
+      "end_quarters": 40.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 86
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 48
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 124
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 1.0,
+      "start_quarters": 40.0,
+      "end_quarters": 40.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 1.5,
+      "start_quarters": 40.5,
+      "end_quarters": 41.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 2.0,
+      "start_quarters": 41.0,
+      "end_quarters": 41.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 2.5,
+      "start_quarters": 41.5,
+      "end_quarters": 42.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 3.0,
+      "start_quarters": 42.0,
+      "end_quarters": 43.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 4.0,
+      "start_quarters": 43.0,
+      "end_quarters": 43.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "B4",
+              "midi_pitch": 71,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 11,
+      "beat": 4.5,
+      "start_quarters": 43.5,
+      "end_quarters": 44.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 50
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 126
+            },
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 1.0,
+      "start_quarters": 44.0,
+      "end_quarters": 45.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 88
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 2.0,
+      "start_quarters": 45.0,
+      "end_quarters": 45.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 89
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 2.5,
+      "start_quarters": 45.5,
+      "end_quarters": 46.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "G5",
+              "midi_pitch": 79,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 89
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 3.0,
+      "start_quarters": 46.0,
+      "end_quarters": 46.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "G5",
+              "midi_pitch": 79,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 89
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 3.5,
+      "start_quarters": 46.5,
+      "end_quarters": 47.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 89
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 4.0,
+      "start_quarters": 47.0,
+      "end_quarters": 47.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "G5",
+              "midi_pitch": 79,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 89
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 12,
+      "beat": 4.5,
+      "start_quarters": 47.5,
+      "end_quarters": 48.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 51
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "B3",
+              "midi_pitch": 59,
+              "source_line": 127
+            },
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 89
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 1.0,
+      "start_quarters": 48.0,
+      "end_quarters": 48.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 1.5,
+      "start_quarters": 48.5,
+      "end_quarters": 48.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 11,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 1.75,
+      "start_quarters": 48.75,
+      "end_quarters": 49.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 2.0,
+      "start_quarters": 49.0,
+      "end_quarters": 49.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 2.5,
+      "start_quarters": 49.5,
+      "end_quarters": 49.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 2.75,
+      "start_quarters": 49.75,
+      "end_quarters": 50.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F5",
+              "midi_pitch": 77,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 3.0,
+      "start_quarters": 50.0,
+      "end_quarters": 50.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 3.5,
+      "start_quarters": 50.5,
+      "end_quarters": 50.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 3.75,
+      "start_quarters": 50.75,
+      "end_quarters": 51.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 4.0,
+      "start_quarters": 51.0,
+      "end_quarters": 51.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Eb5",
+              "midi_pitch": 75,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Eb3",
+              "midi_pitch": 51,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 4.5,
+      "start_quarters": 51.5,
+      "end_quarters": 51.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Eb5",
+              "midi_pitch": 75,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Eb3",
+              "midi_pitch": 51,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 13,
+      "beat": 4.75,
+      "start_quarters": 51.75,
+      "end_quarters": 52.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 91
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Eb5",
+              "midi_pitch": 75,
+              "source_line": 53
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Eb3",
+              "midi_pitch": 51,
+              "source_line": 129
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 1.0,
+      "start_quarters": 52.0,
+      "end_quarters": 52.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 1.5,
+      "start_quarters": 52.5,
+      "end_quarters": 52.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 1.75,
+      "start_quarters": 52.75,
+      "end_quarters": 53.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 2.0,
+      "start_quarters": 53.0,
+      "end_quarters": 53.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 2.5,
+      "start_quarters": 53.5,
+      "end_quarters": 53.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 2.75,
+      "start_quarters": 53.75,
+      "end_quarters": 54.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 3.0,
+      "start_quarters": 54.0,
+      "end_quarters": 54.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 3.5,
+      "start_quarters": 54.5,
+      "end_quarters": 54.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 3.75,
+      "start_quarters": 54.75,
+      "end_quarters": 55.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 4.0,
+      "start_quarters": 55.0,
+      "end_quarters": 55.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 4.5,
+      "start_quarters": 55.5,
+      "end_quarters": 55.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 14,
+      "beat": 4.75,
+      "start_quarters": 55.75,
+      "end_quarters": 56.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 92
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 54
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 130
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 1.0,
+      "start_quarters": 56.0,
+      "end_quarters": 56.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 1.5,
+      "start_quarters": 56.5,
+      "end_quarters": 57.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Eb3",
+              "midi_pitch": 51,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 2.0,
+      "start_quarters": 57.0,
+      "end_quarters": 57.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 2.5,
+      "start_quarters": 57.5,
+      "end_quarters": 58.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 3.0,
+      "start_quarters": 58.0,
+      "end_quarters": 59.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Eb3",
+              "midi_pitch": 51,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 4.0,
+      "start_quarters": 59.0,
+      "end_quarters": 59.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 15,
+      "beat": 4.5,
+      "start_quarters": 59.5,
+      "end_quarters": 60.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 93
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 55
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 16,
+      "beat": 1.0,
+      "start_quarters": 60.0,
+      "end_quarters": 61.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 94
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 56
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 131
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 16,
+      "beat": 2.0,
+      "start_quarters": 61.0,
+      "end_quarters": 61.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Eb4",
+              "midi_pitch": 63,
+              "source_line": 94
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 56
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 16,
+      "beat": 2.5,
+      "start_quarters": 61.5,
+      "end_quarters": 62.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Eb4",
+              "midi_pitch": 63,
+              "source_line": 94
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 56
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 16,
+      "beat": 3.0,
+      "start_quarters": 62.0,
+      "end_quarters": 63.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 94
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 56
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 16,
+      "beat": 4.0,
+      "start_quarters": 63.0,
+      "end_quarters": 63.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 94
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 56
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 16,
+      "beat": 4.5,
+      "start_quarters": 63.5,
+      "end_quarters": 64.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 94
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 56
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 132
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 17,
+      "beat": 1.0,
+      "start_quarters": 64.0,
+      "end_quarters": 65.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 95
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 57
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 133
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 17,
+      "beat": 2.0,
+      "start_quarters": 65.0,
+      "end_quarters": 65.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 95
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 57
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 133
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 17,
+      "beat": 2.5,
+      "start_quarters": 65.5,
+      "end_quarters": 66.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 95
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 57
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 133
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 17,
+      "beat": 3.0,
+      "start_quarters": 66.0,
+      "end_quarters": 66.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 95
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 57
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 133
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 17,
+      "beat": 3.5,
+      "start_quarters": 66.5,
+      "end_quarters": 67.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "B3",
+              "midi_pitch": 59,
+              "source_line": 95
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 57
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 133
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 17,
+      "beat": 4.0,
+      "start_quarters": 67.0,
+      "end_quarters": 68.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 95
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 57
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 133
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 1.0,
+      "start_quarters": 68.0,
+      "end_quarters": 69.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 2.0,
+      "start_quarters": 69.0,
+      "end_quarters": 69.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 10,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 2.5,
+      "start_quarters": 69.5,
+      "end_quarters": 70.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "B3",
+              "midi_pitch": 59,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 3.0,
+      "start_quarters": 70.0,
+      "end_quarters": 70.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 3.5,
+      "start_quarters": 70.5,
+      "end_quarters": 71.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 4.0,
+      "start_quarters": 71.0,
+      "end_quarters": 71.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C#5",
+              "midi_pitch": 73,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 4.5,
+      "start_quarters": 71.5,
+      "end_quarters": 71.75,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "B4",
+              "midi_pitch": 71,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 18,
+      "beat": 4.75,
+      "start_quarters": 71.75,
+      "end_quarters": 72.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 96
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C#5",
+              "midi_pitch": 73,
+              "source_line": 58
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 1.0,
+      "start_quarters": 72.0,
+      "end_quarters": 72.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 1.5,
+      "start_quarters": 72.5,
+      "end_quarters": 73.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 2.0,
+      "start_quarters": 73.0,
+      "end_quarters": 73.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "B4",
+              "midi_pitch": 71,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 2.5,
+      "start_quarters": 73.5,
+      "end_quarters": 74.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F#4",
+              "midi_pitch": 66,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 3.0,
+      "start_quarters": 74.0,
+      "end_quarters": 74.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 3.5,
+      "start_quarters": 74.5,
+      "end_quarters": 75.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C5",
+              "midi_pitch": 72,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 4.0,
+      "start_quarters": 75.0,
+      "end_quarters": 75.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 19,
+      "beat": 4.5,
+      "start_quarters": 75.5,
+      "end_quarters": 76.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "B4",
+              "midi_pitch": 71,
+              "source_line": 97
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 135
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 20,
+      "beat": 1.0,
+      "start_quarters": 76.0,
+      "end_quarters": 76.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 98
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 20,
+      "beat": 1.5,
+      "start_quarters": 76.5,
+      "end_quarters": 77.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 98
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 59
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 20,
+      "beat": 2.0,
+      "start_quarters": 77.0,
+      "end_quarters": 77.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 98
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 60
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 20,
+      "beat": 2.5,
+      "start_quarters": 77.5,
+      "end_quarters": 78.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 98
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 60
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 20,
+      "beat": 3.0,
+      "start_quarters": 78.0,
+      "end_quarters": 79.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 98
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 60
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 20,
+      "beat": 4.0,
+      "start_quarters": 79.0,
+      "end_quarters": 80.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 98
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 60
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 136
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 1.0,
+      "start_quarters": 80.0,
+      "end_quarters": 80.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 1.5,
+      "start_quarters": 80.5,
+      "end_quarters": 81.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 2.0,
+      "start_quarters": 81.0,
+      "end_quarters": 81.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "B2",
+              "midi_pitch": 47,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 2.5,
+      "start_quarters": 81.5,
+      "end_quarters": 82.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 3.0,
+      "start_quarters": 82.0,
+      "end_quarters": 83.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 4.0,
+      "start_quarters": 83.0,
+      "end_quarters": 83.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 21,
+      "beat": 4.5,
+      "start_quarters": 83.5,
+      "end_quarters": 84.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 99
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 61
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 22,
+      "beat": 1.0,
+      "start_quarters": 84.0,
+      "end_quarters": 85.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "A3",
+              "midi_pitch": 57,
+              "source_line": 100
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 62
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 137
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 22,
+      "beat": 2.0,
+      "start_quarters": 85.0,
+      "end_quarters": 85.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 100
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 62
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 138
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 22,
+      "beat": 2.5,
+      "start_quarters": 85.5,
+      "end_quarters": 86.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 100
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 62
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 138
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 22,
+      "beat": 3.0,
+      "start_quarters": 86.0,
+      "end_quarters": 87.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 12,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 100
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Bb4",
+              "midi_pitch": 70,
+              "source_line": 62
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 138
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 22,
+      "beat": 4.0,
+      "start_quarters": 87.0,
+      "end_quarters": 87.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 100
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 62
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 138
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 22,
+      "beat": 4.5,
+      "start_quarters": 87.5,
+      "end_quarters": 88.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 6,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 100
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 62
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 138
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 23,
+      "beat": 1.0,
+      "start_quarters": 88.0,
+      "end_quarters": 89.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 101
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 63
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 23,
+      "beat": 2.0,
+      "start_quarters": 89.0,
+      "end_quarters": 89.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 101
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 63
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 23,
+      "beat": 2.5,
+      "start_quarters": 89.5,
+      "end_quarters": 90.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 101
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 63
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "B2",
+              "midi_pitch": 47,
+              "source_line": 139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 23,
+      "beat": 3.0,
+      "start_quarters": 90.0,
+      "end_quarters": 91.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 9,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "G3",
+              "midi_pitch": 55,
+              "source_line": 101
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 63
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "C3",
+              "midi_pitch": 48,
+              "source_line": 139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 23,
+      "beat": 4.0,
+      "start_quarters": 91.0,
+      "end_quarters": 91.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 101
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 63
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "Bb2",
+              "midi_pitch": 46,
+              "source_line": 139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 23,
+      "beat": 4.5,
+      "start_quarters": 91.5,
+      "end_quarters": 92.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "C4",
+              "midi_pitch": 60,
+              "source_line": 101
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "G4",
+              "midi_pitch": 67,
+              "source_line": 63
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 139
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 24,
+      "beat": 1.0,
+      "start_quarters": 92.0,
+      "end_quarters": 94.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 3,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 102
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "F4",
+              "midi_pitch": 65,
+              "source_line": 64
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 140
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 24,
+      "beat": 3.0,
+      "start_quarters": 94.0,
+      "end_quarters": 96.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 5,
+          "notes": [
+            {
+              "voice": "Alto",
+              "pitch": "Bb3",
+              "midi_pitch": 58,
+              "source_line": 102
+            },
+            {
+              "voice": "Soprano",
+              "pitch": "Eb4",
+              "midi_pitch": 63,
+              "source_line": 64
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "G2",
+              "midi_pitch": 43,
+              "source_line": 140
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 25,
+      "beat": 1.0,
+      "start_quarters": 96.0,
+      "end_quarters": 97.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "D4",
+              "midi_pitch": 62,
+              "source_line": 66
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 8,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 142
+            },
+            {
+              "voice": "Alto",
+              "pitch": "F3",
+              "midi_pitch": 53,
+              "source_line": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 25,
+      "beat": 2.0,
+      "start_quarters": 97.0,
+      "end_quarters": 98.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "C#4",
+              "midi_pitch": 61,
+              "source_line": 66
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 142
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 25,
+      "beat": 3.0,
+      "start_quarters": 98.0,
+      "end_quarters": 98.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E4",
+              "midi_pitch": 64,
+              "source_line": 66
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 142
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 25,
+      "beat": 3.5,
+      "start_quarters": 98.5,
+      "end_quarters": 99.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "A4",
+              "midi_pitch": 69,
+              "source_line": 66
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 142
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 25,
+      "beat": 4.0,
+      "start_quarters": 99.0,
+      "end_quarters": 99.5,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "C#5",
+              "midi_pitch": 73,
+              "source_line": 66
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 142
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 25,
+      "beat": 4.5,
+      "start_quarters": 99.5,
+      "end_quarters": 100.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "E5",
+              "midi_pitch": 76,
+              "source_line": 66
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 7,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "A2",
+              "midi_pitch": 45,
+              "source_line": 142
+            },
+            {
+              "voice": "Alto",
+              "pitch": "E3",
+              "midi_pitch": 52,
+              "source_line": 104
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bar": 26,
+      "beat": 1.0,
+      "start_quarters": 100.0,
+      "end_quarters": 104.0,
+      "hands": {
+        "RH": {
+          "span_semitones": 0,
+          "notes": [
+            {
+              "voice": "Soprano",
+              "pitch": "D5",
+              "midi_pitch": 74,
+              "source_line": 67
+            }
+          ]
+        },
+        "LH": {
+          "span_semitones": 4,
+          "notes": [
+            {
+              "voice": "Bass",
+              "pitch": "D3",
+              "midi_pitch": 50,
+              "source_line": 143
+            },
+            {
+              "voice": "Alto",
+              "pitch": "F#3",
+              "midi_pitch": 54,
+              "source_line": 105
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Upper staff means right hand; lower staff means left hand. This reads the printed score's explicit transfers.",
+    "Every note start, note end, and staff transfer partitions time into constant sounding intervals, including held notes.",
+    "The parser supports the supplied absolute-pitch, explicit-duration, 4/4 score syntax. Unsupported notation is rejected.",
+    "The MIDI must be the symbolic LilyPond export, before articulation or expressive timing changes.",
+    "Instantaneous octave reach does not establish fingering, comfortable motion, sustained legato, or a successful human performance."
+  ]
+}

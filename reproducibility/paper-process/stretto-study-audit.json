@@ -1,0 +1,351 @@
+{
+  "source": "paper-process/stretto-study.midi",
+  "sha256": "324d6033efc9afc532657ecb73b87b5ac04d381ffd7f7aeeb22b22bada48c50a",
+  "midi_format": 1,
+  "ticks_per_quarter": 384,
+  "track_names": {
+    "0": "Stretto study",
+    "1": "upper:",
+    "2": "lower:"
+  },
+  "voice_count": 3,
+  "duration_quarters": 16.0,
+  "voice_ranges": {
+    "Soprano (track 1, channel 2)": [
+      "C#4",
+      "E5"
+    ],
+    "Alto (track 1, channel 3)": [
+      "F3",
+      "B4"
+    ],
+    "Bass (track 2, channel 2)": [
+      "A2",
+      "G3"
+    ]
+  },
+  "voice_note_counts": {
+    "Soprano (track 1, channel 2)": 23,
+    "Alto (track 1, channel 3)": 23,
+    "Bass (track 2, channel 2)": 20
+  },
+  "maximum_simultaneous_notes": 3,
+  "maximum_upper_pair_span_semitones": 10,
+  "maximum_minimum_two_hand_pair_span_semitones": 9,
+  "literal_inverted_lick_entries": [
+    {
+      "bar": 2,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 2)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 2,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 3)",
+      "start_pitch": "A4"
+    },
+    {
+      "bar": 4,
+      "beat": 1.0,
+      "voice": "Bass (track 2, channel 2)",
+      "start_pitch": "D3"
+    }
+  ],
+  "adjacent_sonority_perfect_interval_flags": [],
+  "quarter_beat_reduction_flags": [],
+  "structural_issues": [],
+  "unreachable_sonorities": [],
+  "dissonant_intervals_for_review": [
+    {
+      "bar": 1,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Alto (track 1, channel 3)"
+      ],
+      "pitches": [
+        "F4",
+        "G3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 1,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Bass (track 2, channel 2)"
+      ],
+      "pitches": [
+        "F4",
+        "E3"
+      ],
+      "interval_class": 1,
+      "on_quarter_beat": true,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 1,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Bass (track 2, channel 2)"
+      ],
+      "pitches": [
+        "B4",
+        "A2"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 3,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 3)",
+        "Bass (track 2, channel 2)"
+      ],
+      "pitches": [
+        "G4",
+        "F3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 3,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Alto (track 1, channel 3)"
+      ],
+      "pitches": [
+        "Bb4",
+        "E4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 4.0,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Alto (track 1, channel 3)"
+      ],
+      "pitches": [
+        "G4",
+        "C#4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": "neighbor shape"
+    },
+    {
+      "bar": 3,
+      "beat": 4.0,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Bass (track 2, channel 2)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 4,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 3)",
+        "Bass (track 2, channel 2)"
+      ],
+      "pitches": [
+        "D4",
+        "C3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 4,
+      "beat": 4.0,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Alto (track 1, channel 3)"
+      ],
+      "pitches": [
+        "C#4",
+        "G3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    }
+  ],
+  "bass_fourths_for_review": [
+    {
+      "bar": 4,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 2)",
+        "Bass (track 2, channel 2)"
+      ],
+      "pitches": [
+        "F4",
+        "C3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": "stepwise passing shape"
+    }
+  ],
+  "short_passing_or_neighbor_shapes": [
+    {
+      "bar": 1,
+      "beat": 4.5,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "B4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 1,
+      "beat": 4.75,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "C#5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 2,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "D5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 2,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 2,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 4,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "G4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 4,
+      "beat": 2.5,
+      "voice": "Soprano (track 1, channel 2)",
+      "note": "F4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 2,
+      "beat": 2.0,
+      "voice": "Alto (track 1, channel 3)",
+      "note": "G4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 2,
+      "beat": 2.5,
+      "voice": "Alto (track 1, channel 3)",
+      "note": "F#4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 3)",
+      "note": "A4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 3)",
+      "note": "G4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 2.0,
+      "voice": "Alto (track 1, channel 3)",
+      "note": "F4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 2.5,
+      "voice": "Alto (track 1, channel 3)",
+      "note": "E4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 4,
+      "beat": 1.5,
+      "voice": "Bass (track 2, channel 2)",
+      "note": "C3",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 4,
+      "beat": 2.0,
+      "voice": "Bass (track 2, channel 2)",
+      "note": "B2",
+      "shape": "stepwise passing shape"
+    }
+  ],
+  "limits": "MIDI loses spelling. Dissonance and reduction flags need harmonic/rhythmic judgment. An octave reach check does not establish full keyboard fingering. Passing shapes are not automatically non-chord tones. No claim of complete stylistic correctness is implied."
+}

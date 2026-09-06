@@ -1,0 +1,44 @@
+{
+  "source": "fixtures/channel-fixture.midi",
+  "source_sha256": "99ed6c3b950b31523492dfe84791cf24c44001d6316caad0483678fc39cf6333",
+  "prepared": "fixtures/channel-fixture-organ.midi",
+  "prepared_sha256": "cdc0a9f1a6187821db76e206a32bd8ff74fa8175fb988a8f9904201951f958ce",
+  "preparation": {
+    "bank": 1,
+    "preset": 0,
+    "gap_ms": 0
+  },
+  "reprepared_midi_identical": true,
+  "ticks_per_quarter": 384,
+  "voices": [
+    {
+      "voice": "Soprano",
+      "original_track": 1,
+      "original_channel": 1,
+      "prepared_track": 1,
+      "prepared_channel": 1,
+      "notes": 4,
+      "pitches_attacks_and_releases_unchanged": true
+    },
+    {
+      "voice": "Alto",
+      "original_track": 1,
+      "original_channel": 2,
+      "prepared_track": 1,
+      "prepared_channel": 2,
+      "notes": 4,
+      "pitches_attacks_and_releases_unchanged": true
+    },
+    {
+      "voice": "Bass",
+      "original_track": 2,
+      "original_channel": 1,
+      "prepared_track": 2,
+      "prepared_channel": 3,
+      "notes": 4,
+      "pitches_attacks_and_releases_unchanged": true
+    }
+  ],
+  "interpretation": "The original file reuses channel 1 across different tracks and MIDI ports. The prepared file gives every voice a distinct global channel. This fixture demonstrates the routing change; it does not demonstrate an audible note truncation.",
+  "musical_scope": "The fixture uses deliberately simple parallel lines to test routing. It is not part of the fugue or a counterpoint model."
+}

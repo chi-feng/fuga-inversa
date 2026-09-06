@@ -1,0 +1,154 @@
+{
+  "title": "Fuga inversa \u2014 piano rendering",
+  "source_description": "GarageBand Steinway, revised concert performance; unnormalized native 24-bit dry source",
+  "source_file": "steinway-concert-dry-native24.wav",
+  "source_sha256": "b0a45604e50b44ba489be47b9458ab097af8f768238fc1a2f6ccda1c6d4fba4a",
+  "source_format": {
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "codec": "pcm_s24le",
+    "bits_per_sample": 24
+  },
+  "tool_versions": {
+    "python": "3.14.4",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "ffmpeg": "8.0"
+  },
+  "output": {
+    "sample_rate_hz": 48000,
+    "pcm_bits": 24,
+    "mp3_bitrate_kbps": 256
+  },
+  "recommended_preset": "recital",
+  "masters": {
+    "dry": {
+      "wav": "dry.wav",
+      "mp3": "dry.mp3",
+      "settings": null,
+      "measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -5.58,
+        "loudness_range_lu": 5.8
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -5.58,
+        "loudness_range_lu": 5.8
+      }
+    },
+    "close": {
+      "wav": "close.wav",
+      "mp3": "close.mp3",
+      "settings": {
+        "room_to_dry_rms_db": -18.0,
+        "predelay_ms": 12.0
+      },
+      "measurements": {
+        "integrated_lufs": -19.99,
+        "true_peak_dbtp": -5.7,
+        "loudness_range_lu": 5.5
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -19.99,
+        "true_peak_dbtp": -5.7,
+        "loudness_range_lu": 5.5
+      }
+    },
+    "recital": {
+      "wav": "recital.wav",
+      "mp3": "recital.mp3",
+      "settings": {
+        "room_to_dry_rms_db": -14.0,
+        "predelay_ms": 6.0
+      },
+      "measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -6.28,
+        "loudness_range_lu": 5.5
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -6.28,
+        "loudness_range_lu": 5.5
+      }
+    }
+  },
+  "stems": {
+    "soprano": {
+      "wav": "recital-soprano.wav",
+      "mp3": "recital-soprano.mp3",
+      "source_file": "steinway-concert-dry-native24-soprano.wav",
+      "source_sha256": "c8df264f8926ff4ff2a7d3cd2d63237e6423d2fd7cbb398df66e2779c5ebe087",
+      "source_format": {
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "bits_per_sample": 24
+      },
+      "measurements": {
+        "integrated_lufs": -23.67,
+        "true_peak_dbtp": -8.64,
+        "loudness_range_lu": 6.4
+      }
+    },
+    "alto": {
+      "wav": "recital-alto.wav",
+      "mp3": "recital-alto.mp3",
+      "source_file": "steinway-concert-dry-native24-alto.wav",
+      "source_sha256": "f257b824a60dc8c7afe283b1e11db47c57a35ff054b57bdaca9a91b88a1cac37",
+      "source_format": {
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "bits_per_sample": 24
+      },
+      "measurements": {
+        "integrated_lufs": -24.76,
+        "true_peak_dbtp": -10.07,
+        "loudness_range_lu": 8.6
+      }
+    },
+    "bass": {
+      "wav": "recital-bass.wav",
+      "mp3": "recital-bass.mp3",
+      "source_file": "steinway-concert-dry-native24-bass.wav",
+      "source_sha256": "33bd3f4bd9ac726a5e5dc86d23e2e43a98527adae01d2b118baaf46336b7c593",
+      "source_format": {
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "bits_per_sample": 24
+      },
+      "measurements": {
+        "integrated_lufs": -24.47,
+        "true_peak_dbtp": -10.56,
+        "loudness_range_lu": 8.0
+      }
+    }
+  },
+  "hall": {
+    "title": "Spokane Woman's Club",
+    "creators": [
+      "James Cadwallader",
+      "OpenAIR"
+    ],
+    "license": "Creative Commons Attribution 4.0 International",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_url": "https://webfiles.york.ac.uk/OPENAIR/IRs/spokane-womans-club/stereo/spokane_womans_club_ir.wav",
+    "dataset_url": "https://www.openair.hosted.york.ac.uk/?page_id=659",
+    "source_sha256": "75414f9e4ca34839f809932f877c82ea46363502ca6e291360afe551fb9e0c90",
+    "changes": [
+      "Resampled to 48000 Hz.",
+      "Aligned to the first strong direct impulse; the original dry piano remains the direct signal.",
+      "Direct impulse suppressed with a 3\u20138 ms fade into the reflections.",
+      "Room bus filtered at 140 Hz and 8000 Hz with second-order Butterworth filters.",
+      "Retained 3.5 seconds with a 250 ms end fade."
+    ]
+  },
+  "processing": "Measured stereo convolution of a mono room send; unfiltered stereo direct signal; static gains only. No algorithmic reverb, compression or limiting.",
+  "performance_midi": {
+    "file": "fugue-piano-concert.mid",
+    "sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363"
+  }
+}

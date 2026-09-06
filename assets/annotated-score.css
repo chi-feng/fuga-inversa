@@ -1,0 +1,26 @@
+.annotated-score { --score-ink: #242821; --score-accent: #8c3b2d; color: var(--score-ink); }
+.score-toolbar, .annotation-controls { display: flex; align-items: center; flex-wrap: wrap; gap: .5rem; }
+.score-toolbar { margin: 0 0 1.2rem; font: 14px/1.5 system-ui, sans-serif; }
+.score-toolbar > span { margin-right: .35rem; color: #626557; }
+.annotated-score button { border: 1px solid #d2cbbb; border-radius: 1.2rem; background: transparent; color: inherit; padding: .45rem .8rem; font: 16px/1.3 system-ui, sans-serif; cursor: pointer; min-height: 42px; }
+.annotated-score button:hover { background: #efe9dc; }
+.annotated-score button[aria-pressed="true"] { background: #e7ddca; border-color: #8c7958; }
+.annotation-controls button { border-left: .24rem solid var(--annotation-color); border-radius: .2rem; }
+.annotation-controls { margin-top: 1rem; }
+.score-viewport { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; padding: .35rem 0; }
+.score-svg { display: block; width: 100%; height: auto; overflow: visible; }
+.score-svg [data-note-id] { cursor: pointer; outline: none; }
+.score-svg [data-note-id]:focus-visible { outline: .2px solid #8c3b2d; outline-offset: .45px; }
+.score-annotation-label { font: 2.15px Georgia, 'Times New Roman', serif; letter-spacing: .02px; }
+.score-interval-label { font: 1.7px system-ui, sans-serif; font-weight: 600; }
+.score-annotations, .score-selection { pointer-events: none; }
+.score-scroll-hint { margin: .5rem 0; color: #68685b; font: 14px/1.6 system-ui, sans-serif; }
+.score-readout { min-height: 3.2em; margin: .85rem 0 0; padding: .8rem 0 0; border-top: 1px solid #e0dacd; color: #57594e; font: 16px/1.65 system-ui, sans-serif; }
+.annotated-score :focus-visible { outline: 2px solid #8c3b2d; outline-offset: 4px; }
+@media print {
+  .score-toolbar, .annotation-controls, .score-scroll-hint { display: none; }
+  .score-viewport { overflow: visible; }
+  .score-svg { min-width: 0 !important; width: 100%; }
+  .score-readout { min-height: 0; }
+  .annotated-score { break-inside: avoid; }
+}

@@ -1,0 +1,38 @@
+{
+  "title": "Spokane Woman's Club",
+  "measurement_credit": [
+    "James Cadwallader",
+    "OpenAIR"
+  ],
+  "capture_date": "2011-12-07",
+  "dataset_url": "https://www.openair.hosted.york.ac.uk/?page_id=659",
+  "archive_url": "https://webfiles.york.ac.uk/OPENAIR/IRs/spokane-womans-club/stereo/spokane_womans_club_ir.wav",
+  "metadata_url": "https://webfiles.york.ac.uk/OPENAIR/IRs/spokane-womans-club/Read%20Me.txt",
+  "sha256": "75414f9e4ca34839f809932f877c82ea46363502ca6e291360afe551fb9e0c90",
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "primary_statement": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+    "evidence_date": "2026-09-07",
+    "evidence_method": "The primary dataset text returned by web search, indexed in the preceding month, includes the license and attribution. The current live canonical dataset page redirects to an account-suspended page; the primary University of York audio archive and readme downloaded successfully."
+  },
+  "recording": {
+    "microphone": "Rode NT4 X/Y Stereo Condenser",
+    "source": "JBL Eon G1",
+    "source_position": "Stage",
+    "receiver_position": "Rear of the hall",
+    "source_receiver_distance_m": 24,
+    "source_height_m": 2,
+    "receiver_height_m": 4,
+    "sample_rate": 44100,
+    "channels": 2,
+    "bits_per_sample": 24
+  },
+  "derivative_changes": [
+    "Resampled to 48000 Hz.",
+    "Aligned to the first strong direct impulse; the original dry piano remains the direct signal.",
+    "Direct impulse suppressed with a 3\u20138 ms fade into the reflections.",
+    "Room bus filtered at 140 Hz and 8000 Hz with second-order Butterworth filters.",
+    "Retained 3.5 seconds with a 250 ms end fade."
+  ]
+}

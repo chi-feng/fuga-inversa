@@ -1,0 +1,2215 @@
+{
+  "source": "candidate-a/fugue-a.midi",
+  "sha256": "98d37c74cf0bb8f21ab46dbbd2ed0daa3e8e213f84f72b2e4798f4c4cd56ffd4",
+  "midi_format": 1,
+  "ticks_per_quarter": 384,
+  "track_names": {
+    "0": "Fuga sopra il LICC inverso",
+    "1": "manualRight:Soprano",
+    "2": "manualLeft:Bass"
+  },
+  "voice_count": 3,
+  "duration_quarters": 112.0,
+  "voice_ranges": {
+    "Soprano (track 1, channel 1)": [
+      "G4",
+      "G5"
+    ],
+    "Alto (track 1, channel 2)": [
+      "C#4",
+      "E5"
+    ],
+    "Bass (track 2, channel 1)": [
+      "G2",
+      "A3"
+    ]
+  },
+  "voice_note_counts": {
+    "Soprano (track 1, channel 1)": 138,
+    "Alto (track 1, channel 2)": 129,
+    "Bass (track 2, channel 1)": 99
+  },
+  "maximum_simultaneous_notes": 3,
+  "maximum_upper_pair_span_semitones": 12,
+  "maximum_minimum_two_hand_pair_span_semitones": 12,
+  "literal_inverted_lick_entries": [
+    {
+      "bar": 1,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 13,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 21,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 26,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 3,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "start_pitch": "A4"
+    },
+    {
+      "bar": 11,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "start_pitch": "G4"
+    },
+    {
+      "bar": 23,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 5,
+      "beat": 1.0,
+      "voice": "Bass (track 2, channel 1)",
+      "start_pitch": "D3"
+    },
+    {
+      "bar": 19,
+      "beat": 1.0,
+      "voice": "Bass (track 2, channel 1)",
+      "start_pitch": "D3"
+    }
+  ],
+  "adjacent_sonority_perfect_interval_flags": [],
+  "quarter_beat_reduction_flags": [],
+  "structural_issues": [],
+  "unreachable_sonorities": [],
+  "dissonant_intervals_for_review": [
+    {
+      "bar": 3,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "F#5",
+        "E4"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 4,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "D5",
+        "G#4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 5,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E5",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 6,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E4",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 6,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "Bb4",
+        "E3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 6,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "C#3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 7,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E5",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 7,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "E5",
+        "Bb4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 8,
+      "beat": 1.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "E5",
+        "Bb4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 8,
+      "beat": 1.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "Bb4",
+        "C3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 8,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "C3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 8,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "Bb4",
+        "C3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 8,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "E5",
+        "Bb4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 8,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C5",
+        "Bb4"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C5",
+        "Bb4"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "C5",
+        "Bb2"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 3.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 3.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 4.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C#5",
+        "G4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": "neighbor shape"
+    },
+    {
+      "bar": 9,
+      "beat": 4.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 10,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "E5",
+        "F4"
+      ],
+      "interval_class": 11,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 10,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E5",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 10,
+      "beat": 3.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E5",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 10,
+      "beat": 4.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F#5",
+        "C3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 10,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "G5",
+        "A4"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 11,
+      "beat": 4.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 12,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "A4",
+        "G4"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 12,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "C3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 12,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "C3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 12,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F#4",
+        "C3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 13,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "C5",
+        "D3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 14,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "D5",
+        "E4"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 14,
+      "beat": 2.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 14,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C#5",
+        "G4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 14,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 15,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "F3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 15,
+      "beat": 3.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "A4",
+        "Bb2"
+      ],
+      "interval_class": 11,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 16,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "E5",
+        "F4"
+      ],
+      "interval_class": 11,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "neighbor shape"
+    },
+    {
+      "bar": 16,
+      "beat": 3.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "F3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 17,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E4",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 17,
+      "beat": 3.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F4",
+        "G2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 1.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "Bb4",
+        "E4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F4",
+        "G3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "Bb4",
+        "C3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "Bb4",
+        "E4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "Bb4",
+        "C3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 3.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E4",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 19,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "B4",
+        "A2"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 19,
+      "beat": 4.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E4",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 20,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "E4",
+        "D3"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 20,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "Bb4",
+        "E3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 20,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "C#3"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 21,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "C5",
+        "D3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 22,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "D5",
+        "E4"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 22,
+      "beat": 2.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 22,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C#5",
+        "G4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 22,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 23,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "C5",
+        "D3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 23,
+      "beat": 4.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "E3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 24,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "E5",
+        "D5"
+      ],
+      "interval_class": 2,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 24,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "E3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 24,
+      "beat": 2.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G5",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 24,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "G5",
+        "C#5"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 24,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G5",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 25,
+      "beat": 4.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C#5",
+        "G4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 25,
+      "beat": 4.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 26,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "C5",
+        "D3"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 27,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "D5",
+        "E4"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 27,
+      "beat": 2.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 27,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C#5",
+        "G4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 27,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 27,
+      "beat": 4.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "C#5",
+        "G4"
+      ],
+      "interval_class": 6,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": "neighbor shape"
+    },
+    {
+      "bar": 27,
+      "beat": 4.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "A2"
+      ],
+      "interval_class": 10,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    }
+  ],
+  "bass_fourths_for_review": [
+    {
+      "bar": 3,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Alto (track 1, channel 2)"
+      ],
+      "pitches": [
+        "D5",
+        "A4"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 5,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F5",
+        "C3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 5,
+      "beat": 4.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "D3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 8,
+      "beat": 2.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "C5",
+        "G2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 9,
+      "beat": 3.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "A2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 12,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "D3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 14,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "A2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 16,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F4",
+        "C3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "neighbor shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 17,
+      "beat": 2.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D4",
+        "A2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": null,
+      "lower_shape": null
+    },
+    {
+      "bar": 18,
+      "beat": 4.0,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D4",
+        "A2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 19,
+      "beat": 1.5,
+      "voices": [
+        "Alto (track 1, channel 2)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "F4",
+        "C3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": null,
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 19,
+      "beat": 4.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "G4",
+        "D3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": true,
+      "lower_sustained": false,
+      "upper_shape": "neighbor shape",
+      "lower_shape": "stepwise passing shape"
+    },
+    {
+      "bar": 22,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "A2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 25,
+      "beat": 3.0,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "A3"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": true,
+      "upper_sustained": false,
+      "lower_sustained": false,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    },
+    {
+      "bar": 27,
+      "beat": 1.5,
+      "voices": [
+        "Soprano (track 1, channel 1)",
+        "Bass (track 2, channel 1)"
+      ],
+      "pitches": [
+        "D5",
+        "A2"
+      ],
+      "interval_class": 5,
+      "on_quarter_beat": false,
+      "upper_sustained": false,
+      "lower_sustained": true,
+      "upper_shape": "stepwise passing shape",
+      "lower_shape": null
+    }
+  ],
+  "short_passing_or_neighbor_shapes": [
+    {
+      "bar": 1,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 1,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 1,
+      "beat": 4.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 2,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C#5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 2,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 7,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "E5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 7,
+      "beat": 3.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "F5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 8,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 8,
+      "beat": 3.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "E5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 9,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 9,
+      "beat": 3.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 10,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 10,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "E5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 10,
+      "beat": 3.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "E5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 10,
+      "beat": 4.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "F#5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 11,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 11,
+      "beat": 2.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 13,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 13,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 13,
+      "beat": 4.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 14,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C#5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 14,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 21,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 21,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 21,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 21,
+      "beat": 4.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 22,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C#5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 22,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 23,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "G5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 23,
+      "beat": 2.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "F5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 26,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 26,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 26,
+      "beat": 2.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 26,
+      "beat": 4.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 27,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "C#5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 27,
+      "beat": 1.5,
+      "voice": "Soprano (track 1, channel 1)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 2.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F#4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 3,
+      "beat": 4.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "A4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 4,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G#4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 4,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "A4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 5,
+      "beat": 2.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 11,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 11,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 11,
+      "beat": 2.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "E4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 11,
+      "beat": 4.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 12,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F#4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 12,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 15,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 15,
+      "beat": 3.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "A4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 16,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 16,
+      "beat": 3.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "G4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 17,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "E4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 17,
+      "beat": 3.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 18,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 18,
+      "beat": 3.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "F4",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 18,
+      "beat": 3.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "E4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 18,
+      "beat": 4.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "D4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 23,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "C5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 23,
+      "beat": 2.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "B4",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 23,
+      "beat": 4.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 24,
+      "beat": 1.0,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "C#5",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 24,
+      "beat": 1.5,
+      "voice": "Alto (track 1, channel 2)",
+      "note": "D5",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 5,
+      "beat": 1.5,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "C3",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 5,
+      "beat": 2.0,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "B2",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 5,
+      "beat": 4.5,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "D3",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 6,
+      "beat": 1.0,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "C#3",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 6,
+      "beat": 1.5,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "D3",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 19,
+      "beat": 1.5,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "C3",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 19,
+      "beat": 2.0,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "B2",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 19,
+      "beat": 4.5,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "D3",
+      "shape": "stepwise passing shape"
+    },
+    {
+      "bar": 20,
+      "beat": 1.0,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "C#3",
+      "shape": "neighbor shape"
+    },
+    {
+      "bar": 20,
+      "beat": 1.5,
+      "voice": "Bass (track 2, channel 1)",
+      "note": "D3",
+      "shape": "stepwise passing shape"
+    }
+  ],
+  "limits": "MIDI loses spelling. Dissonance and reduction flags need harmonic/rhythmic judgment. An octave reach check does not establish full keyboard fingering. Passing shapes are not automatically non-chord tones. No claim of complete stylistic correctness is implied."
+}

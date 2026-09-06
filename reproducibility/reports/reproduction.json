@@ -1,0 +1,120 @@
+{
+  "environment": {
+    "lilypond": "2.26.0",
+    "python": "3.14.4",
+    "uv": "0.11.2"
+  },
+  "compilation": [
+    {
+      "source": "fugue.ly",
+      "midi": "fugue.midi",
+      "midi_sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+      "recompiled_midi_identical": true
+    },
+    {
+      "source": "candidate-a/fugue-a.ly",
+      "midi": "candidate-a/fugue-a.midi",
+      "midi_sha256": "98d37c74cf0bb8f21ab46dbbd2ed0daa3e8e213f84f72b2e4798f4c4cd56ffd4",
+      "recompiled_midi_identical": true
+    },
+    {
+      "source": "candidate-b/fugue-b.ly",
+      "midi": "candidate-b/fugue-b.midi",
+      "midi_sha256": "bc1c770275da32930fdb5dc843fed3cf8ec4d56ab3403b2e2886355fb7d4d82d",
+      "recompiled_midi_identical": true
+    },
+    {
+      "source": "candidate-c/fugue-c.ly",
+      "midi": "candidate-c/fugue-c.midi",
+      "midi_sha256": "edeb5405dcbf0579a82c6ab03545d0e1f4482d72778acd8de0214a83e1a049e3",
+      "recompiled_midi_identical": true
+    },
+    {
+      "source": "fixtures/channel-fixture.ly",
+      "midi": "fixtures/channel-fixture.midi",
+      "midi_sha256": "99ed6c3b950b31523492dfe84791cf24c44001d6316caad0483678fc39cf6333",
+      "recompiled_midi_identical": true
+    },
+    {
+      "source": "paper-process/stretto-study.ly",
+      "midi": "paper-process/stretto-study.midi",
+      "midi_sha256": "324d6033efc9afc532657ecb73b87b5ac04d381ffd7f7aeeb22b22bada48c50a",
+      "recompiled_midi_identical": true
+    }
+  ],
+  "retained_midi_audit_reproduction": [
+    {
+      "report": "reports/final-audit.json",
+      "midi": "fugue.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "candidate-a/fugue-a-audit.json",
+      "midi": "candidate-a/fugue-a.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "candidate-b/fugue-b-audit.json",
+      "midi": "candidate-b/fugue-b.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "candidate-c/audit.json",
+      "midi": "candidate-c/fugue-c.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "fixtures/channel-fixture-audit.json",
+      "midi": "fixtures/channel-fixture.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "paper-process/stretto-study-audit.json",
+      "midi": "paper-process/stretto-study.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "history/candidate-a-revised-audit.json",
+      "midi": "candidate-a/fugue-a.midi",
+      "all_findings_match": true
+    },
+    {
+      "report": "history/candidate-c-revised-audit.json",
+      "midi": "history/candidate-c-revised.midi",
+      "all_findings_match": true
+    }
+  ],
+  "performance_preparation": [
+    {
+      "instrument": "organ",
+      "midi_sha256": "aefa4184964316e2256e1159ef29f9dd40a41fee4abca37586b101b3be3e574e",
+      "voice_notes": {
+        "Soprano": 131,
+        "Alto": 150,
+        "Bass": 101
+      },
+      "timeline_bars": 26,
+      "timeline_grid_step_quarters": 0.125,
+      "timeline_grid_positions": 833,
+      "pitch_and_timing_contracts": "The preparation script asserts pitch order and voice membership, unchanged organ attack positions, bounded piano attack shifts, and positive note lengths."
+    },
+    {
+      "instrument": "piano",
+      "midi_sha256": "89bc59eed05c3295fddcdc32e4564a89f1666d2f0d7ba89086fe8be34eb69ad4",
+      "voice_notes": {
+        "Soprano": 131,
+        "Alto": 150,
+        "Bass": 101
+      },
+      "timeline_bars": 26,
+      "timeline_grid_step_quarters": 0.125,
+      "timeline_grid_positions": 833,
+      "pitch_and_timing_contracts": "The preparation script asserts pitch order and voice membership, unchanged organ attack positions, bounded piano attack shifts, and positive note lengths."
+    }
+  ],
+  "red_green_hand_checker": {
+    "before_implementation": "The unittest module failed to import because check_hands.py did not exist.",
+    "after_implementation": "All four contract tests passed. Tests cover final allocation, a missing printed staff transfer with unchanged MIDI, a changed pitch with stale MIDI, and rejection of unsupported notation."
+  },
+  "static_lint": "Ruff was not available in the offline tool cache; no lint result is claimed. All included Python files passed syntax parsing."
+}

@@ -1,0 +1,118 @@
+{
+  "score": "fugue-b.ly",
+  "lilypond_version": "2.26.0",
+  "bars": 28,
+  "meter": "4/4",
+  "tempo_quarter": 88,
+  "voices": [
+    "Soprano",
+    "Alto",
+    "Bass"
+  ],
+  "entries": [
+    {
+      "bar": 1,
+      "voice": "Soprano",
+      "start": "D5"
+    },
+    {
+      "bar": 3,
+      "voice": "Alto",
+      "start": "A4"
+    },
+    {
+      "bar": 5,
+      "voice": "Bass",
+      "start": "D3"
+    },
+    {
+      "bar": 11,
+      "voice": "Alto",
+      "start": "G4"
+    },
+    {
+      "bar": 15,
+      "voice": "Soprano",
+      "start": "A5"
+    },
+    {
+      "bar": 21,
+      "voice": "Bass",
+      "start": "D3"
+    },
+    {
+      "bar": 25,
+      "voice": "Soprano",
+      "start": "D5",
+      "tail": "cadential variant"
+    }
+  ],
+  "structure": [
+    {
+      "bars": "1–6",
+      "role": "exposition"
+    },
+    {
+      "bars": "7–10",
+      "role": "descending episode and turn to G minor"
+    },
+    {
+      "bars": "11–12",
+      "role": "G entry"
+    },
+    {
+      "bars": "13–14",
+      "role": "bridge and ascending dominant arpeggio"
+    },
+    {
+      "bars": "15–16",
+      "role": "A entry at the register climax"
+    },
+    {
+      "bars": "17–20",
+      "role": "descending episode and dominant approach"
+    },
+    {
+      "bars": "21–22",
+      "role": "bass return in D"
+    },
+    {
+      "bars": "23–24",
+      "role": "bridge to final soprano entry"
+    },
+    {
+      "bars": "25–26",
+      "role": "tonic entry and cadential tail"
+    },
+    {
+      "bars": "27–28",
+      "role": "N6, cadential 6/4, V, Picardy tonic"
+    }
+  ],
+  "subject_semitone_steps": [
+    -2,
+    -1,
+    -2,
+    3,
+    4,
+    -2
+  ],
+  "audit": {
+    "file": "fugue-b-audit.json",
+    "midi_sha256": "bc1c770275da32930fdb5dc843fed3cf8ec4d56ab3403b2e2886355fb7d4d82d",
+    "literal_entries": 7,
+    "adjacent_perfect_interval_flags": 0,
+    "quarter_reduction_flags": 0,
+    "crossings": 0,
+    "maximum_upper_pair_semitones": 12,
+    "maximum_simultaneous_notes": 3
+  },
+  "harmonic_dissonances": [
+    "Bar 20: the alto's A4–G4–F4 introduces and resolves the A7 seventh.",
+    "Bar 24: A4 anticipates the dominant on the last eighth of beat 2.",
+    "Bar 27: D5/F4 over A3 resolves to C-sharp5/E4 over A3."
+  ],
+  "distinctive_idea": "A recurring counterline surrounds the literal chromatic cell; the high A entry at bar 15 contrasts with the lower G entry.",
+  "limitation": "The sustained alto and bass during episodes provide less contrapuntal motion than candidate C.",
+  "comparison": "Candidate C is the stronger basis because its episodes move between voices and its middle travels through G, C and F. Its 26-bar length needs no extension."
+}

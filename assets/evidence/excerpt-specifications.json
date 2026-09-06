@@ -1,0 +1,991 @@
+{
+  "score": "../score/fugue.ly",
+  "bar_count": 26,
+  "source_sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+  "midi_sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+  "pitch_convention": "C4 is middle C. Beat 1.5 is the second eighth note of a 4/4 bar. Annotation pitches retain source spellings; MIDI corroborates pitch height and timing.",
+  "excerpts": [
+    {
+      "id": "ex01-subject",
+      "bars": [
+        1,
+        2
+      ],
+      "title": "Subject head and continuation",
+      "voices": [
+        "Alto"
+      ],
+      "annotations": [
+        {
+          "bar": 1,
+          "beat": 1,
+          "voice": "Alto",
+          "text": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+          "kind": "bracket",
+          "end_bar": 1,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-head-a-m1-n1",
+            "fig-head-a-m1-n2",
+            "fig-head-a-m1-n3",
+            "fig-head-a-m1-n4",
+            "fig-head-a-m1-n5",
+            "fig-head-a-m1-n6",
+            "fig-head-a-m1-n7"
+          ]
+        },
+        {
+          "bar": 1,
+          "beat": 2,
+          "voice": "Alto",
+          "text": "B♮ preserves the exact chromatic inversion.",
+          "sourceNoteIds": [
+            "fig-head-a-m1-n3"
+          ]
+        },
+        {
+          "bar": 2,
+          "beat": 2.5,
+          "voice": "Alto",
+          "text": "F♮ gives the third omitted by the head.",
+          "sourceNoteIds": [
+            "fig-head-a-m2-n3"
+          ]
+        },
+        {
+          "bar": 2,
+          "beat": 4.5,
+          "voice": "Alto",
+          "text": "The continuation ends on E4, the local supertonic.",
+          "sourceNoteIds": [
+            "fig-head-a-m2-n6"
+          ]
+        }
+      ],
+      "caption": "Alto, mm. 1–2. The bracketed head preserves every directed semitone interval of the inversion. The continuation supplies F♮ and ends on E; the tie carries the final head note across the bar line.",
+      "render_figure": "head",
+      "svg": "../excerpts/head.svg"
+    },
+    {
+      "id": "ex02-exposition",
+      "bars": [
+        3,
+        6
+      ],
+      "title": "Answer, counterline, and bass entry",
+      "annotations": [
+        {
+          "bar": 3,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "Exact head at the upper fifth.",
+          "kind": "bracket",
+          "end_bar": 3,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-exposition-s-m3-n1",
+            "fig-exposition-s-m3-n2",
+            "fig-exposition-s-m3-n3",
+            "fig-exposition-s-m3-n4",
+            "fig-exposition-s-m3-n5",
+            "fig-exposition-s-m3-n6",
+            "fig-exposition-s-m3-n7"
+          ]
+        },
+        {
+          "bar": 3,
+          "beat": 1,
+          "voice": "Alto",
+          "text": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+          "kind": "bracket",
+          "end_bar": 3,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-exposition-a-m3-n1",
+            "fig-exposition-a-m3-n2",
+            "fig-exposition-a-m3-n3",
+            "fig-exposition-a-m3-n4",
+            "fig-exposition-a-m3-n5",
+            "fig-exposition-a-m3-n6"
+          ]
+        },
+        {
+          "bar": 4,
+          "beat": 4.5,
+          "voice": "Soprano",
+          "text": "A4 adjusts the continuation; literal transposition would give B4.",
+          "sourceNoteIds": [
+            "fig-exposition-s-m4-n6"
+          ]
+        },
+        {
+          "bar": 5,
+          "beat": 1,
+          "voice": "Bass",
+          "text": "Opening subject an octave below its original statement.",
+          "sourceNoteIds": [
+            "fig-exposition-b-m5-n1"
+          ]
+        },
+        {
+          "bar": 5,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "Counterline transferred above the head: invertible counterpoint at the fifteenth for the first bar.",
+          "sourceNoteIds": [
+            "fig-exposition-s-m5-n1"
+          ]
+        },
+        {
+          "bar": 5,
+          "beat": 1.5,
+          "voice": "Bass",
+          "text": "C3 is a passing bass dissonance under held D4 and F4. The consonant fifth at m. 3, beat 1½ becomes a weak passing fourth here.",
+          "sourceNoteIds": [
+            "fig-exposition-b-m5-n2"
+          ]
+        }
+      ],
+      "caption": "Mm. 3–6. The first-bar subject and counterline exchange positions at the fifteenth. The consonant fifth at m. 3, beat 1½, becomes a correctly treated passing fourth in m. 5.",
+      "render_figure": "exposition",
+      "svg": "../excerpts/exposition.svg"
+    },
+    {
+      "id": "ex03-first-episode",
+      "bars": [
+        7,
+        8
+      ],
+      "title": "First episode and G preparation",
+      "annotations": [
+        {
+          "bar": 7,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "Eighth plus two sixteenths: lower-neighbor figuration.",
+          "kind": "bracket",
+          "end_bar": 7,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-episode-one-s-m7-n1",
+            "fig-episode-one-s-m7-n2",
+            "fig-episode-one-s-m7-n3",
+            "fig-episode-one-s-m7-n4",
+            "fig-episode-one-s-m7-n5",
+            "fig-episode-one-s-m7-n6",
+            "fig-episode-one-s-m7-n7",
+            "fig-episode-one-s-m7-n8",
+            "fig-episode-one-s-m7-n9",
+            "fig-episode-one-s-m7-n10",
+            "fig-episode-one-s-m7-n11",
+            "fig-episode-one-s-m7-n12"
+          ]
+        },
+        {
+          "bar": 7,
+          "beat": 1.5,
+          "voice": "Soprano",
+          "text": "E4 is a dissonant lower neighbor, F4–E4–F4.",
+          "sourceNoteIds": [
+            "fig-episode-one-s-m7-n2"
+          ]
+        },
+        {
+          "bar": 7,
+          "beat": 1,
+          "voice": "Bass",
+          "text": "Roots D–G–C–F follow descending-fifth relations.",
+          "sourceNoteIds": [
+            "fig-episode-one-b-m7-n1"
+          ]
+        },
+        {
+          "bar": 8,
+          "beat": 2,
+          "voice": "Soprano",
+          "text": "Tied E4 remains consonant to the bass: 6 over G, then 5 over A.",
+          "sourceNoteIds": [
+            "fig-episode-one-s-m8-n4"
+          ]
+        },
+        {
+          "bar": 8,
+          "beat": 3,
+          "voice": "All",
+          "text": "A-major preparation; C♯ enters on the second eighth.",
+          "sourceNoteIds": [
+            "fig-episode-one-s-m8-n5",
+            "fig-episode-one-a-m8-n3",
+            "fig-episode-one-b-m8-n3"
+          ]
+        },
+        {
+          "bar": 8,
+          "beat": 4,
+          "voice": "All",
+          "text": "D major prepares the next G-minor entry; F♯4 rises to G4 at m. 9, beat 1.",
+          "sourceNoteIds": [
+            "fig-episode-one-s-m8-n6",
+            "fig-episode-one-a-m8-n5",
+            "fig-episode-one-b-m8-n4"
+          ]
+        }
+      ],
+      "caption": "Mm. 7–8. Lower-neighbor sixteenths animate the soprano above the bass sequence. The final A-major and D-major sonorities prepare the G-based entry. The tied E4 in m. 8 remains consonant against the bass.",
+      "render_figure": "episode-one",
+      "svg": "../excerpts/episode-one.svg"
+    },
+    {
+      "id": "ex04-c-entry",
+      "bars": [
+        11,
+        12
+      ],
+      "title": "C entry and suspension",
+      "annotations": [
+        {
+          "bar": 11,
+          "beat": 1,
+          "voice": "Alto",
+          "text": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4.",
+          "kind": "bracket",
+          "end_bar": 11,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-c-entry-a-m11-n1",
+            "fig-c-entry-a-m11-n2",
+            "fig-c-entry-a-m11-n3",
+            "fig-c-entry-a-m11-n4",
+            "fig-c-entry-a-m11-n5",
+            "fig-c-entry-a-m11-n6",
+            "fig-c-entry-a-m11-n7"
+          ]
+        },
+        {
+          "bar": 11,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "E♮ gives the C-major third.",
+          "sourceNoteIds": [
+            "fig-c-entry-s-m11-n1"
+          ]
+        },
+        {
+          "bar": 11,
+          "beat": 3,
+          "voice": "All",
+          "text": "G minor: G3–B♭3–D5.",
+          "sourceNoteIds": [
+            "fig-c-entry-s-m11-n4",
+            "fig-c-entry-a-m11-n5",
+            "fig-c-entry-b-m11-n4"
+          ]
+        },
+        {
+          "bar": 11,
+          "beat": 4,
+          "voice": "All",
+          "text": "G major: G3–D4–B4; then C/E.",
+          "sourceNoteIds": [
+            "fig-c-entry-s-m11-n5",
+            "fig-c-entry-a-m11-n6",
+            "fig-c-entry-b-m11-n4"
+          ]
+        },
+        {
+          "bar": 12,
+          "beat": 2.5,
+          "voice": "Soprano",
+          "text": "G5 prepares the suspension over E3.",
+          "sourceNoteIds": [
+            "fig-c-entry-s-m12-n3"
+          ]
+        },
+        {
+          "bar": 12,
+          "beat": 3,
+          "voice": "Soprano",
+          "text": "7–6 over A3: G5 resolves to F5 on beat 3½. Against alto F4, the same motion is 9–8, ending in an octave doubling.",
+          "sourceNoteIds": [
+            "fig-c-entry-s-m12-n4"
+          ]
+        }
+      ],
+      "caption": "Mm. 11–12. The C-based head retains B♭, while the surrounding voices establish a major-mode context. G minor becomes G major in m. 11; the following bar contains a prepared G5–F5 suspension.",
+      "render_figure": "c-entry",
+      "svg": "../excerpts/c-entry.svg"
+    },
+    {
+      "id": "ex05-second-episode",
+      "bars": [
+        13,
+        14
+      ],
+      "title": "Episode transferred to alto",
+      "annotations": [
+        {
+          "bar": 13,
+          "beat": 1,
+          "voice": "Alto",
+          "text": "The sixteenth-note neighbor figure moves to the middle voice.",
+          "kind": "bracket",
+          "end_bar": 14,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-episode-two-a-m13-n1",
+            "fig-episode-two-a-m13-n2",
+            "fig-episode-two-a-m13-n3",
+            "fig-episode-two-a-m13-n4",
+            "fig-episode-two-a-m13-n5",
+            "fig-episode-two-a-m13-n6",
+            "fig-episode-two-a-m13-n7",
+            "fig-episode-two-a-m13-n8",
+            "fig-episode-two-a-m13-n9",
+            "fig-episode-two-a-m13-n10",
+            "fig-episode-two-a-m13-n11",
+            "fig-episode-two-a-m13-n12",
+            "fig-episode-two-a-m14-n1",
+            "fig-episode-two-a-m14-n2",
+            "fig-episode-two-a-m14-n3",
+            "fig-episode-two-a-m14-n4",
+            "fig-episode-two-a-m14-n5",
+            "fig-episode-two-a-m14-n6",
+            "fig-episode-two-a-m14-n7",
+            "fig-episode-two-a-m14-n8",
+            "fig-episode-two-a-m14-n9",
+            "fig-episode-two-a-m14-n10",
+            "fig-episode-two-a-m14-n11",
+            "fig-episode-two-a-m14-n12"
+          ]
+        },
+        {
+          "bar": 13,
+          "beat": 1,
+          "voice": "Bass",
+          "text": "Root sequence C–F–B♭–E♭–A–D–G–C.",
+          "sourceNoteIds": [
+            "fig-episode-two-b-m13-n1"
+          ]
+        },
+        {
+          "bar": 13,
+          "beat": 4,
+          "voice": "Bass",
+          "text": "E♭→A is the tritone link in the sequence.",
+          "sourceNoteIds": [
+            "fig-episode-two-b-m13-n4"
+          ]
+        },
+        {
+          "bar": 14,
+          "beat": 4,
+          "voice": "All",
+          "text": "C major prepares the F-based entry.",
+          "sourceNoteIds": [
+            "fig-episode-two-s-m14-n4",
+            "fig-episode-two-a-m14-n10",
+            "fig-episode-two-b-m14-n4"
+          ]
+        }
+      ],
+      "caption": "Mm. 13–14. The ornamental figure moves to the alto. The bass-root sequence C–F–B♭–E♭–A–D–G–C includes a tritone link and ends with C-major preparation for F.",
+      "render_figure": "episode-two",
+      "svg": "../excerpts/episode-two.svg"
+    },
+    {
+      "id": "ex06-f-entry-preparation",
+      "bars": [
+        15,
+        18
+      ],
+      "title": "F entry and suspension preparation",
+      "optional_split": [
+        [
+          15,
+          16
+        ],
+        [
+          17,
+          18
+        ]
+      ],
+      "annotations": [
+        {
+          "bar": 15,
+          "beat": 1,
+          "voice": "Bass",
+          "text": "Exact F-based head retains E♭.",
+          "kind": "bracket",
+          "end_bar": 15,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-suspensions-b-m15-n1",
+            "fig-suspensions-b-m15-n2",
+            "fig-suspensions-b-m15-n3",
+            "fig-suspensions-b-m15-n4",
+            "fig-suspensions-b-m15-n5",
+            "fig-suspensions-b-m15-n6",
+            "fig-suspensions-b-m15-n7"
+          ]
+        },
+        {
+          "bar": 15,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "A♮ gives the local major third.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m15-n1"
+          ]
+        },
+        {
+          "bar": 15,
+          "beat": 3,
+          "voice": "All",
+          "text": "E♭ major, followed by E diminished/G at beat 4 and F major at beat 4½.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m15-n4",
+            "fig-suspensions-a-m15-n4",
+            "fig-suspensions-b-m15-n5"
+          ]
+        },
+        {
+          "bar": 17,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "A4 prepares the following suspension.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m17-n1"
+          ]
+        },
+        {
+          "bar": 17,
+          "beat": 2,
+          "voice": "Soprano",
+          "text": "7–6 over B♭2: A4 resolves to G4 at beat 2½.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m17-n2"
+          ]
+        },
+        {
+          "bar": 17,
+          "beat": 4,
+          "voice": "Soprano",
+          "text": "Prepared seventh of A7; resolution F4 occurs over D3 at m. 18, beat 1.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m17-n4"
+          ]
+        },
+        {
+          "bar": 18,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "F4 prepares the following suspension over D3.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m18-n1"
+          ]
+        },
+        {
+          "bar": 18,
+          "beat": 2,
+          "voice": "Soprano",
+          "text": "9–8 over E3: F4 resolves to E4 at beat 2½.",
+          "sourceNoteIds": [
+            "fig-suspensions-s-m18-n2"
+          ]
+        }
+      ],
+      "caption": "Mm. 15–18. The F-based entry combines an invariant E♭ with major-mode A♮. The following preparation contains a 7–6 suspension over B♭, a prepared dominant seventh, and a 9–8 suspension over E. These labels refer to different events.",
+      "render_figure": "suspensions",
+      "svg": "../excerpts/suspensions.svg"
+    },
+    {
+      "id": "ex07-return",
+      "bars": [
+        19,
+        20
+      ],
+      "title": "Stretto and restored bass entry",
+      "essential_bars": [
+        19,
+        20
+      ],
+      "annotations": [
+        {
+          "bar": 19,
+          "beat": 1,
+          "voice": "Soprano",
+          "text": "Exact D head leads.",
+          "kind": "bracket",
+          "end_bar": 19,
+          "end_beat": 5,
+          "sourceNoteIds": [
+            "fig-return-s-m19-n1",
+            "fig-return-s-m19-n2",
+            "fig-return-s-m19-n3",
+            "fig-return-s-m19-n4",
+            "fig-return-s-m19-n5",
+            "fig-return-s-m19-n6",
+            "fig-return-s-m19-n7"
+          ]
+        },
+        {
+          "bar": 19,
+          "beat": 1.5,
+          "voice": "Alto",
+          "text": "Exact A head follows one eighth later at the lower fourth.",
+          "kind": "bracket",
+          "end_bar": 20,
+          "end_beat": 1.5,
+          "sourceNoteIds": [
+            "fig-return-a-m19-n2",
+            "fig-return-a-m19-n3",
+            "fig-return-a-m19-n4",
+            "fig-return-a-m19-n5",
+            "fig-return-a-m19-n6",
+            "fig-return-a-m19-n7",
+            "fig-return-a-m20-n1"
+          ]
+        },
+        {
+          "bar": 19,
+          "beat": 1,
+          "voice": "Bass",
+          "text": "F3 supports a first-inversion tonic arrival.",
+          "sourceNoteIds": [
+            "fig-return-b-m19-n1"
+          ]
+        },
+        {
+          "bar": 19,
+          "beat": 2.5,
+          "voice": "All",
+          "text": "D-major sonority; F♯4 descends to E4 over C3.",
+          "sourceNoteIds": [
+            "fig-return-s-m19-n4",
+            "fig-return-a-m19-n4",
+            "fig-return-b-m19-n3"
+          ]
+        },
+        {
+          "bar": 19,
+          "beat": 3.5,
+          "voice": "All",
+          "text": "G4–C5 upper fourth is consonant against C3.",
+          "sourceNoteIds": [
+            "fig-return-s-m19-n5",
+            "fig-return-a-m19-n6",
+            "fig-return-b-m19-n4"
+          ]
+        },
+        {
+          "bar": 20,
+          "beat": 1,
+          "voice": "All",
+          "text": "A4–D5 upper fourth is consonant against F3.",
+          "sourceNoteIds": [
+            "fig-return-s-m20-n1",
+            "fig-return-a-m20-n1",
+            "fig-return-b-m20-n1"
+          ]
+        },
+        {
+          "bar": 20,
+          "beat": 1.5,
+          "voice": "Alto",
+          "text": "G4 is a passing ninth over F3: A4–G4–F4.",
+          "sourceNoteIds": [
+            "fig-return-a-m20-n2"
+          ]
+        }
+      ],
+      "caption": "Mm. 19–20. Brackets identify two exact heads separated by one eighth note. The bass supports both upper fourths. The continuations diverge before the complete three-voice return of mm. 5–6 begins at m. 21.",
+      "render_figure": "return",
+      "svg": "../excerpts/return.svg"
+    },
+    {
+      "id": "ex08-cadence",
+      "bars": [
+        23,
+        26
+      ],
+      "title": "Neapolitan and final cadence",
+      "annotations": [
+        {
+          "bar": 24,
+          "beat": 3,
+          "voice": "All",
+          "text": "N6: G2–B♭3–E♭4.",
+          "sourceNoteIds": [
+            "fig-coda-s-m24-n2",
+            "fig-coda-a-m24-n2",
+            "fig-coda-b-m24-n2"
+          ]
+        },
+        {
+          "bar": 25,
+          "beat": 1,
+          "voice": "All",
+          "text": "Cadential six-four: A2–F3–D4.",
+          "sourceNoteIds": [
+            "fig-coda-s-m25-n1",
+            "fig-coda-a-m25-n1",
+            "fig-coda-b-m25-n1"
+          ]
+        },
+        {
+          "bar": 25,
+          "beat": 2,
+          "voice": "All",
+          "text": "V: A2–E3–C♯4; 6–5 and 4–3 over A.",
+          "sourceNoteIds": [
+            "fig-coda-s-m25-n2",
+            "fig-coda-a-m25-n2",
+            "fig-coda-b-m25-n1"
+          ]
+        },
+        {
+          "bar": 24,
+          "beat": 3,
+          "voice": "Soprano",
+          "text": "E♭4–D4–C♯4 traces ♭2–1–7.",
+          "kind": "line",
+          "end_bar": 25,
+          "end_beat": 2,
+          "sourceNoteIds": [
+            "fig-coda-s-m24-n2",
+            "fig-coda-s-m25-n1",
+            "fig-coda-s-m25-n2"
+          ]
+        },
+        {
+          "bar": 25,
+          "beat": 1,
+          "voice": "Alto",
+          "text": "B♭3 descends to F3, then E3; no B♭–A resolution is written.",
+          "sourceNoteIds": [
+            "fig-coda-a-m25-n1"
+          ]
+        },
+        {
+          "bar": 25,
+          "beat": 3,
+          "voice": "Soprano",
+          "text": "Dominant arpeggio E4–A4–C♯5–E5.",
+          "sourceNoteIds": [
+            "fig-coda-s-m25-n3"
+          ]
+        },
+        {
+          "bar": 26,
+          "beat": 1,
+          "voice": "All",
+          "text": "Major tonic D3–F♯3–D5; fifth omitted.",
+          "sourceNoteIds": [
+            "fig-coda-s-m26-n1",
+            "fig-coda-a-m26-n1",
+            "fig-coda-b-m26-n1"
+          ]
+        }
+      ],
+      "caption": "Mm. 23–26. N6 proceeds through a cadential six-four to V and the final major tonic. The soprano traces E♭4–D4–C♯4, and the alto resolves F3–E3. The right hand plays the arpeggio while the left sustains bass and alto.",
+      "render_figure": "coda",
+      "svg": "../excerpts/coda.svg"
+    }
+  ],
+  "evidence_table": [
+    {
+      "bar": 5,
+      "beat": 1.5,
+      "sounding": {
+        "Soprano": "F4",
+        "Alto": "D4",
+        "Bass": "C3"
+      },
+      "claim": "Bass passing dissonance"
+    },
+    {
+      "bar": 8,
+      "beat": 2,
+      "sounding": {
+        "Soprano": "E4",
+        "Alto": "Bb3",
+        "Bass": "G2"
+      },
+      "claim": "Consonant sixth to bass despite upper tritone"
+    },
+    {
+      "bar": 11,
+      "beat": 3,
+      "sounding": {
+        "Soprano": "D5",
+        "Alto": "Bb3",
+        "Bass": "G3"
+      },
+      "claim": "Minor dominant within C phrase"
+    },
+    {
+      "bar": 11,
+      "beat": 4,
+      "sounding": {
+        "Soprano": "B4",
+        "Alto": "D4",
+        "Bass": "G3"
+      },
+      "claim": "Major dominant within C phrase"
+    },
+    {
+      "bar": 12,
+      "beat": 2.5,
+      "sounding": {
+        "Soprano": "G5",
+        "Alto": "E4",
+        "Bass": "E3"
+      },
+      "claim": "Preparation"
+    },
+    {
+      "bar": 12,
+      "beat": 3,
+      "sounding": {
+        "Soprano": "G5",
+        "Alto": "F4",
+        "Bass": "A3"
+      },
+      "claim": "7–6 dissonance"
+    },
+    {
+      "bar": 12,
+      "beat": 3.5,
+      "sounding": {
+        "Soprano": "F5",
+        "Alto": "F4",
+        "Bass": "A3"
+      },
+      "claim": "7–6 resolution"
+    },
+    {
+      "bar": 17,
+      "beat": 2,
+      "sounding": {
+        "Soprano": "A4",
+        "Alto": "D4",
+        "Bass": "Bb2"
+      },
+      "claim": "7–6 dissonance"
+    },
+    {
+      "bar": 17,
+      "beat": 2.5,
+      "sounding": {
+        "Soprano": "G4",
+        "Alto": "D4",
+        "Bass": "Bb2"
+      },
+      "claim": "7–6 resolution"
+    },
+    {
+      "bar": 18,
+      "beat": 2,
+      "sounding": {
+        "Soprano": "F4",
+        "Alto": "G3",
+        "Bass": "E3"
+      },
+      "claim": "9–8 dissonance"
+    },
+    {
+      "bar": 18,
+      "beat": 2.5,
+      "sounding": {
+        "Soprano": "E4",
+        "Alto": "B3",
+        "Bass": "E3"
+      },
+      "claim": "9–8 resolution"
+    },
+    {
+      "bar": 19,
+      "beat": 1,
+      "sounding": {
+        "Soprano": "D5",
+        "Alto": "rest",
+        "Bass": "F3"
+      },
+      "claim": "First-inversion tonic return"
+    },
+    {
+      "bar": 19,
+      "beat": 2.5,
+      "sounding": {
+        "Soprano": "A4",
+        "Alto": "F#4",
+        "Bass": "D3"
+      },
+      "claim": "D-major sonority"
+    },
+    {
+      "bar": 19,
+      "beat": 3,
+      "sounding": {
+        "Soprano": "C5",
+        "Alto": "E4",
+        "Bass": "C3"
+      },
+      "claim": "F♯ descends to E"
+    },
+    {
+      "bar": 19,
+      "beat": 3.5,
+      "sounding": {
+        "Soprano": "C5",
+        "Alto": "G4",
+        "Bass": "C3"
+      },
+      "claim": "Supported upper fourth"
+    },
+    {
+      "bar": 20,
+      "beat": 1,
+      "sounding": {
+        "Soprano": "D5",
+        "Alto": "A4",
+        "Bass": "F3"
+      },
+      "claim": "Supported upper fourth"
+    },
+    {
+      "bar": 20,
+      "beat": 1.5,
+      "sounding": {
+        "Soprano": "D5",
+        "Alto": "G4",
+        "Bass": "F3"
+      },
+      "claim": "Passing ninth"
+    },
+    {
+      "bar": 24,
+      "beat": 3,
+      "sounding": {
+        "Soprano": "Eb4",
+        "Alto": "Bb3",
+        "Bass": "G2"
+      },
+      "claim": "N6"
+    },
+    {
+      "bar": 25,
+      "beat": 1,
+      "sounding": {
+        "Soprano": "D4",
+        "Alto": "F3",
+        "Bass": "A2"
+      },
+      "claim": "Cadential six-four"
+    },
+    {
+      "bar": 25,
+      "beat": 2,
+      "sounding": {
+        "Soprano": "C#4",
+        "Alto": "E3",
+        "Bass": "A2"
+      },
+      "claim": "Dominant"
+    },
+    {
+      "bar": 26,
+      "beat": 1,
+      "sounding": {
+        "Soprano": "D5",
+        "Alto": "F#3",
+        "Bass": "D3"
+      },
+      "claim": "Picardy third"
+    }
+  ],
+  "verified_pair_transfer": {
+    "original": {
+      "subject": "Soprano m.3",
+      "counterline": "Alto m.3"
+    },
+    "derivative": {
+      "subject": "Bass m.5",
+      "counterline": "Soprano m.5"
+    },
+    "shared_transposition_semitones": 5,
+    "additional_subject_shift_semitones": -24,
+    "interpretation": "Invertible counterpoint at the fifteenth for the one-bar head/counterline combination. A weak consonant fifth becomes a valid passing fourth; the complete two-bar continuations are not a literal derivative.",
+    "verified_properties": [
+      "All note onsets",
+      "All note ends, including the tie into the following bar",
+      "All pitches under the stated transformations"
+    ]
+  },
+  "analytical_limits": [
+    "Nine exact head entries do not imply nine literal complete two-bar subjects.",
+    "A dominant pitch level does not itself establish a dominant key during stretto.",
+    "The C and F entry regions are locally major despite exact heads containing lowered seventh degrees.",
+    "The E4 tie in m. 8 is consonant to the bass; the F4–E4 suspension in m. 18 is 9–8.",
+    "The F♯4 in m.19 descends to E4; it is not a realized leading-tone ascent to G.",
+    "N6 has E♭4 over G2; alto B♭3 descends to F3, not A3.",
+    "The highest soprano pitch is G5 in m.12; the final D5 is not the registral maximum.",
+    "Instantaneous hand reach and interval screening do not prove fluent fingering or artistic quality."
+  ],
+  "entry_map": [
+    {
+      "bar": 1,
+      "beat": 1.0,
+      "voice": "Alto (track 2, channel 1)",
+      "start_pitch": "D4"
+    },
+    {
+      "bar": 3,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "A4"
+    },
+    {
+      "bar": 5,
+      "beat": 1.0,
+      "voice": "Bass (track 3, channel 1)",
+      "start_pitch": "D3"
+    },
+    {
+      "bar": 9,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "G4"
+    },
+    {
+      "bar": 11,
+      "beat": 1.0,
+      "voice": "Alto (track 2, channel 1)",
+      "start_pitch": "C4"
+    },
+    {
+      "bar": 15,
+      "beat": 1.0,
+      "voice": "Bass (track 3, channel 1)",
+      "start_pitch": "F3"
+    },
+    {
+      "bar": 19,
+      "beat": 1.0,
+      "voice": "Soprano (track 1, channel 1)",
+      "start_pitch": "D5"
+    },
+    {
+      "bar": 19,
+      "beat": 1.5,
+      "voice": "Alto (track 2, channel 1)",
+      "start_pitch": "A4"
+    },
+    {
+      "bar": 21,
+      "beat": 1.0,
+      "voice": "Bass (track 3, channel 1)",
+      "start_pitch": "D3"
+    }
+  ]
+}

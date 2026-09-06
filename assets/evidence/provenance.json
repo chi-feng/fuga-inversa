@@ -1,0 +1,58 @@
+{
+  "title": "Fuga inversa",
+  "edition_date": "2026-09-07",
+  "authorship": "Composition, analysis and production by GPT-6 Astra agents, directed by chi-feng.",
+  "score": {
+    "source": "../score/fugue.ly",
+    "sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+    "midi": "../score/fugue.midi",
+    "midi_sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+    "lilypond": "2.26.0",
+    "bars": 26,
+    "voices": 3,
+    "note_count": 382,
+    "head_intervals_semitones": [
+      -2,
+      -1,
+      -2,
+      3,
+      4,
+      -2
+    ]
+  },
+  "piano": {
+    "midi": "../score/fugue-piano.midi",
+    "midi_sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363",
+    "master": "../audio/piano.mp3",
+    "wav": "../audio/fugue-piano.wav",
+    "instrument": "GarageBand 10.4.14 Steinway Grand Piano",
+    "native_input": "44.1 kHz stereo, 24-bit PCM",
+    "delivery": "48 kHz stereo, 24-bit PCM; 256 kbit/s MP3",
+    "provenance": "../../reproducibility/hall-production/public-provenance.json",
+    "native_checks": "../../reproducibility/piano-production/native24-render-checks.json"
+  },
+  "organ": {
+    "master": "../audio/organ.mp3",
+    "wav": "../audio/fugue-organ.wav",
+    "instrument": "Jeux d’orgues 2.1, Stiehr–Mockers organ at Romanswiller",
+    "registration": "I Principaux 8 4",
+    "soundfont_bank": 1,
+    "soundfont_program": 0,
+    "manuals": 1,
+    "pedal_division": false
+  },
+  "evidence": {
+    "interval_audit": "final-audit.json",
+    "printed_hands": "../../reproducibility/reports/printed-hands.json",
+    "annotated_events": "../excerpts/manifest.json",
+    "annotation_claims": "excerpt-specifications.json",
+    "historical_scope": "../../reproducibility/history/index.json",
+    "file_manifest": "../../MANIFEST.json"
+  },
+  "limits": [
+    "The interval auditor is a screen of specified conditions, not a certificate of universal correctness.",
+    "The printed-hand check bounds simultaneous reach; no live keyboard trial is recorded.",
+    "Native piano observations check pitches and attacks. Velocities and releases were checked in the imported MIDI, not round-tripped from the native project.",
+    "The final audio was checked through source comparisons and signal measurements; no agent audition is claimed."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "nativeNoteCount": 382,
+  "pitchMultisetMatches": true,
+  "timeQuantizeOff": true,
+  "maximumOnsetDifferenceNativeTicks": 1.0,
+  "nativeTicksPerQuarter": 960,
+  "garagebandDisplayedOctaveOffset": -1,
+  "limits": "Accessibility exposes pitch and onset here; lengths and velocities are checked in the imported MIDI, not round-tripped from the native project."
+}

@@ -1,0 +1,461 @@
+{
+  "scope": "All publication files except this manifest, Git metadata, installed dependencies, build caches, and operating-system metadata. Paths are relative to this directory.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5717,
+      "sha256": "fdb093e5dc86e5a6b27e790292cbdc1e98a89c161440101fd400ac526840abaf",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "audit_midi.py",
+      "bytes": 14806,
+      "sha256": "dcb5abaf673da75ab94503c164d43e83c082aac39c0b5659a27151ea8bb81ee8",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-a/NOTES.md",
+      "bytes": 3397,
+      "sha256": "d8b8ede7425f5b9ec34a46bf4ac3a04de62bfa186851d158ffd6e7ca9f45dcfd",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-a/fugue-a-audit.json",
+      "bytes": 48588,
+      "sha256": "98e790f07eb43564bb8ab0d0d6ee08238ab6d0e34bdc3060ef56448f82384b98",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-a/fugue-a.ly",
+      "bytes": 3877,
+      "sha256": "6ebc13ad9c2d5c95ca928d3846e9860703fb52923f42c3f4863ee39a7c5d1a05",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-a/fugue-a.midi",
+      "bytes": 3462,
+      "sha256": "98d37c74cf0bb8f21ab46dbbd2ed0daa3e8e213f84f72b2e4798f4c4cd56ffd4",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-b/candidate-notes.json",
+      "bytes": 2684,
+      "sha256": "1c73c0dcfc116c1c666919f113643215aeaf06cc77a4d8e6b65ed1a37e169f1c",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-b/fugue-b-audit.json",
+      "bytes": 38417,
+      "sha256": "9cc5f45ecd597dd6455cd303223f1879055930f96d87fbefcfd6926b4f629007",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-b/fugue-b.ly",
+      "bytes": 2643,
+      "sha256": "02b9252f474eceac6810e46b0e2a86d1e567e9bab8b264c8a8062241ef59bc72",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-b/fugue-b.midi",
+      "bytes": 3389,
+      "sha256": "bc1c770275da32930fdb5dc843fed3cf8ec4d56ab3403b2e2886355fb7d4d82d",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-c/REVIEW.md",
+      "bytes": 4970,
+      "sha256": "37704d585bddff1e5acb6966e32694da85076371dc2858c0005f4a856b8e2c5d",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-c/audit.json",
+      "bytes": 43843,
+      "sha256": "a9b4b42447a37606030847851b06064e09a3f518fd75453578d392602aa59605",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-c/fugue-c.ly",
+      "bytes": 3278,
+      "sha256": "79360b616d641a39b6c8975254e7b803b61ec2facc8e171d8b1885b85947cfd2",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "candidate-c/fugue-c.midi",
+      "bytes": 3527,
+      "sha256": "edeb5405dcbf0579a82c6ab03545d0e1f4482d72778acd8de0214a83e1a049e3",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "check_hands.py",
+      "bytes": 12602,
+      "sha256": "6c862e4d752895fdd989e6606a4a5afcbbc1ae3256a0ccf4a4c3b6de78ea27eb",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "fixtures/channel-fixture-audit.json",
+      "bytes": 3744,
+      "sha256": "b1d3a87a13491f01e28519d1e5668e2cd87a2c658ed30e1086417d9eaebede86",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "fixtures/channel-fixture-organ.midi",
+      "bytes": 290,
+      "sha256": "cdc0a9f1a6187821db76e206a32bd8ff74fa8175fb988a8f9904201951f958ce",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "fixtures/channel-fixture.ly",
+      "bytes": 336,
+      "sha256": "0cd38387de9b05246aede2fdb4c80a4f0eb218622a67e5cadb12b5a71429d8a4",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "fixtures/channel-fixture.midi",
+      "bytes": 257,
+      "sha256": "99ed6c3b950b31523492dfe84791cf24c44001d6316caad0483678fc39cf6333",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "fixtures/channel-remap-report.json",
+      "bytes": 1495,
+      "sha256": "2a3b76b20d88b02e71841bfe73e20858a91efe43949b9568e4b2a4c8bf09e81f",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "fixtures/missing-alto-transfer-report.json",
+      "bytes": 138612,
+      "sha256": "7e2b41c1b98082297184adda7d24cc869fb02d44063ce5136cfe9435d820e179",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "fixtures/missing-alto-transfer.ly",
+      "bytes": 4953,
+      "sha256": "993900590cca51409db473ea8a29f8879b6de98625d32daeb42d4d1fa8db30a1",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "fugue.ly",
+      "bytes": 4923,
+      "sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "fugue.midi",
+      "bytes": 3667,
+      "sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "hall-production/CREDITS.txt",
+      "bytes": 317,
+      "sha256": "68f522a718216574fb96bf2d5dbfe70a3a1cbc87c256c6b6897304f55e6d6657"
+    },
+    {
+      "path": "hall-production/REPRODUCE.md",
+      "bytes": 3410,
+      "sha256": "6435a66e0c2e9e347df5c0b607bdfbfa0ef70e41de6b8e7d3693966dd1694c41"
+    },
+    {
+      "path": "hall-production/delivery-checks.json",
+      "bytes": 6366,
+      "sha256": "c7429ee209e7d865b60014c79713065734929dc3e44db49677e737a0dd363872"
+    },
+    {
+      "path": "hall-production/hall.py",
+      "bytes": 19434,
+      "sha256": "28c6899d0fc63d0e7a1226698553f76bc840ca129a531bdc1bab8c6b38c1326f"
+    },
+    {
+      "path": "hall-production/ir/source.json",
+      "bytes": 1814,
+      "sha256": "5891635a64462377bc42ce51ca6376314e187ae3ce8263b8cee6388ad49b7ec5"
+    },
+    {
+      "path": "hall-production/ir/spokane_womans_club_ir.wav",
+      "bytes": 1588186,
+      "sha256": "75414f9e4ca34839f809932f877c82ea46363502ca6e291360afe551fb9e0c90"
+    },
+    {
+      "path": "hall-production/public-provenance.json",
+      "bytes": 4771,
+      "sha256": "40da5d94c8b9966b791bc15307d8ff72ddb6dd6668aababd683dc500a6a7928d"
+    },
+    {
+      "path": "hall-production/test_hall.py",
+      "bytes": 2384,
+      "sha256": "b619eea75af3da83743b21f12936f377935bd46179d68c1ba7c9e71b95f03023"
+    },
+    {
+      "path": "hall-production/test_hall_pipeline.py",
+      "bytes": 2999,
+      "sha256": "ed3aae837f84f53ffeb0e23242f9302d385d360e0368602f7cf9b973bc0697e0"
+    },
+    {
+      "path": "history/README.md",
+      "bytes": 1474,
+      "sha256": "3717fb2bf7413a2ffaf0085b7a9e301619f81f3340c5cf8777c22f8c7408a66d",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "history/candidate-a-first-audit.json",
+      "bytes": 52905,
+      "sha256": "e6473ecb2f2855104853ad8ed5ec3a08d3db4a00d380ff6120508fc9466329ad",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-a-first-ledger.txt",
+      "bytes": 8581,
+      "sha256": "58b7fd25afd690c1c3741b63bcaa39a43050730854fe57350a281777dc36c700",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-a-revised-audit.json",
+      "bytes": 48588,
+      "sha256": "98e790f07eb43564bb8ab0d0d6ee08238ab6d0e34bdc3060ef56448f82384b98",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-a-revised-ledger.txt",
+      "bytes": 8581,
+      "sha256": "18559494a877e6133d0f349d0cb7c792ded863575c24f27e28baa9fb83560125",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-b-first-audit.json",
+      "bytes": 46896,
+      "sha256": "93c7d8704fe09af116513870af877e2e11aa246ddbd11366ba47eea660ff76b5",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-b-first-ledger.txt",
+      "bytes": 8581,
+      "sha256": "64802e7565cce4e292c6b99a237f804cfdbbaa02a013f976dc0702ce273a15c8",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-c-first-audit.json",
+      "bytes": 15029,
+      "sha256": "7e2a623e181a9a37f335ae4ff91ffc86d75517ff86562e451599f370ba43a870",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-c-first-ledger.txt",
+      "bytes": 3109,
+      "sha256": "92e3e343ba947e1679ff84e63ad41694f33a8e650252bcc6a9f7202192b82ff0",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-c-revised-audit.json",
+      "bytes": 44460,
+      "sha256": "7285b3584c206072abeb07c18ca82c4485bc08476b4cb123e363e2d50c727c05",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-c-revised-ledger.txt",
+      "bytes": 7973,
+      "sha256": "8b022f20b340d0db7ed3c9da495b7ddfaa25384046c1bd3f3922673d78d7d378",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/candidate-c-revised.midi",
+      "bytes": 3536,
+      "sha256": "3e0d703f8b5d00a1c8a8d53ff1c3cee6b81acd6f31baef06eba98e7cda409e7e",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "history/index.json",
+      "bytes": 3136,
+      "sha256": "f23cf36f2eb157d525a4f051877d45caaa25d1dda00e62fe07642d12dd4c9b4b",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "paper-process/stretto-study-audit.json",
+      "bytes": 7996,
+      "sha256": "35a943d57b32e1ca969b529c79a97997da7689fa750e23148c82e0641bc572fd",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "paper-process/stretto-study.ly",
+      "bytes": 1205,
+      "sha256": "69ba9764cf86ed9be0db669fff3cff8fd6559dac38c4496ec7e19faf118d492c",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "paper-process/stretto-study.midi",
+      "bytes": 795,
+      "sha256": "324d6033efc9afc532657ecb73b87b5ac04d381ffd7f7aeeb22b22bada48c50a",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "piano-production/PRODUCTION.md",
+      "bytes": 5744,
+      "sha256": "7f35b43c73bd7960920dfae2de0b2424867978b3d8469d3cdfda7026404ff01e"
+    },
+    {
+      "path": "piano-production/fugue-piano-concert.mid",
+      "bytes": 9580,
+      "sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363"
+    },
+    {
+      "path": "piano-production/garageband-alto-ax-notes.json",
+      "bytes": 25622,
+      "sha256": "3073b5cd2d2a6c03d32fc5d6a7c219172df1c0ed5a6a0e7116e38b8af43a2c3d"
+    },
+    {
+      "path": "piano-production/garageband-bass-ax-notes.json",
+      "bytes": 18074,
+      "sha256": "2c28346f099d925cf9ea0682ed4732fa89afe941aedeb76767eb44a710a4e3b5"
+    },
+    {
+      "path": "piano-production/garageband-concert-alto.mid",
+      "bytes": 7155,
+      "sha256": "620f8c3c4e1a30149bd1bf40b15ce4be5d96c603249d6810975e6caa21dec05e"
+    },
+    {
+      "path": "piano-production/garageband-concert-bass.mid",
+      "bytes": 6763,
+      "sha256": "6283848aeb44c2e6ecee83078ff3ab5e218c6eb820ba0bf3f1ef052a3322ee13"
+    },
+    {
+      "path": "piano-production/garageband-concert-mix.mid",
+      "bytes": 9010,
+      "sha256": "36f156e4926ae60e22b78415672b3dff0a8b719c8aa6662a9cce70a1d8c6b790"
+    },
+    {
+      "path": "piano-production/garageband-concert-soprano.mid",
+      "bytes": 7006,
+      "sha256": "0667027a5f5d2a37b8c64080d40902fe6376aee2c4b38d9af5cc4151ec031769"
+    },
+    {
+      "path": "piano-production/garageband-import-checks.json",
+      "bytes": 364,
+      "sha256": "cb9381df589bc69a4a279dcb44915b3a692e350158a1a61de268ab25aeadde97"
+    },
+    {
+      "path": "piano-production/garageband-mix-ax-notes.json",
+      "bytes": 65662,
+      "sha256": "5624f844bbc6710b9fc6f0487340ce0c114f89eb3317289238a779bfdac136f4"
+    },
+    {
+      "path": "piano-production/garageband-soprano-ax-notes.json",
+      "bytes": 22182,
+      "sha256": "64040c073213e9f78b3b042915b25407e2af9a4d76242d341914935cd10b62b3"
+    },
+    {
+      "path": "piano-production/native24-render-checks.json",
+      "bytes": 3547,
+      "sha256": "c1e7f9aa4e1324de2361a7b628a99f0ca3ebb8545fcf3d582ccf84ba5050924b"
+    },
+    {
+      "path": "piano-production/performance-checks.json",
+      "bytes": 139263,
+      "sha256": "939b9bdde16162c0ff9fa7d7b1bfbe07b9212d8cd24c12c843207a8ce2c9bac4"
+    },
+    {
+      "path": "piano-production/shape_performance.py",
+      "bytes": 12465,
+      "sha256": "c505817bdcaeb66956d78169c2514d95b69a78076d352c82aefab81256bc7d00"
+    },
+    {
+      "path": "piano-production/steinway-concert-dry-native24-alto.wav",
+      "bytes": 18939660,
+      "sha256": "f257b824a60dc8c7afe283b1e11db47c57a35ff054b57bdaca9a91b88a1cac37"
+    },
+    {
+      "path": "piano-production/steinway-concert-dry-native24-bass.wav",
+      "bytes": 18939660,
+      "sha256": "33bd3f4bd9ac726a5e5dc86d23e2e43a98527adae01d2b118baaf46336b7c593"
+    },
+    {
+      "path": "piano-production/steinway-concert-dry-native24-soprano.wav",
+      "bytes": 18939660,
+      "sha256": "c8df264f8926ff4ff2a7d3cd2d63237e6423d2fd7cbb398df66e2779c5ebe087"
+    },
+    {
+      "path": "piano-production/steinway-concert-dry-native24.wav",
+      "bytes": 18939660,
+      "sha256": "b0a45604e50b44ba489be47b9458ab097af8f768238fc1a2f6ccda1c6d4fba4a"
+    },
+    {
+      "path": "piano-production/timeline-concert.json",
+      "bytes": 95429,
+      "sha256": "8d0d3ebf5d9d9e5630c727fb419f016ec272e6e7421563a69bea0883b351225a"
+    },
+    {
+      "path": "piano-production/verify_garageband.py",
+      "bytes": 6126,
+      "sha256": "07a1196ae827850397cecc5a3cace0a025f6e3411e7c347c093be0fecc591a8f"
+    },
+    {
+      "path": "prepare_organ_midi.py",
+      "bytes": 2953,
+      "sha256": "2212a054d5b0e4e4b8a4e7db3aed6f9a29d87c37df540ef2eedb534d5912d3a2",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "prepare_performance.py",
+      "bytes": 8351,
+      "sha256": "decac42e20e92b7ae7a03f37279c1d8717485d6e055ef84343a38a04a27bee4c",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 10971,
+      "sha256": "1ba375fd9720d178458ecfce348a3e0e1e55dc9db28ee57cd0539ef81aa4d7a2",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "render_audio.py",
+      "bytes": 4013,
+      "sha256": "56222ff2db6e3f482cbbdfe406bc79fcce3c108b5eca7e17d2c28909c94ced00",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "reports/final-audit.json",
+      "bytes": 43173,
+      "sha256": "bcbd62de3130fe0c1b96054bac7892b61ee4e404202d13fb35b16f23864f68bc",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "reports/final-ledger.txt",
+      "bytes": 7973,
+      "sha256": "815943ac590a931110d2c0deba1968b47056647c6fa813e0af1e263355a520d2",
+      "origin": "copied artifact; see provenance.json"
+    },
+    {
+      "path": "reports/inspection.json",
+      "bytes": 7925,
+      "sha256": "1e593c9ee2410bdaa205a02028190ec851f17ad94d3342048f4c43f1c28a89ae",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "reports/printed-hands.json",
+      "bytes": 133906,
+      "sha256": "cb921e3a826581816e46915ff6b0a85b2fcfc713c8e310f9d01c960b4d688216",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "reports/printed-hands.md",
+      "bytes": 2181,
+      "sha256": "f6e8113cf0b7a870ea83c3ab541023f0946360e01ebb4706b034bf1578f0a957",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "reports/reproduction.json",
+      "bytes": 4244,
+      "sha256": "3014dc9775d668abaa288655511cc6ad55bef7190eb76369cbdbc33b9973d161",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "test_check_hands.py",
+      "bytes": 2447,
+      "sha256": "c46176ae6aeb8f49021b33617c2beb9d1b83308370fdbf1aced92833488d81cc",
+      "origin": "created for the public reproduction bundle"
+    },
+    {
+      "path": "web-research/generate_excerpts.py",
+      "bytes": 14378,
+      "sha256": "8a44b3d6a3dd6c3ee1c4c74199e3713c2e4e47903465aae65ef9c22e244e86b8"
+    }
+  ]
+}

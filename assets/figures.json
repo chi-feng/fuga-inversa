@@ -1,0 +1,516 @@
+{
+  "head": {
+    "title": "Subject head and continuation",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 590,
+    "noteDescriptions": {
+      "fig-head-a-m1-n1": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+      "fig-head-a-m1-n2": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+      "fig-head-a-m1-n3": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4. B♮ preserves the exact chromatic inversion.",
+      "fig-head-a-m1-n4": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+      "fig-head-a-m1-n5": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+      "fig-head-a-m1-n6": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+      "fig-head-a-m1-n7": "Exact inverted head: D4–C4–B3–A3–C4–E4–D4.",
+      "fig-head-a-m2-n3": "F♮ gives the third omitted by the head.",
+      "fig-head-a-m2-n6": "The continuation ends on E4, the local supertonic."
+    },
+    "annotations": [
+      {
+        "id": "inversion",
+        "label": "Exact inversion",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-head-a-m1-n1",
+          "fig-head-a-m1-n2",
+          "fig-head-a-m1-n3",
+          "fig-head-a-m1-n4",
+          "fig-head-a-m1-n5",
+          "fig-head-a-m1-n6",
+          "fig-head-a-m1-n7"
+        ],
+        "description": "D4–C4–B3–A3–C4–E4–D4. Each directed interval reverses the original cell exactly.",
+        "lift": 7,
+        "intervals": [
+          -2,
+          -1,
+          -2,
+          3,
+          4,
+          -2
+        ]
+      },
+      {
+        "id": "continuation",
+        "label": "Continuation",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-head-a-m2-n1",
+          "fig-head-a-m2-n2",
+          "fig-head-a-m2-n3",
+          "fig-head-a-m2-n4",
+          "fig-head-a-m2-n5",
+          "fig-head-a-m2-n6"
+        ],
+        "description": "The tied D continues the head; E–F–G then turns through F to E. F-natural supplies the minor third.",
+        "dashed": true
+      }
+    ]
+  },
+  "exposition": {
+    "title": "Answer, counterline, and bass entry",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 830,
+    "noteDescriptions": {
+      "fig-exposition-s-m3-n1": "Exact head at the upper fifth.",
+      "fig-exposition-s-m3-n2": "Exact head at the upper fifth.",
+      "fig-exposition-s-m3-n3": "Exact head at the upper fifth.",
+      "fig-exposition-s-m3-n4": "Exact head at the upper fifth.",
+      "fig-exposition-s-m3-n5": "Exact head at the upper fifth.",
+      "fig-exposition-s-m3-n6": "Exact head at the upper fifth.",
+      "fig-exposition-s-m3-n7": "Exact head at the upper fifth.",
+      "fig-exposition-a-m3-n1": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+      "fig-exposition-a-m3-n2": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+      "fig-exposition-a-m3-n3": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+      "fig-exposition-a-m3-n4": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+      "fig-exposition-a-m3-n5": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+      "fig-exposition-a-m3-n6": "Recurring counterline C4–D4–C4–B3–G♯3–A3.",
+      "fig-exposition-s-m4-n6": "A4 adjusts the continuation; literal transposition would give B4.",
+      "fig-exposition-b-m5-n1": "Opening subject an octave below its original statement.",
+      "fig-exposition-s-m5-n1": "Counterline transferred above the head: invertible counterpoint at the fifteenth for the first bar.",
+      "fig-exposition-b-m5-n2": "C3 is a passing bass dissonance under held D4 and F4. The consonant fifth at m. 3, beat 1½ becomes a weak passing fourth here."
+    },
+    "annotations": [
+      {
+        "id": "answer",
+        "label": "Answer · A",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-exposition-s-m3-n1",
+          "fig-exposition-s-m3-n2",
+          "fig-exposition-s-m3-n3",
+          "fig-exposition-s-m3-n4",
+          "fig-exposition-s-m3-n5",
+          "fig-exposition-s-m3-n6",
+          "fig-exposition-s-m3-n7"
+        ],
+        "description": "The head is an exact transposition up a perfect fifth."
+      },
+      {
+        "id": "counterline-low",
+        "label": "Counterline",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-exposition-a-m3-n1",
+          "fig-exposition-a-m3-n2",
+          "fig-exposition-a-m3-n3",
+          "fig-exposition-a-m3-n4",
+          "fig-exposition-a-m3-n5",
+          "fig-exposition-a-m3-n6"
+        ],
+        "description": "C–D–C–B–G♯–A accompanies the answer below it.",
+        "dashed": true
+      },
+      {
+        "id": "subject-bass",
+        "label": "Subject · D",
+        "color": "#68734f",
+        "noteIds": [
+          "fig-exposition-b-m5-n1",
+          "fig-exposition-b-m5-n2",
+          "fig-exposition-b-m5-n3",
+          "fig-exposition-b-m5-n4",
+          "fig-exposition-b-m5-n5",
+          "fig-exposition-b-m5-n6",
+          "fig-exposition-b-m5-n7"
+        ],
+        "description": "The head returns in the bass, below the transposed counterline."
+      },
+      {
+        "id": "counterline-high",
+        "label": "Counterline above",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-exposition-s-m5-n1",
+          "fig-exposition-s-m5-n2",
+          "fig-exposition-s-m5-n3",
+          "fig-exposition-s-m5-n4",
+          "fig-exposition-s-m5-n5",
+          "fig-exposition-s-m5-n6"
+        ],
+        "description": "F–G–F–E–C♯–D places the counterline above the subject. This first-bar pair inverts at the fifteenth.",
+        "dashed": true
+      }
+    ]
+  },
+  "episode-one": {
+    "title": "First episode and G preparation",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 650,
+    "noteDescriptions": {
+      "fig-episode-one-s-m7-n1": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n2": "Eighth plus two sixteenths: lower-neighbor figuration. E4 is a dissonant lower neighbor, F4–E4–F4.",
+      "fig-episode-one-s-m7-n3": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n4": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n5": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n6": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n7": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n8": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n9": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n10": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n11": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-s-m7-n12": "Eighth plus two sixteenths: lower-neighbor figuration.",
+      "fig-episode-one-b-m7-n1": "Roots D–G–C–F follow descending-fifth relations.",
+      "fig-episode-one-s-m8-n4": "Tied E4 remains consonant to the bass: 6 over G, then 5 over A.",
+      "fig-episode-one-s-m8-n5": "A-major preparation; C♯ enters on the second eighth.",
+      "fig-episode-one-a-m8-n3": "A-major preparation; C♯ enters on the second eighth.",
+      "fig-episode-one-b-m8-n3": "A-major preparation; C♯ enters on the second eighth.",
+      "fig-episode-one-s-m8-n6": "D major prepares the next G-minor entry; F♯4 rises to G4 at m. 9, beat 1.",
+      "fig-episode-one-a-m8-n5": "D major prepares the next G-minor entry; F♯4 rises to G4 at m. 9, beat 1.",
+      "fig-episode-one-b-m8-n4": "D major prepares the next G-minor entry; F♯4 rises to G4 at m. 9, beat 1."
+    },
+    "annotations": [
+      {
+        "id": "neighbors",
+        "label": "Lower neighbors",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-episode-one-s-m7-n1",
+          "fig-episode-one-s-m7-n2",
+          "fig-episode-one-s-m7-n3",
+          "fig-episode-one-s-m7-n4",
+          "fig-episode-one-s-m7-n5",
+          "fig-episode-one-s-m7-n6",
+          "fig-episode-one-s-m7-n7",
+          "fig-episode-one-s-m7-n8",
+          "fig-episode-one-s-m7-n9",
+          "fig-episode-one-s-m7-n10",
+          "fig-episode-one-s-m7-n11",
+          "fig-episode-one-s-m7-n12"
+        ],
+        "description": "The eighth-plus-two-sixteenths figure alternates a structural note with its lower neighbor and return."
+      },
+      {
+        "id": "roots",
+        "label": "D · G · C · F",
+        "color": "#68734f",
+        "noteIds": [
+          "fig-episode-one-b-m7-n1",
+          "fig-episode-one-b-m7-n2",
+          "fig-episode-one-b-m7-n3",
+          "fig-episode-one-b-m7-n4"
+        ],
+        "description": "The bass articulates the episode's descending-fifth sequence."
+      }
+    ]
+  },
+  "c-entry": {
+    "title": "C entry and suspension",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 650,
+    "noteDescriptions": {
+      "fig-c-entry-a-m11-n1": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4.",
+      "fig-c-entry-a-m11-n2": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4.",
+      "fig-c-entry-a-m11-n3": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4.",
+      "fig-c-entry-a-m11-n4": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4.",
+      "fig-c-entry-a-m11-n5": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4. G minor: G3–B♭3–D5.",
+      "fig-c-entry-a-m11-n6": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4. G major: G3–D4–B4; then C/E.",
+      "fig-c-entry-a-m11-n7": "Exact C-based head: C4–B♭3–A3–G3–B♭3–D4–C4.",
+      "fig-c-entry-s-m11-n1": "E♮ gives the C-major third.",
+      "fig-c-entry-s-m11-n4": "G minor: G3–B♭3–D5.",
+      "fig-c-entry-b-m11-n4": "G minor: G3–B♭3–D5. G major: G3–D4–B4; then C/E.",
+      "fig-c-entry-s-m11-n5": "G major: G3–D4–B4; then C/E.",
+      "fig-c-entry-s-m12-n3": "G5 prepares the suspension over E3.",
+      "fig-c-entry-s-m12-n4": "7–6 over A3: G5 resolves to F5 on beat 3½. Against alto F4, the same motion is 9–8, ending in an octave doubling."
+    },
+    "annotations": [
+      {
+        "id": "c-head",
+        "label": "Head · C",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-c-entry-a-m11-n1",
+          "fig-c-entry-a-m11-n2",
+          "fig-c-entry-a-m11-n3",
+          "fig-c-entry-a-m11-n4",
+          "fig-c-entry-a-m11-n5",
+          "fig-c-entry-a-m11-n6",
+          "fig-c-entry-a-m11-n7"
+        ],
+        "description": "The exact C-based head retains B-flat while the accompaniment confirms a major-mode setting."
+      },
+      {
+        "id": "suspension",
+        "label": "7–6",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-c-entry-s-m12-n3",
+          "fig-c-entry-s-m12-n4",
+          "fig-c-entry-s-m12-n5"
+        ],
+        "description": "G5 is prepared over E3, held over A3, then resolves to F5. Against alto F4 this is also 9–8, ending with an octave doubling."
+      }
+    ]
+  },
+  "episode-two": {
+    "title": "Episode transferred to alto",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 650,
+    "noteDescriptions": {
+      "fig-episode-two-a-m13-n1": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n2": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n3": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n4": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n5": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n6": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n7": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n8": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n9": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n10": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n11": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m13-n12": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n1": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n2": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n3": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n4": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n5": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n6": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n7": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n8": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n9": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n10": "The sixteenth-note neighbor figure moves to the middle voice. C major prepares the F-based entry.",
+      "fig-episode-two-a-m14-n11": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-a-m14-n12": "The sixteenth-note neighbor figure moves to the middle voice.",
+      "fig-episode-two-b-m13-n1": "Root sequence C–F–B♭–E♭–A–D–G–C.",
+      "fig-episode-two-b-m13-n4": "E♭→A is the tritone link in the sequence.",
+      "fig-episode-two-s-m14-n4": "C major prepares the F-based entry.",
+      "fig-episode-two-b-m14-n4": "C major prepares the F-based entry."
+    },
+    "annotations": [
+      {
+        "id": "alto-figure",
+        "label": "Episode figure · alto",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-episode-two-a-m13-n1",
+          "fig-episode-two-a-m13-n2",
+          "fig-episode-two-a-m13-n3",
+          "fig-episode-two-a-m13-n4",
+          "fig-episode-two-a-m13-n5",
+          "fig-episode-two-a-m13-n6",
+          "fig-episode-two-a-m13-n7",
+          "fig-episode-two-a-m13-n8",
+          "fig-episode-two-a-m13-n9",
+          "fig-episode-two-a-m13-n10",
+          "fig-episode-two-a-m13-n11",
+          "fig-episode-two-a-m13-n12",
+          "fig-episode-two-a-m14-n1",
+          "fig-episode-two-a-m14-n2",
+          "fig-episode-two-a-m14-n3",
+          "fig-episode-two-a-m14-n4",
+          "fig-episode-two-a-m14-n5",
+          "fig-episode-two-a-m14-n6",
+          "fig-episode-two-a-m14-n7",
+          "fig-episode-two-a-m14-n8",
+          "fig-episode-two-a-m14-n9",
+          "fig-episode-two-a-m14-n10",
+          "fig-episode-two-a-m14-n11",
+          "fig-episode-two-a-m14-n12"
+        ],
+        "description": "The ornamental figure passes from the soprano to the alto, while the soprano takes the slower line.",
+        "labelFraction": 0.28
+      },
+      {
+        "id": "expanded-sequence",
+        "label": "C · F · B♭ · E♭ | A · D · G · C",
+        "color": "#68734f",
+        "noteIds": [
+          "fig-episode-two-b-m13-n1",
+          "fig-episode-two-b-m13-n2",
+          "fig-episode-two-b-m13-n3",
+          "fig-episode-two-b-m13-n4",
+          "fig-episode-two-b-m14-n1",
+          "fig-episode-two-b-m14-n2",
+          "fig-episode-two-b-m14-n3",
+          "fig-episode-two-b-m14-n4"
+        ],
+        "description": "The root sequence contains a tritone link, E-flat to A; it is not an uninterrupted chain of perfect fifths."
+      }
+    ]
+  },
+  "suspensions": {
+    "title": "F entry and suspension preparation",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 830,
+    "noteDescriptions": {
+      "fig-suspensions-b-m15-n1": "Exact F-based head retains E♭.",
+      "fig-suspensions-b-m15-n2": "Exact F-based head retains E♭.",
+      "fig-suspensions-b-m15-n3": "Exact F-based head retains E♭.",
+      "fig-suspensions-b-m15-n4": "Exact F-based head retains E♭.",
+      "fig-suspensions-b-m15-n5": "Exact F-based head retains E♭. E♭ major, followed by E diminished/G at beat 4 and F major at beat 4½.",
+      "fig-suspensions-b-m15-n6": "Exact F-based head retains E♭.",
+      "fig-suspensions-b-m15-n7": "Exact F-based head retains E♭.",
+      "fig-suspensions-s-m15-n1": "A♮ gives the local major third.",
+      "fig-suspensions-s-m15-n4": "E♭ major, followed by E diminished/G at beat 4 and F major at beat 4½.",
+      "fig-suspensions-a-m15-n4": "E♭ major, followed by E diminished/G at beat 4 and F major at beat 4½.",
+      "fig-suspensions-s-m17-n1": "A4 prepares the following suspension.",
+      "fig-suspensions-s-m17-n2": "7–6 over B♭2: A4 resolves to G4 at beat 2½.",
+      "fig-suspensions-s-m17-n4": "Prepared seventh of A7; resolution F4 occurs over D3 at m. 18, beat 1.",
+      "fig-suspensions-s-m18-n1": "F4 prepares the following suspension over D3.",
+      "fig-suspensions-s-m18-n2": "9–8 over E3: F4 resolves to E4 at beat 2½."
+    },
+    "annotations": [
+      {
+        "id": "f-head",
+        "label": "Head · F",
+        "color": "#68734f",
+        "noteIds": [
+          "fig-suspensions-b-m15-n1",
+          "fig-suspensions-b-m15-n2",
+          "fig-suspensions-b-m15-n3",
+          "fig-suspensions-b-m15-n4",
+          "fig-suspensions-b-m15-n5",
+          "fig-suspensions-b-m15-n6",
+          "fig-suspensions-b-m15-n7"
+        ],
+        "description": "The F-based entry keeps E-flat; A-natural in the accompaniment establishes the major third."
+      },
+      {
+        "id": "seven-six",
+        "label": "7–6",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-suspensions-s-m17-n1",
+          "fig-suspensions-s-m17-n2",
+          "fig-suspensions-s-m17-n3"
+        ],
+        "description": "A4 is prepared above F3, suspended over B-flat2, and resolves to G4. The later G over A is a prepared dominant seventh."
+      },
+      {
+        "id": "nine-eight",
+        "label": "9–8",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-suspensions-s-m18-n1",
+          "fig-suspensions-s-m18-n2",
+          "fig-suspensions-s-m18-n3"
+        ],
+        "description": "F4 is prepared over D3, held over E3, and resolves to E4 on the second eighth of beat 2."
+      }
+    ]
+  },
+  "return": {
+    "title": "Stretto and restored bass entry",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 650,
+    "noteDescriptions": {
+      "fig-return-s-m19-n1": "Exact D head leads.",
+      "fig-return-s-m19-n2": "Exact D head leads.",
+      "fig-return-s-m19-n3": "Exact D head leads.",
+      "fig-return-s-m19-n4": "Exact D head leads. D-major sonority; F♯4 descends to E4 over C3.",
+      "fig-return-s-m19-n5": "Exact D head leads. G4–C5 upper fourth is consonant against C3.",
+      "fig-return-s-m19-n6": "Exact D head leads.",
+      "fig-return-s-m19-n7": "Exact D head leads.",
+      "fig-return-a-m19-n2": "Exact A head follows one eighth later at the lower fourth.",
+      "fig-return-a-m19-n3": "Exact A head follows one eighth later at the lower fourth.",
+      "fig-return-a-m19-n4": "Exact A head follows one eighth later at the lower fourth. D-major sonority; F♯4 descends to E4 over C3.",
+      "fig-return-a-m19-n5": "Exact A head follows one eighth later at the lower fourth.",
+      "fig-return-a-m19-n6": "Exact A head follows one eighth later at the lower fourth. G4–C5 upper fourth is consonant against C3.",
+      "fig-return-a-m19-n7": "Exact A head follows one eighth later at the lower fourth.",
+      "fig-return-a-m20-n1": "Exact A head follows one eighth later at the lower fourth. A4–D5 upper fourth is consonant against F3.",
+      "fig-return-b-m19-n1": "F3 supports a first-inversion tonic arrival.",
+      "fig-return-b-m19-n3": "D-major sonority; F♯4 descends to E4 over C3.",
+      "fig-return-b-m19-n4": "G4–C5 upper fourth is consonant against C3.",
+      "fig-return-s-m20-n1": "A4–D5 upper fourth is consonant against F3.",
+      "fig-return-b-m20-n1": "A4–D5 upper fourth is consonant against F3.",
+      "fig-return-a-m20-n2": "G4 is a passing ninth over F3: A4–G4–F4."
+    },
+    "annotations": [
+      {
+        "id": "stretto-s",
+        "label": "Soprano · D",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-return-s-m19-n1",
+          "fig-return-s-m19-n2",
+          "fig-return-s-m19-n3",
+          "fig-return-s-m19-n4",
+          "fig-return-s-m19-n5",
+          "fig-return-s-m19-n6",
+          "fig-return-s-m19-n7"
+        ],
+        "description": "The D-based head starts on the downbeat; its final D5 is tied into the next bar."
+      },
+      {
+        "id": "stretto-a",
+        "label": "Alto · A · +⅛",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-return-a-m19-n2",
+          "fig-return-a-m19-n3",
+          "fig-return-a-m19-n4",
+          "fig-return-a-m19-n5",
+          "fig-return-a-m19-n6",
+          "fig-return-a-m19-n7",
+          "fig-return-a-m20-n1"
+        ],
+        "description": "The complete A-based head begins one eighth note later, a perfect fourth below the soprano's entry. Both continuations are recomposed.",
+        "dashed": true
+      }
+    ]
+  },
+  "coda": {
+    "title": "Neapolitan and final cadence",
+    "description": "Select a bracket for the analysis, or a note for its pitch and function.",
+    "minWidth": 830,
+    "noteDescriptions": {
+      "fig-coda-s-m24-n2": "N6: G2–B♭3–E♭4. E♭4–D4–C♯4 traces ♭2–1–7.",
+      "fig-coda-a-m24-n2": "N6: G2–B♭3–E♭4.",
+      "fig-coda-b-m24-n2": "N6: G2–B♭3–E♭4.",
+      "fig-coda-s-m25-n1": "Cadential six-four: A2–F3–D4. E♭4–D4–C♯4 traces ♭2–1–7.",
+      "fig-coda-a-m25-n1": "Cadential six-four: A2–F3–D4. B♭3 descends to F3, then E3; no B♭–A resolution is written.",
+      "fig-coda-b-m25-n1": "Cadential six-four: A2–F3–D4. V: A2–E3–C♯4; 6–5 and 4–3 over A.",
+      "fig-coda-s-m25-n2": "V: A2–E3–C♯4; 6–5 and 4–3 over A. E♭4–D4–C♯4 traces ♭2–1–7.",
+      "fig-coda-a-m25-n2": "V: A2–E3–C♯4; 6–5 and 4–3 over A.",
+      "fig-coda-s-m25-n3": "Dominant arpeggio E4–A4–C♯5–E5.",
+      "fig-coda-s-m26-n1": "Major tonic D3–F♯3–D5; fifth omitted.",
+      "fig-coda-a-m26-n1": "Major tonic D3–F♯3–D5; fifth omitted.",
+      "fig-coda-b-m26-n1": "Major tonic D3–F♯3–D5; fifth omitted."
+    },
+    "annotations": [
+      {
+        "id": "cadential-descent",
+        "label": "N6 → cad. 6/4 → V",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-coda-s-m24-n2",
+          "fig-coda-s-m25-n1",
+          "fig-coda-s-m25-n2"
+        ],
+        "description": "E-flat4–D4–C-sharp4 leads from the Neapolitan sixth through the cadential six-four to the dominant.",
+        "lift": 8
+      },
+      {
+        "id": "arpeggio",
+        "label": "Dominant arpeggio",
+        "color": "#843c35",
+        "noteIds": [
+          "fig-coda-s-m25-n3",
+          "fig-coda-s-m25-n4",
+          "fig-coda-s-m25-n5",
+          "fig-coda-s-m25-n6"
+        ],
+        "description": "E4–A4–C-sharp5–E5 raises the soprano's register while the lower voices sustain the dominant."
+      },
+      {
+        "id": "picardy",
+        "label": "Picardy third",
+        "color": "#316f78",
+        "noteIds": [
+          "fig-coda-a-m26-n1"
+        ],
+        "description": "F-sharp3 supplies the major third of the final D tonic. The fifth is omitted.",
+        "lift": 8
+      }
+    ]
+  }
+}

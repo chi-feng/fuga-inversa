@@ -1,0 +1,141 @@
+Pitch names are inferred from MIDI; consult LilyPond for enharmonic spelling.
+
+Bar 1        1       &       2       &       3       &       4       &
+Soprano     D5      C5      B4      A4      C5      C5~     E5      D5      
+Alto        rest    rest    rest    rest    rest    rest    rest    rest    
+Bass        rest    rest    rest    rest    rest    rest    rest    rest    
+
+Bar 2        1       &       2       &       3       &       4       &
+Soprano     C#5     D5      E5      C#5     D5      D5~     A4      A4~     
+Alto        rest    rest    rest    rest    rest    rest    rest    rest    
+Bass        rest    rest    rest    rest    rest    rest    rest    rest    
+
+Bar 3        1       &       2       &       3       &       4       &
+Soprano     E5      E5~     F#5     F#5~    E5      E5~     D5      D5~     
+Alto        A4      G4      F#4     E4      G4      G4~     B4      A4      
+Bass        rest    rest    rest    rest    rest    rest    rest    rest    
+
+Bar 4        1       &       2       &       3       &       4       &
+Soprano     E5      E5~     D5      D5~     C5      C5~     C5~     C5~     
+Alto        G#4     A4      B4      G#4     A4      A4~     E4      E4~     
+Bass        rest    rest    rest    rest    rest    rest    rest    rest    
+
+Bar 5        1       &       2       &       3       &       4       &
+Soprano     F5      F5~     D5      C5      E5      E5~     E5~     E5~     
+Alto        A4      A4~     G4      A4      A4~     A4~     G4      G4~     
+Bass        D3      C3      B2      A2      C3      C3~     E3      D3      
+
+Bar 6        1       &       2       &       3       &       4       &
+Soprano     E5      E5~     C#5     C#5~    D5      D5~     C#5     C#5~    
+Alto        A4      A4~     G4      G4~     F4      F4~     A4      A4~     
+Bass        C#3     D3      E3      C#3     D3      D3~     A2      A2~     
+
+Bar 7        1       &       2       &       3       &       4       &
+Soprano     F5      E5      F5      D5      G5      F5      G5      E5      
+Alto        A4      A4~     D5      rest    D5      D5~     Bb4     Bb4~    
+Bass        D3      D3~     F3      F3~     Bb2     Bb2~    G3      G3~     
+
+Bar 8        1       &       2       &       3       &       4       &
+Soprano     E5      D5      E5      C5      F5      E5      F5      D5      
+Alto        Bb4     Bb4~    Bb4~    Bb4~    A4      A4~     A4~     A4~     
+Bass        C3      C3~     G2      G2~     A2      A2~     F3      F3~     
+
+Bar 9        1       &       2       &       3       &       4       &
+Soprano     D5      C5      D5      Bb4     E5      D5      E5      C#5     
+Alto        Bb4     Bb4~    F4      F4~     G4      G4~     G4~     G4~     
+Bass        Bb2     Bb2~    D3      D3~     A2      A2~     A2~     A2~     
+
+Bar 10        1       &       2       &       3       &       4       &
+Soprano     D5      E5      F5      D5      F#5     E5      F#5     D5      
+Alto        F4      F4~     A4      A4~     A4~     A4~     A4~     A4~     
+Bass        D3      D3~     D3~     D3~     D3~     D3~     C3      C3~     
+
+Bar 11        1       &       2       &       3       &       4       &
+Soprano     D5      D5~     C5      B4      A4      A4~     C5      C5~     
+Alto        G4      F4      E4      D4      F4      F4~     A4      G4      
+Bass        Bb2     Bb2~    C3      G3      D3      D3~     A2      A2~     
+
+Bar 12        1       &       2       &       3       &       4       &
+Soprano     A4      A4~     D5      D5~     D5~     D5~     D5~     D5~     
+Alto        F#4     G4      A4      F#4     G4      G4~     D4      D4~     
+Bass        D3      D3~     C3      C3~     Bb2     Bb2~    D3      D3~     
+
+Bar 13        1       &       2       &       3       &       4       &
+Soprano     D5      C5      B4      A4      C5      C5~     E5      D5      
+Alto        F4      F4~     D4      E4      A4      A4~     G4      G4~     
+Bass        D3      D3~     G2      A2      A2      A2~     C3      C3~     
+
+Bar 14        1       &       2       &       3       &       4       &
+Soprano     C#5     D5      E5      C#5     D5      D5~     A4      A4~     
+Alto        A4      A4~     G4      G4~     F4      F4~     E4      E4~     
+Bass        A2      A2~     C#3     C#3~    D3      D3~     A3      A3~     
+
+Bar 15        1       &       2       &       3       &       4       &
+Soprano     C5      C5~     D5      D5~     F5      F5~     D5      D5~     
+Alto        A4      G4      A4      F4      Bb4     A4      Bb4     G4      
+Bass        F3      F3~     D3      D3~     Bb2     Bb2~    Bb2~    Bb2~    
+
+Bar 16        1       &       2       &       3       &       4       &
+Soprano     E5      E5~     C5      C5~     C5~     C5~     C5~     C5~     
+Alto        G4      F4      G4      E4      A4      G4      A4      F4      
+Bass        C3      C3~     E3      E3~     F3      F3~     A2      A2~     
+
+Bar 17        1       &       2       &       3       &       4       &
+Soprano     A4      A4~     D5      D5~     D5      D5~     C5      C5~     
+Alto        F4      E4      F4      D4      G4      F4      G4      E4      
+Bass        D3      D3~     F3      F3~     Bb2     Bb2~    C3      C3~     
+
+Bar 18        1       &       2       &       3       &       4       &
+Soprano     Bb4     Bb4~    Bb4     Bb4~    A4      A4~     A4~     A4~     
+Alto        E4      F4      G4      E4      F4      E4      D4      C#4     
+Bass        G3      G3~     C3      C3~     D3      D3~     A2      A2~     
+
+Bar 19        1       &       2       &       3       &       4       &
+Soprano     A4      A4~     G4      A4      A4      A4~     B4      B4~     
+Alto        F4      F4~     D4      E4      E4      E4~     G4      G4~     
+Bass        D3      C3      B2      A2      C3      C3~     E3      D3      
+
+Bar 20        1       &       2       &       3       &       4       &
+Soprano     A4      A4~     Bb4     Bb4~    A4      A4~     C#5     C#5~    
+Alto        E4      E4~     G4      G4~     F4      F4~     A4      A4~     
+Bass        C#3     D3      E3      C#3     D3      D3~     A2      A2~     
+
+Bar 21        1       &       2       &       3       &       4       &
+Soprano     D5      C5      B4      A4      C5      C5~     E5      D5      
+Alto        F4      F4~     D4      E4      A4      A4~     G4      G4~     
+Bass        D3      D3~     G2      A2      A2      A2~     C3      C3~     
+
+Bar 22        1       &       2       &       3       &       4       &
+Soprano     C#5     D5      E5      C#5     D5      D5~     A4      A4~     
+Alto        A4      A4~     G4      G4~     F4      F4~     E4      E4~     
+Bass        A2      A2~     C#3     C#3~    D3      D3~     A3      A3~     
+
+Bar 23        1       &       2       &       3       &       4       &
+Soprano     F5      F5~     G5      F5      E5      E5~     G5      G5~     
+Alto        D5      C5      B4      A4      C5      C5~     E5      D5      
+Bass        D3      D3~     G3      A3      A3      A3~     E3      E3~     
+
+Bar 24        1       &       2       &       3       &       4       &
+Soprano     E5      E5~     G5      G5~     F5      F5~     C5      C5~     
+Alto        C#5     D5      E5      C#5     D5      D5~     A4      A4~     
+Bass        C#3     C#3~    A2      A2~     D3      D3~     F3      F3~     
+
+Bar 25        1       &       2       &       3       &       4       &
+Soprano     Eb5     Eb5~    Eb5~    Eb5~    D5      D5~     C#5     C#5~    
+Alto        Bb4     Bb4~    Bb4~    Bb4~    A4      A4~     G4      G4~     
+Bass        G3      G3~     G3~     G3~     A3      A3~     A3~     A3~     
+
+Bar 26        1       &       2       &       3       &       4       &
+Soprano     D5      C5      B4      A4      C5      C5~     E5      D5      
+Alto        F4      F4~     D4      E4      A4      A4~     G4      G4~     
+Bass        D3      D3~     G2      A2      A2      A2~     C3      C3~     
+
+Bar 27        1       &       2       &       3       &       4       &
+Soprano     C#5     D5      E5      C#5     D5      D5~     C#5     C#5~    
+Alto        A4      A4~     G4      G4~     F4      F4~     G4      G4~     
+Bass        A2      A2~     A2~     A2~     D3      D3~     A2      A2~     
+
+Bar 28        1       &       2       &       3       &       4       &
+Soprano     D5      D5~     D5~     D5~     D5~     D5~     D5~     D5~     
+Alto        F#4     F#4~    F#4~    F#4~    F#4~    F#4~    F#4~    F#4~    
+Bass        D3      D3~     D3~     D3~     D3~     D3~     D3~     D3~     

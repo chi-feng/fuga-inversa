@@ -1,0 +1,187 @@
+{
+  "source_sha256": "b0a45604e50b44ba489be47b9458ab097af8f768238fc1a2f6ccda1c6d4fba4a",
+  "source_format": {
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "codec": "pcm_s24le",
+    "bits_per_sample": 24
+  },
+  "masters": {
+    "dry": {
+      "wav_sha256": "7aaef5234f53e3f878e14c19ccedb2364f0da7ef7797ca76012449341ea86333",
+      "mp3_sha256": "5bd948deb8af0a16c6aa7bd2888f7a47fd8e3075e62a147ceaa73c29cf154497",
+      "frames": 3591921,
+      "decoded_mp3_frames": 3591921,
+      "reconstruction_residual_relative_db": -120.79909587360245,
+      "final_300ms_rms_dbfs": -300.0,
+      "final_stereo_frame": [
+        0.0,
+        0.0
+      ],
+      "wav_measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -5.58,
+        "loudness_range_lu": 5.8
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -5.58,
+        "loudness_range_lu": 5.8
+      }
+    },
+    "close": {
+      "wav_sha256": "4ae98b3ab217f12210dab44667ae639dc7fce13d5191bb66e137d70436894ab5",
+      "mp3_sha256": "ca3f0f68f50e97d6811b22be583881c3240747c3112a8a0bf94bd85082746217",
+      "frames": 3592497,
+      "decoded_mp3_frames": 3592497,
+      "reconstruction_residual_relative_db": -120.59296947883091,
+      "final_300ms_rms_dbfs": -147.32625224151644,
+      "final_stereo_frame": [
+        0.0,
+        0.0
+      ],
+      "wav_measurements": {
+        "integrated_lufs": -19.99,
+        "true_peak_dbtp": -5.7,
+        "loudness_range_lu": 5.5
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -19.99,
+        "true_peak_dbtp": -5.7,
+        "loudness_range_lu": 5.5
+      }
+    },
+    "recital": {
+      "wav_sha256": "d3b61978d82ca81ab1243efbaef81cb23d664cb58c456ee9bda7bc8e2701d5e1",
+      "mp3_sha256": "28a48095c796a458c4ed00c0e91915bb85712d2d2d0f5ad739672c576ca256f8",
+      "frames": 3592209,
+      "decoded_mp3_frames": 3592209,
+      "reconstruction_residual_relative_db": -120.60426103222335,
+      "final_300ms_rms_dbfs": -145.8744100131864,
+      "final_stereo_frame": [
+        0.0,
+        0.0
+      ],
+      "wav_measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -6.28,
+        "loudness_range_lu": 5.5
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -20.0,
+        "true_peak_dbtp": -6.28,
+        "loudness_range_lu": 5.5
+      }
+    }
+  },
+  "stems": {
+    "soprano": {
+      "source_sha256": "c8df264f8926ff4ff2a7d3cd2d63237e6423d2fd7cbb398df66e2779c5ebe087",
+      "source_format": {
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "bits_per_sample": 24
+      },
+      "wav_sha256": "842c8c08b4c3957e6ba60615b7ab13dac628bcc397a3c88b0f094bed81496906",
+      "mp3_sha256": "0c9504eff5ddb3d1739cc2bb6d513c6f0665793ccede70b979d0a22ae6a4dcb8",
+      "frames": 3592209,
+      "decoded_mp3_frames": 3592209,
+      "master_gain_db": 3.219999999999999,
+      "room_gain": 0.055717195947297835,
+      "reconstruction_residual_relative_db": -116.51621704264775,
+      "wav_measurements": {
+        "integrated_lufs": -23.67,
+        "true_peak_dbtp": -8.64,
+        "loudness_range_lu": 6.4
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -23.67,
+        "true_peak_dbtp": -8.64,
+        "loudness_range_lu": 6.4
+      }
+    },
+    "alto": {
+      "source_sha256": "f257b824a60dc8c7afe283b1e11db47c57a35ff054b57bdaca9a91b88a1cac37",
+      "source_format": {
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "bits_per_sample": 24
+      },
+      "wav_sha256": "be1d2b55b38105d7801ee1ba3ae68ce1d9f5d64dfefc2b700aa456037eeef38c",
+      "mp3_sha256": "0a2e49443f5dfdbcdd4308bef62a680fc2f863a43d75281fd556adcb749fc2dc",
+      "frames": 3592209,
+      "decoded_mp3_frames": 3592209,
+      "master_gain_db": 3.219999999999999,
+      "room_gain": 0.055717195947297835,
+      "reconstruction_residual_relative_db": -115.67043795998076,
+      "wav_measurements": {
+        "integrated_lufs": -24.76,
+        "true_peak_dbtp": -10.07,
+        "loudness_range_lu": 8.6
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -24.76,
+        "true_peak_dbtp": -10.07,
+        "loudness_range_lu": 8.6
+      }
+    },
+    "bass": {
+      "source_sha256": "33bd3f4bd9ac726a5e5dc86d23e2e43a98527adae01d2b118baaf46336b7c593",
+      "source_format": {
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "bits_per_sample": 24
+      },
+      "wav_sha256": "4e583c4e1fb8d23c8f5bbbfbf3206c8d8aea805251958f23834846d7691f4c20",
+      "mp3_sha256": "572ff493831321ece83e3bd220ba4e02be73b790bd68985c88014c05ea20506a",
+      "frames": 3592209,
+      "decoded_mp3_frames": 3592209,
+      "master_gain_db": 3.219999999999999,
+      "room_gain": 0.055717195947297835,
+      "reconstruction_residual_relative_db": -116.0196947731371,
+      "wav_measurements": {
+        "integrated_lufs": -24.47,
+        "true_peak_dbtp": -10.56,
+        "loudness_range_lu": 8.0
+      },
+      "mp3_measurements": {
+        "integrated_lufs": -24.47,
+        "true_peak_dbtp": -10.56,
+        "loudness_range_lu": 8.0
+      }
+    }
+  },
+  "comparison_mp3": {
+    "dry": {
+      "integrated_lufs": -20.0,
+      "true_peak_dbtp": -5.95,
+      "loudness_range_lu": 5.4
+    },
+    "close": {
+      "integrated_lufs": -19.99,
+      "true_peak_dbtp": -6.03,
+      "loudness_range_lu": 5.3
+    },
+    "recital": {
+      "integrated_lufs": -20.0,
+      "true_peak_dbtp": -6.57,
+      "loudness_range_lu": 5.2
+    }
+  },
+  "source_final_100ms_rms_dbfs": -82.7871060370135,
+  "maximum_preview_mp3_loudness_spread_lu": 0.010000000000001563,
+  "final_pcm_stem_sum_residual_relative_db": -107.9054095107644,
+  "source_stem_sum_check": {
+    "source_residual_rms_relative_db": -111.46240246210637,
+    "source_residual_peak_dbfs": -84.53186800163488,
+    "processed_residual_rms_relative_db": -111.83171980831321,
+    "interpretation": "Source stem differences are measured separately from the linear hall processing; separate instrument renders can differ before convolution."
+  },
+  "public_provenance_has_no_machine_paths": true,
+  "performance_midi_sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363",
+  "audition_status": "Measurements only; no listening judgment is claimed.",
+  "site_input_copies_match_source_hashes": true
+}
