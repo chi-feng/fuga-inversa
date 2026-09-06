@@ -1,0 +1,1072 @@
+{
+  "created_utc": "2026-09-06T22:22:03.771637+00:00",
+  "base_commit": "7a156b0deea04743f2fc06264f6162813388e709",
+  "head": "Uncommitted working tree, including in-scope untracked files; exact files below.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 66,
+      "sha256": "a14e7c5231eddf4665d3b17a79d9b87871645e31c98708f68e26c1b5250ff142"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CREDITS.md",
+      "bytes": 5858,
+      "sha256": "36e15f0271acf8b1de916ef0338315da3ba7864d5fb5b4ad452e8a9a77adf12d"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 33011,
+      "sha256": "a3b53a71af922fa1f6079e326f95cfc7a42515f7c527311196fa458468e916b7"
+    },
+    {
+      "path": "PROMPT.md",
+      "bytes": 939,
+      "sha256": "f79856211fdc7e5d53d0d4d016dcf8c402f435dc248901a95a2830e989bf01fc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3700,
+      "sha256": "c1d323b833c5a9325af8d377c72e74c10a1d10115199ec7140ed362dfafe7577"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 10613,
+      "sha256": "cf5ddcc3890a98823151051a23063152333caa55f43373eddafe8ca3fb42e0e7"
+    },
+    {
+      "path": "assets/annotated-score.css",
+      "bytes": 2053,
+      "sha256": "562fc175a397e088110c09044a18771f2f556df6df5f25fe0cd022f31487ba0b"
+    },
+    {
+      "path": "assets/annotated-score.js",
+      "bytes": 11561,
+      "sha256": "841faa49318436c74dcaf27e21231332d52ea004c0b8e4d394e483f55e7ebd73"
+    },
+    {
+      "path": "assets/app.mjs",
+      "bytes": 12504,
+      "sha256": "df2b470f6320dabf46875ea8622107c5dfcc1bf8b5f474d0251341edecaaf9c7"
+    },
+    {
+      "path": "assets/audio-coordination.mjs",
+      "bytes": 423,
+      "sha256": "735fa55d26b4d8bbf0402ac3c6fd5fc2151ee149268d450ec7cd9dbef4a75688"
+    },
+    {
+      "path": "assets/audio/fugue-organ.wav",
+      "bytes": 21374682,
+      "sha256": "4aaf85569fa3aa3f75e4594b1ed278497795c231057682ff72da9652ec280acf"
+    },
+    {
+      "path": "assets/audio/fugue-piano.wav",
+      "bytes": 21553356,
+      "sha256": "d3b61978d82ca81ab1243efbaef81cb23d664cb58c456ee9bda7bc8e2701d5e1"
+    },
+    {
+      "path": "assets/audio/organ-alto.mp3",
+      "bytes": 1782811,
+      "sha256": "14e26a0f5740446369d80136aad1c08de50dc46c1222fc7f072ed4a893d5f177"
+    },
+    {
+      "path": "assets/audio/organ-bass.mp3",
+      "bytes": 1782811,
+      "sha256": "a85212f021f973a7fb18fb4cec34382995d9c3dc6e4513dcdc738c6cde680cfc"
+    },
+    {
+      "path": "assets/audio/organ-soprano.mp3",
+      "bytes": 1782811,
+      "sha256": "1993fd3290cf7b11605dd50b5b03c8afdb1f25c338c9d9548713cfaeaf8eed58"
+    },
+    {
+      "path": "assets/audio/organ.mp3",
+      "bytes": 2377051,
+      "sha256": "920e1d7af06da882ed668a5919d98ad0e955e06556ccc772a77859955cd5f5d8"
+    },
+    {
+      "path": "assets/audio/piano-alto.mp3",
+      "bytes": 2396972,
+      "sha256": "0a2e49443f5dfdbcdd4308bef62a680fc2f863a43d75281fd556adcb749fc2dc"
+    },
+    {
+      "path": "assets/audio/piano-bass.mp3",
+      "bytes": 2396972,
+      "sha256": "572ff493831321ece83e3bd220ba4e02be73b790bd68985c88014c05ea20506a"
+    },
+    {
+      "path": "assets/audio/piano-close.mp3",
+      "bytes": 2396972,
+      "sha256": "ca3f0f68f50e97d6811b22be583881c3240747c3112a8a0bf94bd85082746217"
+    },
+    {
+      "path": "assets/audio/piano-soprano.mp3",
+      "bytes": 2396972,
+      "sha256": "0c9504eff5ddb3d1739cc2bb6d513c6f0665793ccede70b979d0a22ae6a4dcb8"
+    },
+    {
+      "path": "assets/audio/piano.mp3",
+      "bytes": 2396972,
+      "sha256": "28a48095c796a458c4ed00c0e91915bb85712d2d2d0f5ad739672c576ca256f8"
+    },
+    {
+      "path": "assets/evidence/excerpt-specifications.json",
+      "bytes": 26991,
+      "sha256": "74916ba1ed93294b796e60adf886914e70b2b505c754e4e28286564bb06711fe"
+    },
+    {
+      "path": "assets/evidence/final-audit.json",
+      "bytes": 43182,
+      "sha256": "f697891afb8be51c4e9d5d31698ba01eef17ee812b1b6fc4d2d7eb986a92b993"
+    },
+    {
+      "path": "assets/evidence/provenance.json",
+      "bytes": 2333,
+      "sha256": "e8f4bf14e4a39881899b2615103f5e8537d8638d7b78e90518f7640fe85afbce"
+    },
+    {
+      "path": "assets/excerpts/c-entry.cropped.pdf",
+      "bytes": 28231,
+      "sha256": "a2fdb3a39ef1d99288781f8accc804b6befc6e0b262eddcf554a9cb554e34f53"
+    },
+    {
+      "path": "assets/excerpts/c-entry.ly",
+      "bytes": 5295,
+      "sha256": "ec01b0182c0cc649a5772cfc692ef01ef3f9f873f4457e802afa0abbf7db16c4"
+    },
+    {
+      "path": "assets/excerpts/c-entry.svg",
+      "bytes": 33803,
+      "sha256": "ba654c01e8de88ab328dc18b641597f3ecb8434cdb86aea3cf41763f1ed602cf"
+    },
+    {
+      "path": "assets/excerpts/coda.cropped.pdf",
+      "bytes": 28993,
+      "sha256": "dabdec9a8754f7d665661635cf32f7c07603e7213a717fe59b3fa63747864951"
+    },
+    {
+      "path": "assets/excerpts/coda.ly",
+      "bytes": 5321,
+      "sha256": "b999dd983b5f1ea9faada3228311a50ba6d1fc74acd85bb38b58a8a395fe30cd"
+    },
+    {
+      "path": "assets/excerpts/coda.svg",
+      "bytes": 36493,
+      "sha256": "392a01f65dbe90f1b29ca30f4aa89db83726b9aa7e2d423a788a5a429c1a7257"
+    },
+    {
+      "path": "assets/excerpts/episode-one.cropped.pdf",
+      "bytes": 27773,
+      "sha256": "9e071755ff540814a20c5924c49dd0ce6e9dcee4ec1dfdc9ebbca04ce4d09376"
+    },
+    {
+      "path": "assets/excerpts/episode-one.ly",
+      "bytes": 5266,
+      "sha256": "a0ae95d4a5f0fbb1f6d36b28be81ff4b31c705ccf330d11979bc0ee6b31652f7"
+    },
+    {
+      "path": "assets/excerpts/episode-one.svg",
+      "bytes": 32546,
+      "sha256": "1253a0851c56ef9d9a0bab278f957c4a5069f7b0d1e7ec2e819a7045c32f160f"
+    },
+    {
+      "path": "assets/excerpts/episode-two.cropped.pdf",
+      "bytes": 27727,
+      "sha256": "47d1c53f0d987f6c7302cf10f86c42540856c7c9ab808c5234fa4dc6ce3ada6a"
+    },
+    {
+      "path": "assets/excerpts/episode-two.ly",
+      "bytes": 5636,
+      "sha256": "d90db484644b3a2aed25f19f26dd9cb3773035520b8201d86ac663b8b2b5db7b"
+    },
+    {
+      "path": "assets/excerpts/episode-two.svg",
+      "bytes": 35714,
+      "sha256": "b52fb3338f3f3d6160c15c6d2962aa10b448163e81e5ab298a1a396102420e6c"
+    },
+    {
+      "path": "assets/excerpts/exposition.cropped.pdf",
+      "bytes": 29623,
+      "sha256": "61b5b3b43eda19c08ac520e91ce45578c8303671bfcfd606c658788d59efe24b"
+    },
+    {
+      "path": "assets/excerpts/exposition.ly",
+      "bytes": 6884,
+      "sha256": "ec1f97b2d5441ce7391ed6d682fef3340f6ef0556902fe09f4e1405024ef62a2"
+    },
+    {
+      "path": "assets/excerpts/exposition.svg",
+      "bytes": 54177,
+      "sha256": "5c36f5e31aff4a9477e988cb05b688a848a31a5faa449af1b5bc71c57f24cd1a"
+    },
+    {
+      "path": "assets/excerpts/head.cropped.pdf",
+      "bytes": 26238,
+      "sha256": "6dd1486feb8c29ee4a6d7ea7f542797ec62291a285bd5470baa61f9cd31414cb"
+    },
+    {
+      "path": "assets/excerpts/head.ly",
+      "bytes": 2559,
+      "sha256": "d8f68391fb0000bbb1be37b83da9412259db571e59d2b3ae240af823bccce60e"
+    },
+    {
+      "path": "assets/excerpts/head.svg",
+      "bytes": 11535,
+      "sha256": "957f30cbce0f8d52bb03fca6e07383d6ab0844d9ecbcecca93798e46f7b49de6"
+    },
+    {
+      "path": "assets/excerpts/manifest.json",
+      "bytes": 114466,
+      "sha256": "bb5d74c2a936abdb2d7cafc46ee40d97222f3ffa9362ac88bb6f0477aba25049"
+    },
+    {
+      "path": "assets/excerpts/return.cropped.pdf",
+      "bytes": 28581,
+      "sha256": "5bb80109923099ae47e4324f8d4770d193db985f6e86867aa84711daf5dcd3f0"
+    },
+    {
+      "path": "assets/excerpts/return.ly",
+      "bytes": 5107,
+      "sha256": "90d6297a66e52721c8b3e2fc30576ce87aeb4cfa83f0990475f26102048a656c"
+    },
+    {
+      "path": "assets/excerpts/return.svg",
+      "bytes": 32453,
+      "sha256": "9162b906aba0ecafcc42f477cccb4a185929c6d03cf953e63955090061c638ff"
+    },
+    {
+      "path": "assets/excerpts/suspensions.cropped.pdf",
+      "bytes": 29886,
+      "sha256": "60f65f112fb08bb91891850055fc3317a57e9bc7eef8404625deecadb4548c62"
+    },
+    {
+      "path": "assets/excerpts/suspensions.ly",
+      "bytes": 7221,
+      "sha256": "8cd9bc45beb87154d359c75f0e3b62cc4028736d2c5bb44f072a6c466cc07f5c"
+    },
+    {
+      "path": "assets/excerpts/suspensions.svg",
+      "bytes": 55759,
+      "sha256": "c0b8851ec7ddeb9c460e45ace8bce191f36e0892585c088ec61b8b072ff7b2ba"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 246,
+      "sha256": "4c070924e506bcb06b1d15ee070b963611aa5fb01f013039ceb9a54243387b0e"
+    },
+    {
+      "path": "assets/figures.json",
+      "bytes": 24336,
+      "sha256": "3632b8b6b141f00aea06648436ab1189de6668438c7d53f9c0104a2954369d04"
+    },
+    {
+      "path": "assets/figures/piano-performance.pdf",
+      "bytes": 21806,
+      "sha256": "deca1d1ef624ae089877498b33151d81aaffcc2273f178d989c534fcbdd755e6"
+    },
+    {
+      "path": "assets/figures/piano-performance.png",
+      "bytes": 102859,
+      "sha256": "405ae03e2a8eb5d43ceb83727f4db8c9e6b86cce904e69962ea5bacfbcc9ed5a"
+    },
+    {
+      "path": "assets/figures/piano-performance.svg",
+      "bytes": 83694,
+      "sha256": "4e64aa592f3c5a3e23cc47fd5e6d6d3691c6192d9eb0cf70d382f7d16e030bd0"
+    },
+    {
+      "path": "assets/fonts/Inconsolatazi4-Regular.otf",
+      "bytes": 37420,
+      "sha256": "fa4d0728e461e228e4c3b706cc0836f72cb146852a757127c92647d8c405b638"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4406,
+      "sha256": "2785c333cd73316222d596ca535e8d2cc2d6a78833301c45b9b60aefdf28d213"
+    },
+    {
+      "path": "assets/fonts/README.md",
+      "bytes": 374,
+      "sha256": "97421b99d19e0f8d3c4cef52228ce7ab78dbeb0804c96160aabedb6cb675c967"
+    },
+    {
+      "path": "assets/native-playback.mjs",
+      "bytes": 1285,
+      "sha256": "d93a084ff1b0a0ae85347bc0b580b96ae57d9c314945b674bf6b11b32b5a3899"
+    },
+    {
+      "path": "assets/pdf/fuga-inversa-analysis.pdf",
+      "bytes": 370819,
+      "sha256": "9e5576f3ce8b369b25218c6866adaa3d9912f52e4256afb6e31345aa9f41911b"
+    },
+    {
+      "path": "assets/player.mjs",
+      "bytes": 14040,
+      "sha256": "ee4289155aaf51fdfb4574882d80cb994cd1e6877b451d63ddc5635b37c19c73"
+    },
+    {
+      "path": "assets/recordings.json",
+      "bytes": 433,
+      "sha256": "8c312bf57e30a059efff9e4382a133cefe689e6759f471866ebb953b6d006ee5"
+    },
+    {
+      "path": "assets/score/fugue-2x.png",
+      "bytes": 331705,
+      "sha256": "274070b5dc8ca3bd354b1f5e71fc10bbbba47504dc251576a01bdcafc06aad51"
+    },
+    {
+      "path": "assets/score/fugue-piano.midi",
+      "bytes": 9580,
+      "sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363"
+    },
+    {
+      "path": "assets/score/fugue.ly",
+      "bytes": 4923,
+      "sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35"
+    },
+    {
+      "path": "assets/score/fugue.midi",
+      "bytes": 3667,
+      "sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e"
+    },
+    {
+      "path": "assets/score/fugue.pdf",
+      "bytes": 67100,
+      "sha256": "f90c9307779a6d0c145c21f905595d6c6df9c37523801970bea2ac02353c99ca"
+    },
+    {
+      "path": "assets/score/fugue.png",
+      "bytes": 145873,
+      "sha256": "351b82bb847afc7d068e83bc2739976c35d813ce085448ffec514db7f5cdf0bb"
+    },
+    {
+      "path": "assets/score/licc-reference.ly",
+      "bytes": 1100,
+      "sha256": "3558a405b6f1f13fca8a90d30ff84604bc2a8fcede20be04cbcbdc7ec0f895c4"
+    },
+    {
+      "path": "assets/score/licc-reference.pdf",
+      "bytes": 26608,
+      "sha256": "83366cf83d91fa39fbc5cf426399220d544c38ac05e16e3daf3670f4b87d7af3"
+    },
+    {
+      "path": "assets/score/licc-reference.svg",
+      "bytes": 14179,
+      "sha256": "e92daba83559b640c35323720265a002cc41b74917d10c9a19fd6ef674e2f1f6"
+    },
+    {
+      "path": "assets/score/social.png",
+      "bytes": 67146,
+      "sha256": "0ffb4044cfcb60cedd1834e9971a3559d8886e79173e6001d6b8ccb9b5551d1b"
+    },
+    {
+      "path": "assets/site.css",
+      "bytes": 15779,
+      "sha256": "c3fdb1963b5a0df41d2199a598f559a935e15e33dc852c514baaf83aa2e03765"
+    },
+    {
+      "path": "assets/timeline-organ.json",
+      "bytes": 16064,
+      "sha256": "0a0f571b3ca82410250a6579c77119739919c4b5de1ef7cf261879f41776dd01"
+    },
+    {
+      "path": "assets/timeline-piano.json",
+      "bytes": 22510,
+      "sha256": "8d11618ee78d240a805747c00cecbbab2dac0ec8cc7db685014a9dc15c894f34"
+    },
+    {
+      "path": "assets/timeline.mjs",
+      "bytes": 1544,
+      "sha256": "56fa1585948b3b316f20559cf431f97cd29c7803722d2b42cba294763e8adfa9"
+    },
+    {
+      "path": "build-web.mjs",
+      "bytes": 573,
+      "sha256": "6f56b7def6f8878686aa44b1e40aaf741978727497ea38c9a712389bd2b7f0dc"
+    },
+    {
+      "path": "build_edition.py",
+      "bytes": 1687,
+      "sha256": "b517b53bbaa757191d3ac8f1c3862ee90f7290b6dfce3674d1034ffdaea61e8b"
+    },
+    {
+      "path": "edition/README.md",
+      "bytes": 2881,
+      "sha256": "ab8d8b72c696e948bc4eeb6bf0c9492bb82c6a2eb2f673864da87959f4dc68b4"
+    },
+    {
+      "path": "edition/analysis.md",
+      "bytes": 29088,
+      "sha256": "7cf5f52f250723bc7feeacc44cbde85a0278ef07c51bf47ab80282d5e1fb0c04"
+    },
+    {
+      "path": "edition/annotated/c-entry.pdf",
+      "bytes": 28168,
+      "sha256": "a58a765a47f02e62233175b2ccc22d051ad73c225d92974c2456d41b6f0b6f15"
+    },
+    {
+      "path": "edition/annotated/c-entry.svg",
+      "bytes": 42292,
+      "sha256": "13abb1ca86d3931a330a3533275c5fa0c578383c469ba2bbf8d95fce976ee78e"
+    },
+    {
+      "path": "edition/annotated/coda.pdf",
+      "bytes": 41740,
+      "sha256": "7fca81f37b3beb12e02810dd6b39b1a373d0c84a5714c3da1244551ce258aaaa"
+    },
+    {
+      "path": "edition/annotated/coda.svg",
+      "bytes": 44794,
+      "sha256": "eb8755421f7128a9423cf07a21f52267ddb865ef2e151a8fb2b428d060130c9a"
+    },
+    {
+      "path": "edition/annotated/episode-one.pdf",
+      "bytes": 30388,
+      "sha256": "b50457cc203a42ede445168144206815187e40361dfcc918d462956198bfa856"
+    },
+    {
+      "path": "edition/annotated/episode-one.svg",
+      "bytes": 40718,
+      "sha256": "230d30e7c6481e729139dce2621a272507fbd47e6a157015f0e6003ddf214feb"
+    },
+    {
+      "path": "edition/annotated/episode-two.pdf",
+      "bytes": 34070,
+      "sha256": "ddd75a29276e05fae6bfa2c63e223ffb25502864d42ced61be2d219483effc37"
+    },
+    {
+      "path": "edition/annotated/episode-two.svg",
+      "bytes": 45577,
+      "sha256": "a979d337ae1f301c5451d022d9a88d2a714efb18939c0c8882db3b928ade79ee"
+    },
+    {
+      "path": "edition/annotated/exposition.pdf",
+      "bytes": 38685,
+      "sha256": "754f50471e70ee7b1b83fca0637c93ce11e3f7f2ee072fb5e885d42251829798"
+    },
+    {
+      "path": "edition/annotated/exposition.svg",
+      "bytes": 69103,
+      "sha256": "a23ceb4ba33fb06b4fed923b14f4d461fac62b9d1016441627cc0aa9771d33dd"
+    },
+    {
+      "path": "edition/annotated/head.pdf",
+      "bytes": 27161,
+      "sha256": "dab9fcf765a12e6d03a12784fa4feba9ee26b655b2fba742ea311fa67e6e6adc"
+    },
+    {
+      "path": "edition/annotated/head.svg",
+      "bytes": 16546,
+      "sha256": "c90339ee4733ebf83f4abd294d9721dd28751342d8d4675f8a86c8d25bb94ea4"
+    },
+    {
+      "path": "edition/annotated/return.pdf",
+      "bytes": 31245,
+      "sha256": "36bee36b46c5cdbc5d732eca5a22e592f5036e0570b8c0e3249618f1df79d796"
+    },
+    {
+      "path": "edition/annotated/return.svg",
+      "bytes": 40523,
+      "sha256": "5c8a251daa06d1fbaff3908c946992b9532fe945422b61af581df93682442711"
+    },
+    {
+      "path": "edition/annotated/suspensions.pdf",
+      "bytes": 36297,
+      "sha256": "ea22e64836f088013a6fc9c909bf47b073ec4bed49754125f570f9d308e583b6"
+    },
+    {
+      "path": "edition/annotated/suspensions.svg",
+      "bytes": 70219,
+      "sha256": "f4b8f08bf7c07ab844f74a1f345323227dbb432f1c4e0a56358c32a95dd41068"
+    },
+    {
+      "path": "edition/export-annotated.js",
+      "bytes": 1121,
+      "sha256": "4b23cb421914e7ce747eaa490cb33f22f9f566a1d55f8979962281146ae8d999"
+    },
+    {
+      "path": "edition/fuga-inversa-analysis.tex",
+      "bytes": 50601,
+      "sha256": "101e4f8dd50c0ce5eb8ea8c2697cf432da91f34fd7fce706574c910f77ba1b6e"
+    },
+    {
+      "path": "edition/includes/performance-figure.html",
+      "bytes": 686,
+      "sha256": "9c441bce7b6a510f75a234dde420581010c7950a40b86b12c4cf53e564fa2ec2"
+    },
+    {
+      "path": "edition/includes/stretto-callout.html",
+      "bytes": 645,
+      "sha256": "1bf043f0b4dbadcdf850c0df982332445736accaa6476f9c2c19f85fd095e862"
+    },
+    {
+      "path": "edition/process.md",
+      "bytes": 17958,
+      "sha256": "ee5e7762eeb932115db14d5b81928cf46949387b1420ca1039243cfc36536ea1"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 542,
+      "sha256": "44b905b091cbed18aa4ec949fd4b774269915cb86ddebc7dd9196c4954e816fd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 61105,
+      "sha256": "a5a0b1543bfb48ea6c9ba7cbcad34b9eeefe71020d83107bbd6d3bd8852cb335"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 47108,
+      "sha256": "148bb53e90ed278932279aa5b78b5e85027d35863c8c8d5da24c127a045268e2"
+    },
+    {
+      "path": "package.json",
+      "bytes": 412,
+      "sha256": "1f405a562f6c6ad6de3f23954ce618114fd5366e59b15a7847004851136a2f0b"
+    },
+    {
+      "path": "reproducibility/MANIFEST.json",
+      "bytes": 16681,
+      "sha256": "a81f0fe8d0efdd7a36b262337aa56bf67493f0a07c9cfd53f5b394eea69e6d1a"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "bytes": 5717,
+      "sha256": "fdb093e5dc86e5a6b27e790292cbdc1e98a89c161440101fd400ac526840abaf"
+    },
+    {
+      "path": "reproducibility/audit_midi.py",
+      "bytes": 14806,
+      "sha256": "dcb5abaf673da75ab94503c164d43e83c082aac39c0b5659a27151ea8bb81ee8"
+    },
+    {
+      "path": "reproducibility/candidate-a/NOTES.md",
+      "bytes": 3397,
+      "sha256": "d8b8ede7425f5b9ec34a46bf4ac3a04de62bfa186851d158ffd6e7ca9f45dcfd"
+    },
+    {
+      "path": "reproducibility/candidate-a/fugue-a-audit.json",
+      "bytes": 48588,
+      "sha256": "98e790f07eb43564bb8ab0d0d6ee08238ab6d0e34bdc3060ef56448f82384b98"
+    },
+    {
+      "path": "reproducibility/candidate-a/fugue-a.ly",
+      "bytes": 3877,
+      "sha256": "6ebc13ad9c2d5c95ca928d3846e9860703fb52923f42c3f4863ee39a7c5d1a05"
+    },
+    {
+      "path": "reproducibility/candidate-a/fugue-a.midi",
+      "bytes": 3462,
+      "sha256": "98d37c74cf0bb8f21ab46dbbd2ed0daa3e8e213f84f72b2e4798f4c4cd56ffd4"
+    },
+    {
+      "path": "reproducibility/candidate-b/candidate-notes.json",
+      "bytes": 2684,
+      "sha256": "1c73c0dcfc116c1c666919f113643215aeaf06cc77a4d8e6b65ed1a37e169f1c"
+    },
+    {
+      "path": "reproducibility/candidate-b/fugue-b-audit.json",
+      "bytes": 38417,
+      "sha256": "9cc5f45ecd597dd6455cd303223f1879055930f96d87fbefcfd6926b4f629007"
+    },
+    {
+      "path": "reproducibility/candidate-b/fugue-b.ly",
+      "bytes": 2643,
+      "sha256": "02b9252f474eceac6810e46b0e2a86d1e567e9bab8b264c8a8062241ef59bc72"
+    },
+    {
+      "path": "reproducibility/candidate-b/fugue-b.midi",
+      "bytes": 3389,
+      "sha256": "bc1c770275da32930fdb5dc843fed3cf8ec4d56ab3403b2e2886355fb7d4d82d"
+    },
+    {
+      "path": "reproducibility/candidate-c/REVIEW.md",
+      "bytes": 4970,
+      "sha256": "37704d585bddff1e5acb6966e32694da85076371dc2858c0005f4a856b8e2c5d"
+    },
+    {
+      "path": "reproducibility/candidate-c/audit.json",
+      "bytes": 43843,
+      "sha256": "a9b4b42447a37606030847851b06064e09a3f518fd75453578d392602aa59605"
+    },
+    {
+      "path": "reproducibility/candidate-c/fugue-c.ly",
+      "bytes": 3278,
+      "sha256": "79360b616d641a39b6c8975254e7b803b61ec2facc8e171d8b1885b85947cfd2"
+    },
+    {
+      "path": "reproducibility/candidate-c/fugue-c.midi",
+      "bytes": 3527,
+      "sha256": "edeb5405dcbf0579a82c6ab03545d0e1f4482d72778acd8de0214a83e1a049e3"
+    },
+    {
+      "path": "reproducibility/check_hands.py",
+      "bytes": 12602,
+      "sha256": "6c862e4d752895fdd989e6606a4a5afcbbc1ae3256a0ccf4a4c3b6de78ea27eb"
+    },
+    {
+      "path": "reproducibility/fixtures/channel-fixture-audit.json",
+      "bytes": 3744,
+      "sha256": "b1d3a87a13491f01e28519d1e5668e2cd87a2c658ed30e1086417d9eaebede86"
+    },
+    {
+      "path": "reproducibility/fixtures/channel-fixture-organ.midi",
+      "bytes": 290,
+      "sha256": "cdc0a9f1a6187821db76e206a32bd8ff74fa8175fb988a8f9904201951f958ce"
+    },
+    {
+      "path": "reproducibility/fixtures/channel-fixture.ly",
+      "bytes": 336,
+      "sha256": "0cd38387de9b05246aede2fdb4c80a4f0eb218622a67e5cadb12b5a71429d8a4"
+    },
+    {
+      "path": "reproducibility/fixtures/channel-fixture.midi",
+      "bytes": 257,
+      "sha256": "99ed6c3b950b31523492dfe84791cf24c44001d6316caad0483678fc39cf6333"
+    },
+    {
+      "path": "reproducibility/fixtures/channel-remap-report.json",
+      "bytes": 1495,
+      "sha256": "2a3b76b20d88b02e71841bfe73e20858a91efe43949b9568e4b2a4c8bf09e81f"
+    },
+    {
+      "path": "reproducibility/fixtures/missing-alto-transfer-report.json",
+      "bytes": 138612,
+      "sha256": "7e2b41c1b98082297184adda7d24cc869fb02d44063ce5136cfe9435d820e179"
+    },
+    {
+      "path": "reproducibility/fixtures/missing-alto-transfer.ly",
+      "bytes": 4953,
+      "sha256": "993900590cca51409db473ea8a29f8879b6de98625d32daeb42d4d1fa8db30a1"
+    },
+    {
+      "path": "reproducibility/fugue.ly",
+      "bytes": 4923,
+      "sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35"
+    },
+    {
+      "path": "reproducibility/fugue.midi",
+      "bytes": 3667,
+      "sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e"
+    },
+    {
+      "path": "reproducibility/hall-production/CREDITS.txt",
+      "bytes": 317,
+      "sha256": "68f522a718216574fb96bf2d5dbfe70a3a1cbc87c256c6b6897304f55e6d6657"
+    },
+    {
+      "path": "reproducibility/hall-production/REPRODUCE.md",
+      "bytes": 3410,
+      "sha256": "6435a66e0c2e9e347df5c0b607bdfbfa0ef70e41de6b8e7d3693966dd1694c41"
+    },
+    {
+      "path": "reproducibility/hall-production/delivery-checks.json",
+      "bytes": 6366,
+      "sha256": "c7429ee209e7d865b60014c79713065734929dc3e44db49677e737a0dd363872"
+    },
+    {
+      "path": "reproducibility/hall-production/hall.py",
+      "bytes": 19434,
+      "sha256": "28c6899d0fc63d0e7a1226698553f76bc840ca129a531bdc1bab8c6b38c1326f"
+    },
+    {
+      "path": "reproducibility/hall-production/ir/source.json",
+      "bytes": 1814,
+      "sha256": "5891635a64462377bc42ce51ca6376314e187ae3ce8263b8cee6388ad49b7ec5"
+    },
+    {
+      "path": "reproducibility/hall-production/ir/spokane_womans_club_ir.wav",
+      "bytes": 1588186,
+      "sha256": "75414f9e4ca34839f809932f877c82ea46363502ca6e291360afe551fb9e0c90"
+    },
+    {
+      "path": "reproducibility/hall-production/public-provenance.json",
+      "bytes": 4771,
+      "sha256": "40da5d94c8b9966b791bc15307d8ff72ddb6dd6668aababd683dc500a6a7928d"
+    },
+    {
+      "path": "reproducibility/hall-production/test_hall.py",
+      "bytes": 2384,
+      "sha256": "b619eea75af3da83743b21f12936f377935bd46179d68c1ba7c9e71b95f03023"
+    },
+    {
+      "path": "reproducibility/hall-production/test_hall_pipeline.py",
+      "bytes": 2999,
+      "sha256": "ed3aae837f84f53ffeb0e23242f9302d385d360e0368602f7cf9b973bc0697e0"
+    },
+    {
+      "path": "reproducibility/history/README.md",
+      "bytes": 1474,
+      "sha256": "3717fb2bf7413a2ffaf0085b7a9e301619f81f3340c5cf8777c22f8c7408a66d"
+    },
+    {
+      "path": "reproducibility/history/candidate-a-first-audit.json",
+      "bytes": 52905,
+      "sha256": "e6473ecb2f2855104853ad8ed5ec3a08d3db4a00d380ff6120508fc9466329ad"
+    },
+    {
+      "path": "reproducibility/history/candidate-a-first-ledger.txt",
+      "bytes": 8581,
+      "sha256": "58b7fd25afd690c1c3741b63bcaa39a43050730854fe57350a281777dc36c700"
+    },
+    {
+      "path": "reproducibility/history/candidate-a-revised-audit.json",
+      "bytes": 48588,
+      "sha256": "98e790f07eb43564bb8ab0d0d6ee08238ab6d0e34bdc3060ef56448f82384b98"
+    },
+    {
+      "path": "reproducibility/history/candidate-a-revised-ledger.txt",
+      "bytes": 8581,
+      "sha256": "18559494a877e6133d0f349d0cb7c792ded863575c24f27e28baa9fb83560125"
+    },
+    {
+      "path": "reproducibility/history/candidate-b-first-audit.json",
+      "bytes": 46896,
+      "sha256": "93c7d8704fe09af116513870af877e2e11aa246ddbd11366ba47eea660ff76b5"
+    },
+    {
+      "path": "reproducibility/history/candidate-b-first-ledger.txt",
+      "bytes": 8581,
+      "sha256": "64802e7565cce4e292c6b99a237f804cfdbbaa02a013f976dc0702ce273a15c8"
+    },
+    {
+      "path": "reproducibility/history/candidate-c-first-audit.json",
+      "bytes": 15029,
+      "sha256": "7e2a623e181a9a37f335ae4ff91ffc86d75517ff86562e451599f370ba43a870"
+    },
+    {
+      "path": "reproducibility/history/candidate-c-first-ledger.txt",
+      "bytes": 3109,
+      "sha256": "92e3e343ba947e1679ff84e63ad41694f33a8e650252bcc6a9f7202192b82ff0"
+    },
+    {
+      "path": "reproducibility/history/candidate-c-revised-audit.json",
+      "bytes": 44460,
+      "sha256": "7285b3584c206072abeb07c18ca82c4485bc08476b4cb123e363e2d50c727c05"
+    },
+    {
+      "path": "reproducibility/history/candidate-c-revised-ledger.txt",
+      "bytes": 7973,
+      "sha256": "8b022f20b340d0db7ed3c9da495b7ddfaa25384046c1bd3f3922673d78d7d378"
+    },
+    {
+      "path": "reproducibility/history/candidate-c-revised.midi",
+      "bytes": 3536,
+      "sha256": "3e0d703f8b5d00a1c8a8d53ff1c3cee6b81acd6f31baef06eba98e7cda409e7e"
+    },
+    {
+      "path": "reproducibility/history/index.json",
+      "bytes": 3136,
+      "sha256": "f23cf36f2eb157d525a4f051877d45caaa25d1dda00e62fe07642d12dd4c9b4b"
+    },
+    {
+      "path": "reproducibility/paper-process/stretto-study-audit.json",
+      "bytes": 7996,
+      "sha256": "35a943d57b32e1ca969b529c79a97997da7689fa750e23148c82e0641bc572fd"
+    },
+    {
+      "path": "reproducibility/paper-process/stretto-study.ly",
+      "bytes": 1205,
+      "sha256": "69ba9764cf86ed9be0db669fff3cff8fd6559dac38c4496ec7e19faf118d492c"
+    },
+    {
+      "path": "reproducibility/paper-process/stretto-study.midi",
+      "bytes": 795,
+      "sha256": "324d6033efc9afc532657ecb73b87b5ac04d381ffd7f7aeeb22b22bada48c50a"
+    },
+    {
+      "path": "reproducibility/piano-production/PRODUCTION.md",
+      "bytes": 5744,
+      "sha256": "7f35b43c73bd7960920dfae2de0b2424867978b3d8469d3cdfda7026404ff01e"
+    },
+    {
+      "path": "reproducibility/piano-production/fugue-piano-concert.mid",
+      "bytes": 9580,
+      "sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-alto-ax-notes.json",
+      "bytes": 25622,
+      "sha256": "3073b5cd2d2a6c03d32fc5d6a7c219172df1c0ed5a6a0e7116e38b8af43a2c3d"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-bass-ax-notes.json",
+      "bytes": 18074,
+      "sha256": "2c28346f099d925cf9ea0682ed4732fa89afe941aedeb76767eb44a710a4e3b5"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-concert-alto.mid",
+      "bytes": 7155,
+      "sha256": "620f8c3c4e1a30149bd1bf40b15ce4be5d96c603249d6810975e6caa21dec05e"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-concert-bass.mid",
+      "bytes": 6763,
+      "sha256": "6283848aeb44c2e6ecee83078ff3ab5e218c6eb820ba0bf3f1ef052a3322ee13"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-concert-mix.mid",
+      "bytes": 9010,
+      "sha256": "36f156e4926ae60e22b78415672b3dff0a8b719c8aa6662a9cce70a1d8c6b790"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-concert-soprano.mid",
+      "bytes": 7006,
+      "sha256": "0667027a5f5d2a37b8c64080d40902fe6376aee2c4b38d9af5cc4151ec031769"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-import-checks.json",
+      "bytes": 364,
+      "sha256": "cb9381df589bc69a4a279dcb44915b3a692e350158a1a61de268ab25aeadde97"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-mix-ax-notes.json",
+      "bytes": 65662,
+      "sha256": "5624f844bbc6710b9fc6f0487340ce0c114f89eb3317289238a779bfdac136f4"
+    },
+    {
+      "path": "reproducibility/piano-production/garageband-soprano-ax-notes.json",
+      "bytes": 22182,
+      "sha256": "64040c073213e9f78b3b042915b25407e2af9a4d76242d341914935cd10b62b3"
+    },
+    {
+      "path": "reproducibility/piano-production/native24-render-checks.json",
+      "bytes": 3547,
+      "sha256": "c1e7f9aa4e1324de2361a7b628a99f0ca3ebb8545fcf3d582ccf84ba5050924b"
+    },
+    {
+      "path": "reproducibility/piano-production/performance-checks.json",
+      "bytes": 139263,
+      "sha256": "939b9bdde16162c0ff9fa7d7b1bfbe07b9212d8cd24c12c843207a8ce2c9bac4"
+    },
+    {
+      "path": "reproducibility/piano-production/shape_performance.py",
+      "bytes": 12465,
+      "sha256": "c505817bdcaeb66956d78169c2514d95b69a78076d352c82aefab81256bc7d00"
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24-alto.wav",
+      "bytes": 18939660,
+      "sha256": "f257b824a60dc8c7afe283b1e11db47c57a35ff054b57bdaca9a91b88a1cac37"
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24-bass.wav",
+      "bytes": 18939660,
+      "sha256": "33bd3f4bd9ac726a5e5dc86d23e2e43a98527adae01d2b118baaf46336b7c593"
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24-soprano.wav",
+      "bytes": 18939660,
+      "sha256": "c8df264f8926ff4ff2a7d3cd2d63237e6423d2fd7cbb398df66e2779c5ebe087"
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24.wav",
+      "bytes": 18939660,
+      "sha256": "b0a45604e50b44ba489be47b9458ab097af8f768238fc1a2f6ccda1c6d4fba4a"
+    },
+    {
+      "path": "reproducibility/piano-production/timeline-concert.json",
+      "bytes": 95429,
+      "sha256": "8d0d3ebf5d9d9e5630c727fb419f016ec272e6e7421563a69bea0883b351225a"
+    },
+    {
+      "path": "reproducibility/piano-production/verify_garageband.py",
+      "bytes": 6126,
+      "sha256": "07a1196ae827850397cecc5a3cace0a025f6e3411e7c347c093be0fecc591a8f"
+    },
+    {
+      "path": "reproducibility/prepare_organ_midi.py",
+      "bytes": 2953,
+      "sha256": "2212a054d5b0e4e4b8a4e7db3aed6f9a29d87c37df540ef2eedb534d5912d3a2"
+    },
+    {
+      "path": "reproducibility/prepare_performance.py",
+      "bytes": 8351,
+      "sha256": "decac42e20e92b7ae7a03f37279c1d8717485d6e055ef84343a38a04a27bee4c"
+    },
+    {
+      "path": "reproducibility/provenance.json",
+      "bytes": 10971,
+      "sha256": "1ba375fd9720d178458ecfce348a3e0e1e55dc9db28ee57cd0539ef81aa4d7a2"
+    },
+    {
+      "path": "reproducibility/render_audio.py",
+      "bytes": 4013,
+      "sha256": "56222ff2db6e3f482cbbdfe406bc79fcce3c108b5eca7e17d2c28909c94ced00"
+    },
+    {
+      "path": "reproducibility/reports/final-audit.json",
+      "bytes": 43173,
+      "sha256": "bcbd62de3130fe0c1b96054bac7892b61ee4e404202d13fb35b16f23864f68bc"
+    },
+    {
+      "path": "reproducibility/reports/final-ledger.txt",
+      "bytes": 7973,
+      "sha256": "815943ac590a931110d2c0deba1968b47056647c6fa813e0af1e263355a520d2"
+    },
+    {
+      "path": "reproducibility/reports/inspection.json",
+      "bytes": 7925,
+      "sha256": "1e593c9ee2410bdaa205a02028190ec851f17ad94d3342048f4c43f1c28a89ae"
+    },
+    {
+      "path": "reproducibility/reports/printed-hands.json",
+      "bytes": 133906,
+      "sha256": "cb921e3a826581816e46915ff6b0a85b2fcfc713c8e310f9d01c960b4d688216"
+    },
+    {
+      "path": "reproducibility/reports/printed-hands.md",
+      "bytes": 2181,
+      "sha256": "f6e8113cf0b7a870ea83c3ab541023f0946360e01ebb4706b034bf1578f0a957"
+    },
+    {
+      "path": "reproducibility/reports/reproduction.json",
+      "bytes": 4244,
+      "sha256": "3014dc9775d668abaa288655511cc6ad55bef7190eb76369cbdbc33b9973d161"
+    },
+    {
+      "path": "reproducibility/test_check_hands.py",
+      "bytes": 2447,
+      "sha256": "c46176ae6aeb8f49021b33617c2beb9d1b83308370fdbf1aced92833488d81cc"
+    },
+    {
+      "path": "reproducibility/web-research/generate_excerpts.py",
+      "bytes": 14378,
+      "sha256": "8a44b3d6a3dd6c3ee1c4c74199e3713c2e4e47903465aae65ef9c22e244e86b8"
+    },
+    {
+      "path": "reviews/2026-09-07-fable-initial.md",
+      "bytes": 18036,
+      "sha256": "89c1f5f92aaa225229c07433155ab1f16497efaf35f51da291f0e1a05270cac3"
+    },
+    {
+      "path": "reviews/checks/browser-functional.js",
+      "bytes": 6761,
+      "sha256": "30e334a8115c300723dd7157bc0de2e577d9297556e37062293d5f9a8e1d9f30"
+    },
+    {
+      "path": "reviews/checks/browser-layout.js",
+      "bytes": 3348,
+      "sha256": "eab98b47807850491a1f4e349a6dbf45cdfe120f648eeb2f87d13775db61c2db"
+    },
+    {
+      "path": "reviews/checks/browser-muted-setup.js",
+      "bytes": 826,
+      "sha256": "30a818780413cd867d6989d13293bb8ab46c7a89689d34bbdb291f5b42ace159"
+    },
+    {
+      "path": "reviews/checks/browser-stress.js",
+      "bytes": 6034,
+      "sha256": "419294093a475bee4aa9bf065c9a35eaa11d6a9d41f8ab9db3adc46354972c3c"
+    },
+    {
+      "path": "reviews/checks/comparison-interruption.js",
+      "bytes": 2859,
+      "sha256": "54913acb880d8ffca7e282ecadb0e7e5c704c0fe135c395c229f5bbc8fa6865f"
+    },
+    {
+      "path": "reviews/evidence/browser-default-rate.json",
+      "bytes": 2382,
+      "sha256": "618d020318b9d628e4cf36936adc80385423352e94dc16800323beb1986e04c9"
+    },
+    {
+      "path": "reviews/evidence/browser-fallback.json",
+      "bytes": 748,
+      "sha256": "9c2492abd653c125aacbfba157c6ee99c173ce4fe13bbc224af3ebd1c408dc91"
+    },
+    {
+      "path": "reviews/evidence/browser-functional.json",
+      "bytes": 1503,
+      "sha256": "dad9534394d5aa4ae4980a4f73b50d35eaf31c29cdfc386789a361234fe43ea5"
+    },
+    {
+      "path": "reviews/evidence/browser-layout.json",
+      "bytes": 1609,
+      "sha256": "c16f34db12189182539a3ede661927f7d82d618fbba0cd3db6d6376e5d64aa32"
+    },
+    {
+      "path": "reviews/evidence/browser-load-failure.json",
+      "bytes": 889,
+      "sha256": "6d25ea30804d953b2b13aae13336261a4f340cb0d05c8e5991bb1c03b287fc77"
+    },
+    {
+      "path": "reviews/evidence/browser-stress.json",
+      "bytes": 998,
+      "sha256": "9c9db71f21b5fba9279ffc7e2bea4ca6e8afa3eead46357bb4cd2a9aef3b815b"
+    },
+    {
+      "path": "reviews/evidence/comparison-interruption.json",
+      "bytes": 1309,
+      "sha256": "00eed09859c43ec812ccf248d0e179837fc3ca5220e77c66324e577ae835c9ea"
+    },
+    {
+      "path": "reviews/evidence/musical-triage.json",
+      "bytes": 8791,
+      "sha256": "501046ce5363c1114dbc22c782c5b19963ced1ffdaea21c937a84bfa28a87bea"
+    },
+    {
+      "path": "reviews/evidence/paper-validation.json",
+      "bytes": 3548,
+      "sha256": "2725af4c4460a3cd27ccf36988f9c73fb2f31edfdd157dc6b3a68bd4e07583fa"
+    },
+    {
+      "path": "source/app.ts",
+      "bytes": 12501,
+      "sha256": "a726c99d62ebf5f5951ddeac24b53cecc217d67b686724a40d11af7b2876b0fc"
+    },
+    {
+      "path": "source/audio-coordination.ts",
+      "bytes": 423,
+      "sha256": "0928bcf3c8a57524364be38b062e164e3710abc5d85f1f8035142336029916e5"
+    },
+    {
+      "path": "source/native-playback.ts",
+      "bytes": 1285,
+      "sha256": "725c94e804483803cc75230466d64713b1f2e5a4da39745ead8cc031a7eea517"
+    },
+    {
+      "path": "source/player.ts",
+      "bytes": 14040,
+      "sha256": "b140850c2d096025dde27addb863ed62d956636e67bd26e85ce1b91ab8f32362"
+    },
+    {
+      "path": "template.html",
+      "bytes": 8512,
+      "sha256": "e7038d0a0e9442dff2ba34b754799de3e3541d76220afe95d4d9009e5d88cde8"
+    },
+    {
+      "path": "tests/audio-coordination.test.mjs",
+      "bytes": 1406,
+      "sha256": "ff01852bf121f92a32a862af6b39dd4d8194df6903ee53cf7f4e96c43a03ba48"
+    },
+    {
+      "path": "tests/native-playback.test.mjs",
+      "bytes": 2982,
+      "sha256": "f7505cbc2c5646f9e9a4fe00b6ccb3affeac405e337d5237912d9d455d2afd1e"
+    },
+    {
+      "path": "tests/player.test.mjs",
+      "bytes": 13293,
+      "sha256": "5da7cf3ce6c88652ef3118d7bb80f0519d1e117deab30c03afa8049678481b6d"
+    },
+    {
+      "path": "tests/timeline.test.mjs",
+      "bytes": 1699,
+      "sha256": "46d9abc0a7a8cae28a6b1fcfb1dccdf7ca9bbf9d716bd9280539985379263fc7"
+    },
+    {
+      "path": "tests/ui-controls.test.mjs",
+      "bytes": 7583,
+      "sha256": "3b804d8b38358a6407aa3198cb9b4c894b85997ba744769922b43e0b02a87a21"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 338,
+      "sha256": "807fd22bfc2986c1c8921c12187265d6724e5a66dccc0741d11051d5f1ee6ebc"
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "method": "The saved triage was checked again while packaging: the public LilyPond source was parsed, all 382 sounding notes were compared with the canonical MIDI, all eight saved excerpt MIDIs were compared with their score ranges, public excerpt source text was regenerated in memory, and every listed pitch pair and interval was recomputed.",
+  "limitations": [
+    "These are exact pitch, timing, source-identity, and interval checks. They do not replace harmonic interpretation, an audition, or a keyboard trial.",
+    "The source parser and MIDI reader are shared tools; their agreement does not establish independence from every possible common error."
+  ],
+  "result": {
+    "source_sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+    "midi_sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+    "source_midi_equivalence": {
+      "passed": true,
+      "sounding_event_counts": {
+        "s": 131,
+        "a": 150,
+        "b": 101
+      }
+    },
+    "published_excerpt_equivalence": {
+      "head": {
+        "passed": true,
+        "sounding_event_counts": {
+          "a": 12
+        }
+      },
+      "exposition": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 24,
+          "a": 24,
+          "b": 12
+        }
+      },
+      "episode-one": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 17,
+          "a": 9,
+          "b": 8
+        }
+      },
+      "c-entry": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 12,
+          "a": 12,
+          "b": 11
+        }
+      },
+      "episode-two": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 8,
+          "a": 24,
+          "b": 8
+        }
+      },
+      "suspensions": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 21,
+          "a": 22,
+          "b": 19
+        }
+      },
+      "return": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 10,
+          "a": 12,
+          "b": 10
+        }
+      },
+      "coda": {
+        "passed": true,
+        "sounding_event_counts": {
+          "s": 15,
+          "a": 11,
+          "b": 10
+        }
+      }
+    },
+    "tail_pairs": {
+      "4": [
+        {
+          "beat": 1.0,
+          "upper": "A4",
+          "lower": "C4",
+          "semitones": 9
+        },
+        {
+          "beat": 1.5,
+          "upper": "A4",
+          "lower": "C4",
+          "semitones": 9
+        },
+        {
+          "beat": 2.0,
+          "upper": "B4",
+          "lower": "D4",
+          "semitones": 9
+        },
+        {
+          "beat": 2.5,
+          "upper": "C5",
+          "lower": "E4",
+          "semitones": 8
+        },
+        {
+          "beat": 3.0,
+          "upper": "D5",
+          "lower": "F4",
+          "semitones": 9
+        },
+        {
+          "beat": 3.5,
+          "upper": "D5",
+          "lower": "F4",
+          "semitones": 9
+        },
+        {
+          "beat": 4.0,
+          "upper": "C5",
+          "lower": "E4",
+          "semitones": 8
+        },
+        {
+          "beat": 4.5,
+          "upper": "A4",
+          "lower": "C#4",
+          "semitones": 8
+        }
+      ],
+      "6": [
+        {
+          "beat": 1.0,
+          "upper": "F4",
+          "lower": "D3",
+          "semitones": 15
+        },
+        {
+          "beat": 1.5,
+          "upper": "F4",
+          "lower": "D3",
+          "semitones": 15
+        },
+        {
+          "beat": 2.0,
+          "upper": "G4",
+          "lower": "E3",
+          "semitones": 15
+        },
+        {
+          "beat": 2.5,
+          "upper": "A4",
+          "lower": "F3",
+          "semitones": 16
+        },
+        {
+          "beat": 3.0,
+          "upper": "Bb4",
+          "lower": "G3",
+          "semitones": 15
+        },
+        {
+          "beat": 3.5,
+          "upper": "Bb4",
+          "lower": "G3",
+          "semitones": 15
+        },
+        {
+          "beat": 4.0,
+          "upper": "A4",
+          "lower": "F3",
+          "semitones": 16
+        },
+        {
+          "beat": 4.5,
+          "upper": "G4",
+          "lower": "E3",
+          "semitones": 15
+        }
+      ],
+      "12": [
+        {
+          "beat": 1.0,
+          "upper": "E5",
+          "lower": "C4",
+          "semitones": 16
+        },
+        {
+          "beat": 1.5,
+          "upper": "E5",
+          "lower": "C4",
+          "semitones": 16
+        },
+        {
+          "beat": 2.0,
+          "upper": "F5",
+          "lower": "D4",
+          "semitones": 15
+        },
+        {
+          "beat": 2.5,
+          "upper": "G5",
+          "lower": "E4",
+          "semitones": 15
+        },
+        {
+          "beat": 3.0,
+          "upper": "G5",
+          "lower": "F4",
+          "semitones": 14
+        },
+        {
+          "beat": 3.5,
+          "upper": "F5",
+          "lower": "F4",
+          "semitones": 12
+        },
+        {
+          "beat": 4.0,
+          "upper": "G5",
+          "lower": "E4",
+          "semitones": 15
+        },
+        {
+          "beat": 4.5,
+          "upper": "F5",
+          "lower": "D4",
+          "semitones": 15
+        }
+      ],
+      "16": [
+        {
+          "beat": 1.0,
+          "upper": "A4",
+          "lower": "F3",
+          "semitones": 16
+        },
+        {
+          "beat": 1.5,
+          "upper": "A4",
+          "lower": "F3",
+          "semitones": 16
+        },
+        {
+          "beat": 2.0,
+          "upper": "Bb4",
+          "lower": "G3",
+          "semitones": 15
+        },
+        {
+          "beat": 2.5,
+          "upper": "C5",
+          "lower": "A3",
+          "semitones": 15
+        },
+        {
+          "beat": 3.0,
+          "upper": "D5",
+          "lower": "Bb3",
+          "semitones": 16
+        },
+        {
+          "beat": 3.5,
+          "upper": "D5",
+          "lower": "Bb3",
+          "semitones": 16
+        },
+        {
+          "beat": 4.0,
+          "upper": "C5",
+          "lower": "A3",
+          "semitones": 15
+        },
+        {
+          "beat": 4.5,
+          "upper": "Bb4",
+          "lower": "G3",
+          "semitones": 15
+        }
+      ],
+      "22": [
+        {
+          "beat": 1.0,
+          "upper": "F4",
+          "lower": "D3",
+          "semitones": 15
+        },
+        {
+          "beat": 1.5,
+          "upper": "F4",
+          "lower": "D3",
+          "semitones": 15
+        },
+        {
+          "beat": 2.0,
+          "upper": "G4",
+          "lower": "E3",
+          "semitones": 15
+        },
+        {
+          "beat": 2.5,
+          "upper": "A4",
+          "lower": "F3",
+          "semitones": 16
+        },
+        {
+          "beat": 3.0,
+          "upper": "Bb4",
+          "lower": "G3",
+          "semitones": 15
+        },
+        {
+          "beat": 3.5,
+          "upper": "Bb4",
+          "lower": "G3",
+          "semitones": 15
+        },
+        {
+          "beat": 4.0,
+          "upper": "A4",
+          "lower": "F3",
+          "semitones": 16
+        },
+        {
+          "beat": 4.5,
+          "upper": "G4",
+          "lower": "E3",
+          "semitones": 15
+        }
+      ]
+    },
+    "c_entry_maximum_upper_gap_semitones": 21,
+    "episode_double_octave_arrivals": [
+      {
+        "bar": 13,
+        "beat": 2,
+        "previous": [
+          "E5",
+          "C4"
+        ],
+        "arrival": [
+          "F5",
+          "F3"
+        ],
+        "motion": "contrary",
+        "soprano_motion_semitones": 1
+      },
+      {
+        "bar": 13,
+        "beat": 4,
+        "previous": [
+          "D5",
+          "Bb2"
+        ],
+        "arrival": [
+          "Eb5",
+          "Eb3"
+        ],
+        "motion": "similar",
+        "soprano_motion_semitones": 1
+      },
+      {
+        "bar": 14,
+        "beat": 2,
+        "previous": [
+          "C5",
+          "A2"
+        ],
+        "arrival": [
+          "D5",
+          "D3"
+        ],
+        "motion": "similar",
+        "soprano_motion_semitones": 2
+      },
+      {
+        "bar": 14,
+        "beat": 4,
+        "previous": [
+          "Bb4",
+          "G2"
+        ],
+        "arrival": [
+          "C5",
+          "C3"
+        ],
+        "motion": "similar",
+        "soprano_motion_semitones": 2
+      }
+    ],
+    "g_entry_final_notes": [
+      "D5",
+      "C5"
+    ],
+    "c_and_f_counterline_initial_semitones": [
+      1,
+      1
+    ],
+    "cadence_soprano": [
+      "D4",
+      "C#4",
+      "E4",
+      "A4",
+      "C#5",
+      "E5",
+      "D5"
+    ],
+    "final_alto_soprano_gap_semitones": 20,
+    "limits": [
+      "Pitch and timing comparison, not an audition or keyboard trial.",
+      "The review’s minor-thirteenth C-entry gap and all-contrary octave arrivals are contradicted by these pitches."
+    ]
+  }
+}

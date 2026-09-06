@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" viewBox="-0.30849993228912354 1.144568920135498 120.54550170898438 44.35883331298828" class="score-svg" role="group" aria-label="Episode transferred to alto" width="120.54550170898438mm" height="44.35883331298828mm"><style>.score-annotation-label{font:2.15px Georgia,serif;letter-spacing:.02px}.score-interval-label{font:600 1.7px sans-serif}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" viewBox="-0.30849993228912354 0.9756836891174316 120.54550170898438 44.52771759033203" class="score-svg" role="group" aria-label="Episode transferred to alto" width="120.54550170898438mm" height="44.52771759033203mm"><style>.score-annotation-label{font:2.15px Georgia,serif;letter-spacing:.02px}.score-interval-label{font:600 1.7px sans-serif}</style>
 <style type="text/css">
 <![CDATA[
 tspan { white-space: pre; }
@@ -82,7 +82,7 @@ tspan { white-space: pre; }
 <g transform="translate(66.3978, 23.8969)">
 <rect x="0.0000" y="-2.0537" width="0.2039" height="4.1073" ry="0.0000" fill="currentColor"/>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(111.1005, 25.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -90,7 +90,7 @@ tspan { white-space: pre; }
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="9.0156 -0.1956 9.0156 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m13-n1" data-note-id="fig-episode-two-s-m13-n1" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 1: E5, one quarter note.">
+<g id="fig-episode-two-s-m13-n1" data-note-id="fig-episode-two-s-m13-n1" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 1: E5, one quarter note." style="">
 <g transform="translate(16.4426, 6.3969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -132,17 +132,17 @@ tspan { white-space: pre; }
 <g transform="translate(12.7505, 39.8969)">
 <path transform="scale(0.0040, -0.0040)" d="M432 -89c0 -21 -50 -175 -182 -175c-59 0 -250 20 -250 264c0 63 18 264 250 264c115 0 174 -109 174 -165c0 -39 -30 -70 -66 -70c-30 0 -74 23 -74 73c0 38 27 76 71 76c4 0 7 0 11 -1c-27 36 -69 59 -116 59c-106 0 -113 -74 -113 -188c0 -15 1 -31 1 -48 s-1 -33 -1 -48c0 -114 7 -188 113 -188c79 0 136 70 155 150c2 7 7 10 13 10c7 0 14 -5 14 -13z" fill="currentColor"/>
 </g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(16.5123, 7.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(16.5123, 23.8969)">
 <rect x="-0.0697" y="-1.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(16.5123, 39.8969)">
 <rect x="-0.0697" y="-2.8207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
@@ -152,7 +152,7 @@ tspan { white-space: pre; }
 <tspan>13</tspan>
 </text>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(98.6117, 25.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -165,12 +165,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 1.5: F4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(21.8647, 23.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(73.6341, 25.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -183,12 +183,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 1.75: G4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(25.4329, 23.8969)">
 <rect x="-0.0697" y="-1.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(59.2614, 24.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -196,7 +196,7 @@ tspan { white-space: pre; }
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="9.0156 -0.1956 9.0156 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m13-n2" data-note-id="fig-episode-two-s-m13-n2" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 2: F5, one quarter note.">
+<g id="fig-episode-two-s-m13-n2" data-note-id="fig-episode-two-s-m13-n2" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 2: F5, one quarter note." style="">
 <g transform="translate(28.9314, 5.8969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -211,22 +211,22 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 13, beat 2: F3, one quarter note.</title></g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(29.0011, 7.8969)">
 <rect x="-0.0697" y="-1.8207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(29.0011, 23.8969)">
 <rect x="-0.0697" y="-2.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(29.0011, 39.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(46.7726, 24.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -239,12 +239,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 2.5: G4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(34.3535, 23.8969)">
 <rect x="-0.0697" y="-1.8207" width="0.1395" height="2.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(34.2837, 23.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -257,12 +257,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 2.75: A4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(37.9217, 23.8969)">
 <rect x="-0.0697" y="-2.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(21.7949, 24.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -270,7 +270,7 @@ tspan { white-space: pre; }
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="9.0156 -0.1956 9.0156 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m13-n3" data-note-id="fig-episode-two-s-m13-n3" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 3: D5, one quarter note.">
+<g id="fig-episode-two-s-m13-n3" data-note-id="fig-episode-two-s-m13-n3" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 3: D5, one quarter note." style="">
 <g transform="translate(41.4202, 6.8969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -285,17 +285,17 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 13, beat 3: Bb2, one quarter note.</title></g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(41.4899, 7.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(41.4899, 23.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(42.6533, 39.8969)">
 <rect x="-0.0697" y="-2.5000" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
@@ -305,7 +305,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 3.5: E4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(46.8423, 23.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="2.6343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -315,12 +315,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 3.75: F4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(50.4105, 23.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m13-n4" data-note-id="fig-episode-two-s-m13-n4" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 4: Eb5, one quarter note.">
+<g id="fig-episode-two-s-m13-n4" data-note-id="fig-episode-two-s-m13-n4" data-voice="s" data-measure="13" role="button" aria-label="Soprano, measure 13, beat 4: Eb5, one quarter note." style="">
 <g transform="translate(53.9090, 6.3969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -335,27 +335,27 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 13, beat 4: Eb3, one quarter note.</title></g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(53.9788, 7.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(52.7590, 6.3969)">
 <path transform="scale(0.0040, -0.0040)" d="M29 39l-2 -64v-11c0 -22 2 -43 5 -65c44 38 91 80 91 138c0 33 -13 66 -42 66c-31 0 -51 -31 -52 -64zM-28 454c9 5 18 8 28 8s19 -3 28 -8l-7 -343c25 23 58 36 92 36c51 0 87 -49 87 -103c0 -79 -84 -117 -144 -169c-16 -14 -25 -41 -47 -41c-14 0 -25 13 -25 27z" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(53.9788, 23.8969)">
 <rect x="-0.0697" y="-1.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(53.9788, 39.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(52.7590, 39.3969)">
 <path transform="scale(0.0040, -0.0040)" d="M29 39l-2 -64v-11c0 -22 2 -43 5 -65c44 38 91 80 91 138c0 33 -13 66 -42 66c-31 0 -51 -31 -52 -64zM-28 454c9 5 18 8 28 8s19 -3 28 -8l-7 -343c25 23 58 36 92 36c51 0 87 -49 87 -103c0 -79 -84 -117 -144 -169c-16 -14 -25 -41 -47 -41c-14 0 -25 13 -25 27z" fill="currentColor"/>
 </g>
@@ -365,7 +365,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 4.5: F4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(59.3311, 23.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -375,7 +375,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 13, beat 4.75: G4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(62.8994, 23.8969)">
 <rect x="-0.0697" y="-1.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -385,7 +385,7 @@ tspan { white-space: pre; }
 <tspan>S</tspan>
 </text>
 </g>
-<g id="fig-episode-two-s-m14-n1" data-note-id="fig-episode-two-s-m14-n1" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 1: C5, one quarter note.">
+<g id="fig-episode-two-s-m14-n1" data-note-id="fig-episode-two-s-m14-n1" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 1: C5, one quarter note." style="">
 <g transform="translate(68.2817, 7.3969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -412,7 +412,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 14, beat 1: A2, one quarter note.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(86.1229, 24.8969)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0889" fill="currentColor" stroke="currentColor" points="3.6633 -0.1956 3.6633 0.1956 0.0444 0.1956 0.0444 -0.1956"/>
 </g>
@@ -425,17 +425,17 @@ tspan { white-space: pre; }
 <tspan>14</tspan>
 </text>
 </g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(68.3515, 7.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(68.3515, 23.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(69.5148, 39.8969)">
 <rect x="-0.0697" y="-2.0000" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
@@ -450,7 +450,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 1.5: D4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(73.7038, 23.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -460,12 +460,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 1.75: E4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(77.2721, 23.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m14-n2" data-note-id="fig-episode-two-s-m14-n2" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 2: D5, one quarter note.">
+<g id="fig-episode-two-s-m14-n2" data-note-id="fig-episode-two-s-m14-n2" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 2: D5, one quarter note." style="">
 <g transform="translate(80.7705, 6.8969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -480,17 +480,17 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 14, beat 2: D3, one quarter note.</title></g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(80.8403, 7.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(80.8403, 23.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(80.8403, 39.8969)">
 <rect x="-0.0697" y="0.1793" width="0.1395" height="3.1540" ry="0.0444" fill="currentColor"/>
 </g>
@@ -500,7 +500,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 2.5: E4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(86.1926, 23.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="2.6343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -510,12 +510,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 2.75: F4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(89.7609, 23.8969)">
 <rect x="-0.0697" y="-1.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m14-n3" data-note-id="fig-episode-two-s-m14-n3" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 3: Bb4, one quarter note.">
+<g id="fig-episode-two-s-m14-n3" data-note-id="fig-episode-two-s-m14-n3" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 3: Bb4, one quarter note." style="">
 <g transform="translate(93.2594, 7.8969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -530,17 +530,17 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 14, beat 3: G2, one quarter note.</title></g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(93.3291, 7.8969)">
 <rect x="-0.0697" y="0.1793" width="0.1395" height="3.1540" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(93.3291, 23.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(94.4924, 39.8969)">
 <rect x="-0.0697" y="-1.5000" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
@@ -550,7 +550,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 3.5: C4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(98.6815, 23.8969)">
 <rect x="-0.0697" y="0.1793" width="0.1395" height="2.6343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -560,12 +560,12 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 3.75: D4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(102.2497, 23.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g id="fig-episode-two-s-m14-n4" data-note-id="fig-episode-two-s-m14-n4" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 4: C5, one quarter note.">
+<g id="fig-episode-two-s-m14-n4" data-note-id="fig-episode-two-s-m14-n4" data-voice="s" data-measure="14" role="button" aria-label="Soprano, measure 14, beat 4: C5, one quarter note." style="">
 <g transform="translate(105.7482, 7.3969)">
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
@@ -580,17 +580,17 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Bass, measure 14, beat 4: C3, one quarter note.</title></g>
-<g data-voice="s">
+<g data-voice="s" style="opacity: 1;">
 <g transform="translate(105.8179, 7.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(105.8179, 23.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g data-voice="b">
+<g data-voice="b" style="opacity: 1;">
 <g transform="translate(106.9812, 39.8969)">
 <rect x="-0.0697" y="-3.0000" width="0.1395" height="3.3207" ry="0.0444" fill="currentColor"/>
 </g>
@@ -605,7 +605,7 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 4.5: D4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(111.1703, 23.8969)">
 <rect x="-0.0697" y="-0.3207" width="0.1395" height="3.1343" ry="0.0444" fill="currentColor"/>
 </g>
@@ -615,9 +615,9 @@ tspan { white-space: pre; }
 <path transform="scale(0.0040, -0.0040)" d="M0 -45c0 92 113 182 214 182c64 0 112 -36 112 -92c0 -88 -108 -182 -217 -182c-68 0 -109 39 -109 92z" fill="currentColor"/>
 </g>
 <title>Alto, measure 14, beat 4.75: E4, 0.25 quarter notes.</title></g>
-<g data-voice="a">
+<g data-voice="a" style="opacity: 1;">
 <g transform="translate(114.7385, 23.8969)">
 <rect x="-0.0697" y="-0.8207" width="0.1395" height="3.6343" ry="0.0444" fill="currentColor"/>
 </g>
 </g>
-<g class="score-annotations" aria-hidden="true"><g data-annotation="alto-figure" data-voice="a" color="#316f78" class="score-bracket"><path d="M 15.442600250244134 17.248899841308592 V 15.848899841308594 H 116.97280037403107 V 17.248899841308592" fill="none" stroke="currentColor" stroke-width="0.22"/><text x="43.871056284904476" y="14.648899841308594" text-anchor="middle" fill="currentColor" class="score-annotation-label">Episode figure · alto</text></g><g data-annotation="expanded-sequence" data-voice="b" color="#68734f" class="score-bracket"><path d="M 15.442600250244134 32.74889984130859 V 31.348899841308594 H 108.05219948291779 V 32.74889984130859" fill="none" stroke="currentColor" stroke-width="0.22"/><text x="61.747399866580956" y="30.148899841308594" text-anchor="middle" fill="currentColor" class="score-annotation-label">C · F · B♭ · E♭ | A · D · G · C</text></g></g></svg>
+<g class="score-annotations" aria-hidden="true"><g data-annotation="alto-figure" data-voice="a" color="#316f78" class="score-bracket" style="opacity: 1;"><path d="M 15.44260025024414 17.248899841308592 V 15.848899841308594 H 116.97280037403107 V 17.248899841308592" fill="none" stroke="currentColor" stroke-width="0.22"/><text x="43.87105628490448" y="14.648899841308594" text-anchor="middle" fill="currentColor" class="score-annotation-label">Episode figure · alto</text></g><g data-annotation="expanded-sequence" data-voice="b" color="#68734f" class="score-bracket" style="opacity: 1;"><path d="M 15.44260025024414 32.74889984130859 V 31.348899841308594 H 108.05219948291779 V 32.74889984130859" fill="none" stroke="currentColor" stroke-width="0.22"/><text x="61.74739986658096" y="30.148899841308594" text-anchor="middle" fill="currentColor" class="score-annotation-label">C · F · B♭ · E♭ | A · D · G · C</text></g></g></svg>

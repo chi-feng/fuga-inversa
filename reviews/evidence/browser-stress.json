@@ -1,0 +1,26 @@
+{
+  "method": "Saved Chrome probe of actual source start/stop intervals and rapid UI requests.",
+  "limitations": [
+    "The captures cover the recorded interactions and timing sequences in Chrome.",
+    "Audio was routed to a zero-gain bus or muted native media. These are signal and control checks, not an audition.",
+    "Physical iPhone and Safari behavior, browser heap, and subjective musical expression were not measured."
+  ],
+  "result": {
+    "actualPair": [
+      "soprano",
+      "alto"
+    ],
+    "alignedStarts": true,
+    "audioAudition": false,
+    "contextSampleRate": 48000,
+    "latestRequestWins": true,
+    "liccUsesSharedPlayer": true,
+    "masterStemAndInstrumentExclusive": true,
+    "maximumConcurrentScheduledSources": 2,
+    "method": "Actual source start/stop intervals and UI behavior, routed through a muted output bus.",
+    "nativeAndScoreExclusiveAfterPauseFade": true,
+    "noteClickPreservesVoice": true,
+    "passed": true,
+    "pauseFadeMilliseconds": 10
+  }
+}

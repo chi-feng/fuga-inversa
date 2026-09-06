@@ -1,0 +1,30 @@
+{
+  "reviewer": "claude-fable-5-1",
+  "review_type": "cross-family",
+  "base_commit": "7a156b0deea04743f2fc06264f6162813388e709",
+  "snapshot_created_utc": "2026-09-06T22:22:03.771637+00:00",
+  "snapshot_inventory_sha256": "aee20906ae790f3bef1b27c6a69e4504665fa468811a805c745dda66b578e960",
+  "snapshot_files": 213,
+  "reviewed_assistant_models": [
+    "claude-fable-5-1"
+  ],
+  "initialization_models": [
+    "claude-fable-5-1"
+  ],
+  "auxiliary_usage_models": [
+    "claude-haiku-4-5-20251001"
+  ],
+  "subtype": "success",
+  "is_error": false,
+  "permission_denials": [],
+  "snapshot_changed": [],
+  "snapshot_extra_files": [],
+  "result_characters": 7561,
+  "workspace_delta_when_report_received": [
+    "REVIEW.md"
+  ],
+  "process_exit_code": 0,
+  "result_written_utc": "2026-09-06T22:32:54.791627+00:00",
+  "scope": "Read-only review of the recorded snapshot. Later changes responding to this report are listed in REVIEW.md.",
+  "reviewed_snapshot_inventory": "reviews/evidence/fable-followup-snapshot.json"
+}

@@ -32,9 +32,13 @@ The organ realization uses **Jeux d'orgues 2.1**, Joseph Basquin's samples of th
 
 FluidSynth renders the prepared MIDI with modest reverberation. The delivery uses fixed gain, stereo 48 kHz, 24-bit PCM and an MP3 listening copy. The sample library is not included. The preparation and rendering scripts record the settings.
 
+The interactive web player applies −2.01 dB to the organ master and its voice stems to match the piano's integrated listening level. The downloadable recordings retain their published levels. Repeated excerpts have 5 ms tapers at their boundaries, and pausing uses a 10 ms fade; whole-piece playback retains the recorded resonance.
+
 ## Engraving and edition
 
 LilyPond **2.26.0** engraves the performing score and every musical excerpt. The webpage attaches annotations to LilyPond's note identifiers. The PDF uses the same annotated vector excerpts and XeLaTeX. Its body text uses Libertinus; code and file paths use **Inconsolata**, designed by Raph Levien, with Michael Sharpe's TeX adaptation. The mono face is `Inconsolatazi4-Regular.otf` from TeX Live's `inconsolata` package. The [package documentation](https://ctan.org/pkg/inconsolata) identifies its font variants and licenses. [The edition build instructions](edition/README.md) record the exact font settings.
+
+The website serves the same regular Inconsolata face locally, with upright code quotes and disabled text ligatures. Its [font notice and SIL Open Font License](assets/fonts/README.md) accompany the unmodified font file.
 
 Matplotlib draws the performance figure from the actual piano MIDI and its note data.
 

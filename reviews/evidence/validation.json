@@ -1,0 +1,653 @@
+{
+  "recorded_at_utc": "2026-09-06T22:22:36.944409+00:00",
+  "scope": "Public evidence for the specified post-review score, layout, source-rebuild, playback-control, and regression checks, including the responses to Fable's focused follow-up.",
+  "hash_scope": "Artifact hashes identify the files packaged with this evidence. The saved browser exports did not record source-code hashes; their observations cover the recorded sequences and environments.",
+  "limitations": [
+    "Chrome audio checks used a muted output path and do not establish audibility or musical expression.",
+    "Held PCM references exclude browser heap, decoder scratch memory, and garbage-collection timing.",
+    "A 390-pixel Chrome viewport is not a physical iPhone or Safari test.",
+    "The common source parser and MIDI reader can share errors. Harmonic and performance judgments require additional review.",
+    "The prepublication identity comparison covers the 19 listed score and audio files. The revised analysis PDF is recorded separately."
+  ],
+  "evidence_files": [
+    {
+      "path": "reviews/evidence/browser-default-rate.json",
+      "sha256": "618d020318b9d628e4cf36936adc80385423352e94dc16800323beb1986e04c9"
+    },
+    {
+      "path": "reviews/evidence/browser-fallback.json",
+      "sha256": "9c2492abd653c125aacbfba157c6ee99c173ce4fe13bbc224af3ebd1c408dc91"
+    },
+    {
+      "path": "reviews/evidence/browser-functional.json",
+      "sha256": "dad9534394d5aa4ae4980a4f73b50d35eaf31c29cdfc386789a361234fe43ea5"
+    },
+    {
+      "path": "reviews/evidence/browser-layout.json",
+      "sha256": "c16f34db12189182539a3ede661927f7d82d618fbba0cd3db6d6376e5d64aa32"
+    },
+    {
+      "path": "reviews/evidence/browser-load-failure.json",
+      "sha256": "6d25ea30804d953b2b13aae13336261a4f340cb0d05c8e5991bb1c03b287fc77"
+    },
+    {
+      "path": "reviews/evidence/browser-stress.json",
+      "sha256": "9c9db71f21b5fba9279ffc7e2bea4ca6e8afa3eead46357bb4cd2a9aef3b815b"
+    },
+    {
+      "path": "reviews/evidence/comparison-interruption-before-fix.txt",
+      "sha256": "493602385d9f6ccae01a46be5899d58ddeb035fb01e23957bb27d9c5fea1009a"
+    },
+    {
+      "path": "reviews/evidence/comparison-interruption.json",
+      "sha256": "00eed09859c43ec812ccf248d0e179837fc3ca5220e77c66324e577ae835c9ea"
+    },
+    {
+      "path": "reviews/evidence/fable-followup-metadata.json",
+      "sha256": "7dac49b7f9e7eda934c4066469fbb3196e93df4ef1194be02866798c08148be4"
+    },
+    {
+      "path": "reviews/evidence/fable-followup-snapshot.json",
+      "sha256": "aee20906ae790f3bef1b27c6a69e4504665fa468811a805c745dda66b578e960"
+    },
+    {
+      "path": "reviews/evidence/followup-presentation.json",
+      "sha256": "33636b5664ac977a8c36d2e14b59196c1916c01e35ff76b6d61bb4ad4c810df5"
+    },
+    {
+      "path": "reviews/evidence/musical-triage.json",
+      "sha256": "501046ce5363c1114dbc22c782c5b19963ced1ffdaea21c937a84bfa28a87bea"
+    },
+    {
+      "path": "reviews/evidence/paper-validation.json",
+      "sha256": "efccaedea98b9f1e0f80a539f91ac7a3139ac8f4edbb4b8695de75dacce22016"
+    }
+  ],
+  "primary_export_hashes": [
+    {
+      "id": "fable-musical-triage.json",
+      "sha256": "954518bf2f656a2ac614e1e6fae5fdcf4779a1d3c6fb3a7f2fe449b79db7180b",
+      "public_summary": "reviews/evidence/musical-triage.json"
+    },
+    {
+      "id": "browser-triage-functional.json",
+      "sha256": "822e1d992acd70d00edc79420a01e96ac3a246eddf1e9cf09b45e3a3790e60fb",
+      "public_summary": "reviews/evidence/browser-functional.json"
+    },
+    {
+      "id": "browser-triage-stress.json",
+      "sha256": "5d802b4a2c2f6818e7ad2f4ddf92fbf578e69b3eb1726019f01e431f741b8380",
+      "public_summary": "reviews/evidence/browser-stress.json"
+    },
+    {
+      "id": "browser-triage-fallback-check.json",
+      "sha256": "a9588bd7f24f4802c741d6f40a3c8133ef99e458fb5b7a6358883dbbf3877688",
+      "public_summary": "reviews/evidence/browser-fallback.json"
+    },
+    {
+      "id": "browser-triage-load-failure.json",
+      "sha256": "b5318909fd77d1144163c34a593d7e5516c6c79c6af863e462ac920c567216f1",
+      "public_summary": "reviews/evidence/browser-load-failure.json"
+    },
+    {
+      "id": "browser-layout-desktop.json",
+      "sha256": "ed578ee1e2f8d64b238ec4569bbb3cb99baebf00df0852993c883d1ffb094311",
+      "public_summary": "reviews/evidence/browser-layout.json"
+    },
+    {
+      "id": "browser-layout-phone.json",
+      "sha256": "15ebb71d0636d4464669efdcd1145d5bad27b1758ad4c25b1a685ec5662d319d",
+      "public_summary": "reviews/evidence/browser-layout.json"
+    },
+    {
+      "id": "browser-triage-stress-default-rate.json",
+      "sha256": "31b54f7d6d110e86655fd07261bd752a610b41d17b14cf4f31cf1ee3d27e0501",
+      "public_summary": "reviews/evidence/browser-default-rate.json"
+    },
+    {
+      "id": "browser-triage-functional-default-rate.json",
+      "sha256": "a846387f699c143de9f336ae1d6ca4e406f60ac4653831eee28c4ced9990e35d",
+      "public_summary": "reviews/evidence/browser-default-rate.json"
+    },
+    {
+      "id": "browser-comparison-interruption.json",
+      "sha256": "7ed6daa84a92360753277fbcec03202b052fa29131e3d6272f73d6d9209dbed0",
+      "public_summary": "reviews/evidence/comparison-interruption.json"
+    },
+    {
+      "id": "paper/fable-final-proof/source-checks.json",
+      "sha256": "01efee302af24ddda9171fc27e982311aa96e8180406e6e770cbb37778163ff6",
+      "public_summary": "reviews/evidence/paper-validation.json"
+    },
+    {
+      "id": "comparison-interruption-green.json",
+      "sha256": "74fc0bc75c0e603fde9b2a973a162196a67258e13a823b9ba30fce50ce9a20fa",
+      "public_summary": "reviews/evidence/validation.json"
+    },
+    {
+      "id": "comparison-interruption-red.txt",
+      "sha256": "bd12bc2925e2f570dab5adaefd5dd05c5279eba5fd61169db5ad12b813beed47",
+      "public_summary": "reviews/evidence/validation.json"
+    },
+    {
+      "id": "final-audio-publication-check.json",
+      "sha256": "c1f2db93177a6abbf68a89c0d429bbfc26a4637f80d0a6617e61bc229d79e804",
+      "public_summary": "reviews/evidence/validation.json"
+    },
+    {
+      "id": "fable-snapshot-integrity.json",
+      "sha256": "6afdfba6d5c2c644f25a4e0ce0231601c63570844737cce997bec37395ddb364",
+      "public_summary": "reviews/evidence/validation.json"
+    },
+    {
+      "id": "paper/fable-followup-proof/source-checks.json",
+      "sha256": "960c6f2234a89620f14ea235a7f1c263b89ac6d1adc667c834660dfc7aacdd0e",
+      "public_summary": "reviews/evidence/paper-validation.json"
+    },
+    {
+      "id": "followup-static-checks.json",
+      "sha256": "8a3ba530e9c7f5c403938a4bc695f56817add86779f54fe7ad024f2c26ba336c",
+      "public_summary": "reviews/evidence/validation.json"
+    },
+    {
+      "id": "browser-followup-presentation.json",
+      "sha256": "714a634bc127199e20554a3a8982fed7b1380cc3e043c8421d4f52cd61a7b8f2",
+      "public_summary": "reviews/evidence/followup-presentation.json"
+    },
+    {
+      "id": "fable-followup-metadata.json",
+      "sha256": "ff140b53f965b6713b3d0285b7ec7e52674711bd5e4d09ec227f335dd1ef2a32",
+      "public_summary": "reviews/evidence/fable-followup-metadata.json"
+    }
+  ],
+  "prepublication_identity": {
+    "checked_at_utc": "2026-09-06T21:12:34.985689+00:00",
+    "method": "Each listed current public file was hashed independently and compared with the saved prepublication audit.",
+    "files": [
+      {
+        "path": "assets/audio/piano.mp3",
+        "sha256": "28a48095c796a458c4ed00c0e91915bb85712d2d2d0f5ad739672c576ca256f8",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/fugue-piano.wav",
+        "sha256": "d3b61978d82ca81ab1243efbaef81cb23d664cb58c456ee9bda7bc8e2701d5e1",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/piano-close.mp3",
+        "sha256": "ca3f0f68f50e97d6811b22be583881c3240747c3112a8a0bf94bd85082746217",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/piano-soprano.mp3",
+        "sha256": "0c9504eff5ddb3d1739cc2bb6d513c6f0665793ccede70b979d0a22ae6a4dcb8",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/piano-alto.mp3",
+        "sha256": "0a2e49443f5dfdbcdd4308bef62a680fc2f863a43d75281fd556adcb749fc2dc",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/piano-bass.mp3",
+        "sha256": "572ff493831321ece83e3bd220ba4e02be73b790bd68985c88014c05ea20506a",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "reproducibility/piano-production/steinway-concert-dry-native24.wav",
+        "sha256": "b0a45604e50b44ba489be47b9458ab097af8f768238fc1a2f6ccda1c6d4fba4a",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "reproducibility/piano-production/steinway-concert-dry-native24-soprano.wav",
+        "sha256": "c8df264f8926ff4ff2a7d3cd2d63237e6423d2fd7cbb398df66e2779c5ebe087",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "reproducibility/piano-production/steinway-concert-dry-native24-alto.wav",
+        "sha256": "f257b824a60dc8c7afe283b1e11db47c57a35ff054b57bdaca9a91b88a1cac37",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "reproducibility/piano-production/steinway-concert-dry-native24-bass.wav",
+        "sha256": "33bd3f4bd9ac726a5e5dc86d23e2e43a98527adae01d2b118baaf46336b7c593",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/fugue-organ.wav",
+        "sha256": "4aaf85569fa3aa3f75e4594b1ed278497795c231057682ff72da9652ec280acf",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/organ.mp3",
+        "sha256": "920e1d7af06da882ed668a5919d98ad0e955e06556ccc772a77859955cd5f5d8",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/organ-soprano.mp3",
+        "sha256": "1993fd3290cf7b11605dd50b5b03c8afdb1f25c338c9d9548713cfaeaf8eed58",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/organ-alto.mp3",
+        "sha256": "14e26a0f5740446369d80136aad1c08de50dc46c1222fc7f072ed4a893d5f177",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/audio/organ-bass.mp3",
+        "sha256": "a85212f021f973a7fb18fb4cec34382995d9c3dc6e4513dcdc738c6cde680cfc",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/score/fugue.ly",
+        "sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/score/fugue.midi",
+        "sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/score/fugue.pdf",
+        "sha256": "f90c9307779a6d0c145c21f905595d6c6df9c37523801970bea2ac02353c99ca",
+        "matches_prepublication_audit": true
+      },
+      {
+        "path": "assets/score/fugue-piano.midi",
+        "sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363",
+        "matches_prepublication_audit": true
+      }
+    ]
+  },
+  "initial_review_snapshot": {
+    "reviewed_commit": "7a156b0deea04743f2fc06264f6162813388e709",
+    "manifest_entries": 192,
+    "changed_at_integrity_check": [],
+    "extra_at_integrity_check": []
+  },
+  "static_checks": {
+    "date": "2026-09-07",
+    "scope": "After Fable follow-up: disabled cursor, selection glyph, and unused pending-load fields.",
+    "working_directory": "repository root",
+    "commands": [
+      {
+        "command": "npm run lint",
+        "exit_code": 0
+      },
+      {
+        "command": "npm run typecheck",
+        "exit_code": 0
+      },
+      {
+        "command": "npm test",
+        "exit_code": 0
+      }
+    ],
+    "node_test_counts": {
+      "tests": 34,
+      "pass": 34,
+      "fail": 0,
+      "cancelled": 0,
+      "skipped": 0,
+      "todo": 0
+    },
+    "nonfatal_npm_config_warning_recorded": true,
+    "regressions": {
+      "failing_before_fix": [
+        "native playback cancels a pending comparison before its continuation",
+        "page hide cancels a pending comparison before its continuation"
+      ],
+      "observed_late_excerpt_starts_before_fix": 1,
+      "expected_late_excerpt_starts": 0,
+      "both_pass_after_fix": true,
+      "actual_browser_evidence": "reviews/evidence/comparison-interruption.json",
+      "original_failure_output": "reviews/evidence/comparison-interruption-before-fix.txt"
+    },
+    "primary_export": "followup-static-checks.json",
+    "git_whitespace_check": {
+      "command": "git diff --cached --check",
+      "exit_code": 2,
+      "findings": [
+        "assets/fonts/OFL.txt:20: trailing whitespace.",
+        "+fonts, including any derivative works, can be bundled, embedded, ",
+        "assets/native-playback.mjs:1: trailing whitespace.",
+        "+                              ",
+        "assets/native-playback.mjs:2: trailing whitespace.",
+        "+                          ",
+        "assets/native-playback.mjs:3: trailing whitespace.",
+        "+                               ",
+        "assets/native-playback.mjs:4: trailing whitespace.",
+        "+                            ",
+        "assets/native-playback.mjs:5: trailing whitespace.",
+        "+                      ",
+        "assets/native-playback.mjs:6: trailing whitespace.",
+        "+  ",
+        "assets/player.mjs:8: trailing whitespace.",
+        "+                                                  ",
+        "assets/player.mjs:9: trailing whitespace.",
+        "+                                                                              ",
+        "assets/player.mjs:10: trailing whitespace.",
+        "+                                                     ",
+        "assets/player.mjs:196: trailing whitespace.",
+        "+    const prepared = new Map(parts.map(part => [part, loopStart === null ? buffers[part] ",
+        "reviews/evidence/comparison-interruption-before-fix.txt:21: trailing whitespace.",
+        "+  ",
+        "reviews/evidence/comparison-interruption-before-fix.txt:23: trailing whitespace.",
+        "+  ",
+        "reviews/evidence/comparison-interruption-before-fix.txt:38: trailing whitespace.",
+        "+  ",
+        "reviews/evidence/comparison-interruption-before-fix.txt:40: trailing whitespace.",
+        "+  "
+      ],
+      "disposition": "Retained. Node stripTypeScriptTypes preserves source positions as whitespace in generated JavaScript. The font license is unmodified, and the regression failure output preserves its original spacing after removal of local paths. Application ESLint, type checking, and regression tests pass separately."
+    }
+  },
+  "html_rebuild": {
+    "method": "The public builder, current template, and editorial inputs were copied into an isolated directory. The builder regenerated index.html there; its bytes were compared with the current publication.",
+    "command_from_repository_root": "uv run --no-project python build_edition.py",
+    "pandoc_version": "pandoc 3.8.3",
+    "index_sha256": "9fee163e17f5df9a50a930ad36e1ebe21dd67e3bdb9c249ee033bb533e4f9a5f",
+    "byte_identical": true,
+    "published_index_unchanged_by_check": true,
+    "primary_export": "paper/fable-followup-proof/source-checks.json"
+  },
+  "portable_browser_checks": {
+    "environment": "Evaluate the supplied JavaScript in the current edition page through agent-browser. The audio probes require the muted setup followed by a trusted click on Play. Reload the page after testing to remove instrumentation.",
+    "muted_setup": "reviews/checks/browser-muted-setup.js",
+    "functional": "reviews/checks/browser-functional.js",
+    "stress": "reviews/checks/browser-stress.js",
+    "comparison_interruption": "reviews/checks/comparison-interruption.js",
+    "layout": "reviews/checks/browser-layout.js",
+    "limits": "These scripts check their explicit assertions. A dispatched pagehide event is a controlled handler test, not a physical browser lifecycle test."
+  },
+  "artifacts": [
+    {
+      "path": "assets/annotated-score.css",
+      "sha256": "562fc175a397e088110c09044a18771f2f556df6df5f25fe0cd022f31487ba0b",
+      "bytes": 2053
+    },
+    {
+      "path": "assets/annotated-score.js",
+      "sha256": "841faa49318436c74dcaf27e21231332d52ea004c0b8e4d394e483f55e7ebd73",
+      "bytes": 11561
+    },
+    {
+      "path": "assets/app.mjs",
+      "sha256": "df2b470f6320dabf46875ea8622107c5dfcc1bf8b5f474d0251341edecaaf9c7",
+      "bytes": 12504
+    },
+    {
+      "path": "assets/audio-coordination.mjs",
+      "sha256": "735fa55d26b4d8bbf0402ac3c6fd5fc2151ee149268d450ec7cd9dbef4a75688",
+      "bytes": 423
+    },
+    {
+      "path": "assets/audio/fugue-organ.wav",
+      "sha256": "4aaf85569fa3aa3f75e4594b1ed278497795c231057682ff72da9652ec280acf",
+      "bytes": 21374682
+    },
+    {
+      "path": "assets/audio/fugue-piano.wav",
+      "sha256": "d3b61978d82ca81ab1243efbaef81cb23d664cb58c456ee9bda7bc8e2701d5e1",
+      "bytes": 21553356
+    },
+    {
+      "path": "assets/audio/organ-alto.mp3",
+      "sha256": "14e26a0f5740446369d80136aad1c08de50dc46c1222fc7f072ed4a893d5f177",
+      "bytes": 1782811
+    },
+    {
+      "path": "assets/audio/organ-bass.mp3",
+      "sha256": "a85212f021f973a7fb18fb4cec34382995d9c3dc6e4513dcdc738c6cde680cfc",
+      "bytes": 1782811
+    },
+    {
+      "path": "assets/audio/organ-soprano.mp3",
+      "sha256": "1993fd3290cf7b11605dd50b5b03c8afdb1f25c338c9d9548713cfaeaf8eed58",
+      "bytes": 1782811
+    },
+    {
+      "path": "assets/audio/organ.mp3",
+      "sha256": "920e1d7af06da882ed668a5919d98ad0e955e06556ccc772a77859955cd5f5d8",
+      "bytes": 2377051
+    },
+    {
+      "path": "assets/audio/piano-alto.mp3",
+      "sha256": "0a2e49443f5dfdbcdd4308bef62a680fc2f863a43d75281fd556adcb749fc2dc",
+      "bytes": 2396972
+    },
+    {
+      "path": "assets/audio/piano-bass.mp3",
+      "sha256": "572ff493831321ece83e3bd220ba4e02be73b790bd68985c88014c05ea20506a",
+      "bytes": 2396972
+    },
+    {
+      "path": "assets/audio/piano-close.mp3",
+      "sha256": "ca3f0f68f50e97d6811b22be583881c3240747c3112a8a0bf94bd85082746217",
+      "bytes": 2396972
+    },
+    {
+      "path": "assets/audio/piano-soprano.mp3",
+      "sha256": "0c9504eff5ddb3d1739cc2bb6d513c6f0665793ccede70b979d0a22ae6a4dcb8",
+      "bytes": 2396972
+    },
+    {
+      "path": "assets/audio/piano.mp3",
+      "sha256": "28a48095c796a458c4ed00c0e91915bb85712d2d2d0f5ad739672c576ca256f8",
+      "bytes": 2396972
+    },
+    {
+      "path": "assets/excerpts/manifest.json",
+      "sha256": "bb5d74c2a936abdb2d7cafc46ee40d97222f3ffa9362ac88bb6f0477aba25049",
+      "bytes": 114466
+    },
+    {
+      "path": "assets/figures.json",
+      "sha256": "3632b8b6b141f00aea06648436ab1189de6668438c7d53f9c0104a2954369d04",
+      "bytes": 24336
+    },
+    {
+      "path": "assets/fonts/Inconsolatazi4-Regular.otf",
+      "sha256": "fa4d0728e461e228e4c3b706cc0836f72cb146852a757127c92647d8c405b638",
+      "bytes": 37420
+    },
+    {
+      "path": "assets/native-playback.mjs",
+      "sha256": "d93a084ff1b0a0ae85347bc0b580b96ae57d9c314945b674bf6b11b32b5a3899",
+      "bytes": 1285
+    },
+    {
+      "path": "assets/pdf/fuga-inversa-analysis.pdf",
+      "sha256": "9564b29c807d2035952ae2bd8ae846a69005aff5a1d7650bf26e383c86b40aa2",
+      "bytes": 370655
+    },
+    {
+      "path": "assets/player.mjs",
+      "sha256": "823fe31710345b19a04878641a33d39d08d564928b60e9e2b2f86d52b183101a",
+      "bytes": 13986
+    },
+    {
+      "path": "assets/score/fugue-2x.png",
+      "sha256": "274070b5dc8ca3bd354b1f5e71fc10bbbba47504dc251576a01bdcafc06aad51",
+      "bytes": 331705
+    },
+    {
+      "path": "assets/score/fugue-piano.midi",
+      "sha256": "6dd6be494175c197a7347acd04fe50573f6efff430884560b8167455f9aa5363",
+      "bytes": 9580
+    },
+    {
+      "path": "assets/score/fugue.ly",
+      "sha256": "dd50972d20633ec08cc3f05b4d998e1b973f78057863149ac8f1b4044db9ca35",
+      "bytes": 4923
+    },
+    {
+      "path": "assets/score/fugue.midi",
+      "sha256": "b8299682faa9740973bb91d717a090071527f88b3b9ce92d0aed7a215742e49e",
+      "bytes": 3667
+    },
+    {
+      "path": "assets/score/fugue.pdf",
+      "sha256": "f90c9307779a6d0c145c21f905595d6c6df9c37523801970bea2ac02353c99ca",
+      "bytes": 67100
+    },
+    {
+      "path": "assets/score/fugue.png",
+      "sha256": "351b82bb847afc7d068e83bc2739976c35d813ce085448ffec514db7f5cdf0bb",
+      "bytes": 145873
+    },
+    {
+      "path": "assets/site.css",
+      "sha256": "e888968f5688c1ded956ceb0999736a66d80c18967eb50a6b16ed3b0d97031de",
+      "bytes": 15706
+    },
+    {
+      "path": "assets/timeline-organ.json",
+      "sha256": "0a0f571b3ca82410250a6579c77119739919c4b5de1ef7cf261879f41776dd01",
+      "bytes": 16064
+    },
+    {
+      "path": "assets/timeline-piano.json",
+      "sha256": "8d11618ee78d240a805747c00cecbbab2dac0ec8cc7db685014a9dc15c894f34",
+      "bytes": 22510
+    },
+    {
+      "path": "assets/timeline.mjs",
+      "sha256": "56fa1585948b3b316f20559cf431f97cd29c7803722d2b42cba294763e8adfa9",
+      "bytes": 1544
+    },
+    {
+      "path": "build_edition.py",
+      "sha256": "b517b53bbaa757191d3ac8f1c3862ee90f7290b6dfce3674d1034ffdaea61e8b",
+      "bytes": 1687
+    },
+    {
+      "path": "edition/analysis.md",
+      "sha256": "7cf5f52f250723bc7feeacc44cbde85a0278ef07c51bf47ab80282d5e1fb0c04",
+      "bytes": 29088
+    },
+    {
+      "path": "edition/fuga-inversa-analysis.tex",
+      "sha256": "a3899cb971da60aebf4c003c54eec7d2acd5d1c8ced8df63c9f0b3d169adf9a2",
+      "bytes": 50424
+    },
+    {
+      "path": "edition/process.md",
+      "sha256": "5e8cc6f24ab1f43e7735cc4a42fc16bd176ab16d3a3063671f6a17e6089284e9",
+      "bytes": 17781
+    },
+    {
+      "path": "index.html",
+      "sha256": "9fee163e17f5df9a50a930ad36e1ebe21dd67e3bdb9c249ee033bb533e4f9a5f",
+      "bytes": 60928
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "148bb53e90ed278932279aa5b78b5e85027d35863c8c8d5da24c127a045268e2",
+      "bytes": 47108
+    },
+    {
+      "path": "package.json",
+      "sha256": "1f405a562f6c6ad6de3f23954ce618114fd5366e59b15a7847004851136a2f0b",
+      "bytes": 412
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24-alto.wav",
+      "sha256": "f257b824a60dc8c7afe283b1e11db47c57a35ff054b57bdaca9a91b88a1cac37",
+      "bytes": 18939660
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24-bass.wav",
+      "sha256": "33bd3f4bd9ac726a5e5dc86d23e2e43a98527adae01d2b118baaf46336b7c593",
+      "bytes": 18939660
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24-soprano.wav",
+      "sha256": "c8df264f8926ff4ff2a7d3cd2d63237e6423d2fd7cbb398df66e2779c5ebe087",
+      "bytes": 18939660
+    },
+    {
+      "path": "reproducibility/piano-production/steinway-concert-dry-native24.wav",
+      "sha256": "b0a45604e50b44ba489be47b9458ab097af8f768238fc1a2f6ccda1c6d4fba4a",
+      "bytes": 18939660
+    },
+    {
+      "path": "reviews/checks/README.md",
+      "sha256": "a802ce04d1d4410b606683ca1240fd315d3b795b5feebd6a2b5c8821b6cb74d6",
+      "bytes": 1642
+    },
+    {
+      "path": "reviews/checks/browser-functional.js",
+      "sha256": "30e334a8115c300723dd7157bc0de2e577d9297556e37062293d5f9a8e1d9f30",
+      "bytes": 6761
+    },
+    {
+      "path": "reviews/checks/browser-layout.js",
+      "sha256": "eab98b47807850491a1f4e349a6dbf45cdfe120f648eeb2f87d13775db61c2db",
+      "bytes": 3348
+    },
+    {
+      "path": "reviews/checks/browser-muted-setup.js",
+      "sha256": "30a818780413cd867d6989d13293bb8ab46c7a89689d34bbdb291f5b42ace159",
+      "bytes": 826
+    },
+    {
+      "path": "reviews/checks/browser-stress.js",
+      "sha256": "419294093a475bee4aa9bf065c9a35eaa11d6a9d41f8ab9db3adc46354972c3c",
+      "bytes": 6034
+    },
+    {
+      "path": "reviews/checks/comparison-interruption.js",
+      "sha256": "54913acb880d8ffca7e282ecadb0e7e5c704c0fe135c395c229f5bbc8fa6865f",
+      "bytes": 2859
+    },
+    {
+      "path": "source/app.ts",
+      "sha256": "a726c99d62ebf5f5951ddeac24b53cecc217d67b686724a40d11af7b2876b0fc",
+      "bytes": 12501
+    },
+    {
+      "path": "source/native-playback.ts",
+      "sha256": "725c94e804483803cc75230466d64713b1f2e5a4da39745ead8cc031a7eea517",
+      "bytes": 1285
+    },
+    {
+      "path": "source/player.ts",
+      "sha256": "d5c9747d8220ca041a63ef5d419b2fe0151e7a34f970f0369fc07f1d73260e1c",
+      "bytes": 13986
+    },
+    {
+      "path": "template.html",
+      "sha256": "e7038d0a0e9442dff2ba34b754799de3e3541d76220afe95d4d9009e5d88cde8",
+      "bytes": 8512
+    },
+    {
+      "path": "tests/audio-coordination.test.mjs",
+      "sha256": "ff01852bf121f92a32a862af6b39dd4d8194df6903ee53cf7f4e96c43a03ba48",
+      "bytes": 1406
+    },
+    {
+      "path": "tests/native-playback.test.mjs",
+      "sha256": "f7505cbc2c5646f9e9a4fe00b6ccb3affeac405e337d5237912d9d455d2afd1e",
+      "bytes": 2982
+    },
+    {
+      "path": "tests/player.test.mjs",
+      "sha256": "5da7cf3ce6c88652ef3118d7bb80f0519d1e117deab30c03afa8049678481b6d",
+      "bytes": 13293
+    },
+    {
+      "path": "tests/timeline.test.mjs",
+      "sha256": "46d9abc0a7a8cae28a6b1fcfb1dccdf7ca9bbf9d716bd9280539985379263fc7",
+      "bytes": 1699
+    },
+    {
+      "path": "tests/ui-controls.test.mjs",
+      "sha256": "3b804d8b38358a6407aa3198cb9b4c894b85997ba744769922b43e0b02a87a21",
+      "bytes": 7583
+    }
+  ],
+  "updated_at_utc": "2026-09-06T22:46:55.848738+00:00"
+}

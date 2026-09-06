@@ -1,0 +1,175 @@
+{
+  "method": "The scoped appendix revision was compiled with XeLaTeX, and the supplied public TeX was rebuilt in an isolated directory. Both PDFs were rasterized with pdftoppm at 115 dpi; all 15 page images match byte for byte. PDF pages 1–14 also match the prior reviewed edition. The changed final page and the retained Example 6/7 pages were visually inspected. An isolated rebuild from the public Markdown and template reproduces the current HTML byte for byte.",
+  "limitations": [
+    "The raster comparison applies to the recorded TeX Live 2025, fonts, and 115 dpi settings. PDF file metadata can differ between rebuilds.",
+    "This follow-up inspects the changed final page and the retained Example 6/7 layout. It does not repeat the musical or audio audits or certify every typographic and accessibility property.",
+    "The remaining space on printed page 6 is an accepted layout tradeoff: Example 7, its sonority table, and the ensuing explanation stay together on printed page 7."
+  ],
+  "result": {
+    "pdf": {
+      "path": "assets/pdf/fuga-inversa-analysis.pdf",
+      "sha256": "9564b29c807d2035952ae2bd8ae846a69005aff5a1d7650bf26e383c86b40aa2",
+      "pages": 15,
+      "version": "1.7"
+    },
+    "tex": {
+      "path": "edition/fuga-inversa-analysis.tex",
+      "sha256": "a3899cb971da60aebf4c003c54eec7d2acd5d1c8ced8df63c9f0b3d169adf9a2"
+    },
+    "portable_rebuild": {
+      "equal_page_images": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "sha256": "4ad7935e039f51521a0318832664c6e3f09e78e93694b31ea4682acfd4b67725",
+      "warnings": [],
+      "warning_scope": "Final XeLaTeX pass after latexmk reruns.",
+      "initial_rerun_notices_resolved_by_latexmk": [
+        "Package hyperref Warning: Rerun to get /PageLabels entry.",
+        "LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right."
+      ]
+    },
+    "workspace_build_warnings": [],
+    "visual_findings": {
+      "inspected_pdf_pages": [
+        7,
+        8,
+        15
+      ],
+      "new_clipping_or_overlap_on_changed_final_page": false,
+      "example_6_pdf_page": 7,
+      "example_6_precedes_tonic_return_heading": true,
+      "sources_and_appendix_share_pdf_page": 10,
+      "no_near_empty_analysis_closing_page": true,
+      "original_font_sizes_and_paragraph_spacing_retained": true,
+      "accepted_layout_tradeoffs": [
+        {
+          "pdf_page": 7,
+          "printed_page": 6,
+          "decision": "Retain the space after the two tonic-return paragraphs. Example 7 precedes its table and explanation on the next page; the figure/table order and type sizes remain unchanged.",
+          "measurement": {
+            "pdf_page": 7,
+            "printed_page": 6,
+            "method": "pdftotext -bbox-layout; last body-word yMax to the declared 25 mm bottom margin, excluding header and footer.",
+            "body_top_pdf_points": 68.03149606299213,
+            "body_bottom_pdf_points": 771.0238582677165,
+            "last_body_word_ymax_pdf_points": 615.693639,
+            "remaining_body_height_pdf_points": 155.33021926771653,
+            "fraction_of_body_height_remaining": 0.22095577081459314
+          }
+        }
+      ]
+    },
+    "page_raster_sha256": [
+      {
+        "page": 1,
+        "sha256": "48614a1058848d34a431492188b09b70441dcbc27495aa688532e4976fc72861"
+      },
+      {
+        "page": 2,
+        "sha256": "2014980c4ae56854ca24878294cd3db16df618d7ccbd5de1645aca479be26303"
+      },
+      {
+        "page": 3,
+        "sha256": "44955ac9492d31f81b323c709425f823df8f6d0aecb36d53c7461846981211ec"
+      },
+      {
+        "page": 4,
+        "sha256": "93b8a24327b5a66cf724ffc9ba9ee9e3e8b9df51200b1f41ac62bb4719a95f6e"
+      },
+      {
+        "page": 5,
+        "sha256": "2418d862f30c44f64f03729257d613a50ffe86b9848071824f74953804a603e1"
+      },
+      {
+        "page": 6,
+        "sha256": "985df4046adb4cc63bc8d3bc1bfebdc7ee8147ef6e9de14cb5128c21ea7ec300"
+      },
+      {
+        "page": 7,
+        "sha256": "85eaf7732be40c133d0f4810f5b2d7836deb2309d0351365732c945f3fd62e58"
+      },
+      {
+        "page": 8,
+        "sha256": "37a1ff9200432de604ceff0f2541569d9ca616d3e71264ef4c96ee445b468d0d"
+      },
+      {
+        "page": 9,
+        "sha256": "a73b9dbba7727877852a7f6b6a67d0d9bdd43a75a3fae641af5d349b8773c576"
+      },
+      {
+        "page": 10,
+        "sha256": "786ad3b0170d8ce8c2d34c0afac531e0c4e8efe909990dc402471906c2bd34c6"
+      },
+      {
+        "page": 11,
+        "sha256": "3ed8099f7a65f8f2ff4b966b8058dea78d3ac012a17088572c4a7e69b332fa23"
+      },
+      {
+        "page": 12,
+        "sha256": "d40ab60d76521bca50a801ae22035d713a3e673dc7a23e3b6185c188a813db0a"
+      },
+      {
+        "page": 13,
+        "sha256": "a60b74d9d6712efb949b387bd6ef96a4ecddc137526344d81811eefd88255a72"
+      },
+      {
+        "page": 14,
+        "sha256": "566360f7e7092a564f7ae2bc2d3cb3508f19bf00f9c27e696d6f40bd22ce41df"
+      },
+      {
+        "page": 15,
+        "sha256": "b01c141692cf1d5f0bddd4aed4aae8a4c451eb3ac41c9558f96a2894dcd84e19"
+      }
+    ],
+    "command_from_edition_directory": "latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=../rebuilt/paper fuga-inversa-analysis.tex",
+    "html_rebuild": {
+      "byte_identical": true,
+      "sha256": "9fee163e17f5df9a50a930ad36e1ebe21dd67e3bdb9c249ee033bb533e4f9a5f",
+      "command": "uv run --no-project python build_edition.py",
+      "output": "Rebuilt the reading edition from the supplied sources.",
+      "public_index_untouched_by_isolated_check": true
+    },
+    "comparison_with_prior_edition": {
+      "prior_pdf_sha256": "9e5576f3ce8b369b25218c6866adaa3d9912f52e4256afb6e31345aa9f41911b",
+      "prior_tex_sha256": "101e4f8dd50c0ce5eb8ea8c2697cf432da91f34fd7fce706574c910f77ba1b6e",
+      "unchanged_page_images": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "changed_page_images": [
+        15
+      ]
+    },
+    "proof_sources": {
+      "public_process_sha256": "5e8cc6f24ab1f43e7735cc4a42fc16bd176ab16d3a3063671f6a17e6089284e9",
+      "public_template_sha256": "e7038d0a0e9442dff2ba34b754799de3e3541d76220afe95d4d9009e5d88cde8",
+      "public_html_builder_sha256": "b517b53bbaa757191d3ac8f1c3862ee90f7290b6dfce3674d1034ffdaea61e8b"
+    }
+  }
+}

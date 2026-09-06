@@ -1,0 +1,15 @@
+{
+  "method": "Actual CSS and static page in a same-origin iframe whose sandbox disallows scripts; the parent page checks the enhanced comparison state.",
+  "limitations": [
+    "The sandboxed iframe tests the static no-script path in Chrome; it is not a separate browser or device test."
+  ],
+  "result": {
+    "comparisonCheckMarkRemoved": true,
+    "comparisonRetainsVoiceState": true,
+    "disabledInstrumentCursor": "default",
+    "nativeControlsVisible": true,
+    "passed": true,
+    "scriptedPlaybackControlsHidden": true,
+    "scriptingDisabled": true
+  }
+}

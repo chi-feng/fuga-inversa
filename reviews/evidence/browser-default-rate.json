@@ -1,0 +1,67 @@
+{
+  "method": "Two saved Chrome probes before the explicit 48 kHz request. The stress result directly records a 96 kHz context. The separate functional result records the retained PCM byte counts.",
+  "limitations": [
+    "The captures cover the recorded interactions and timing sequences in Chrome.",
+    "Audio was routed to a zero-gain bus or muted native media. These are signal and control checks, not an audition.",
+    "Physical iPhone and Safari behavior, browser heap, and subjective musical expression were not measured.",
+    "The functional capture did not itself record a sample-rate field; the 96 kHz observation comes from the stress capture.",
+    "The historical probe scripts can differ from the current supplied checks. Byte counts are held PCM references, not total browser memory."
+  ],
+  "result": {
+    "functional": {
+      "audioAudition": false,
+      "figures": 8,
+      "floatingRangeExit": true,
+      "inconsolataLoaded": true,
+      "loop": {
+        "bytes": 123083568,
+        "parts": 2,
+        "seconds": 5.29484375
+      },
+      "method": "Actual Chrome audio decoding and controls, routed through a separate zero-gain output bus.",
+      "minimumInterfacePixels": 16,
+      "organ": {
+        "bytes": 56998880,
+        "gainDb": -2.01,
+        "seconds": 74.21729166666667
+      },
+      "pair": {
+        "bytes": 114950688,
+        "parts": [
+          "alto",
+          "soprano"
+        ]
+      },
+      "passed": true,
+      "piano": {
+        "bytes": 57475344,
+        "gainDb": 0,
+        "seconds": 74.8376875
+      },
+      "realMasterAndStemIdentity": true,
+      "repeatEndpointsZero": true,
+      "retainedHallTail": true,
+      "sharedScorePosition": true,
+      "synchronizedVoiceState": true,
+      "viewport": 1440
+    },
+    "stress": {
+      "actualPair": [
+        "soprano",
+        "alto"
+      ],
+      "alignedStarts": true,
+      "audioAudition": false,
+      "contextSampleRate": 96000,
+      "latestRequestWins": true,
+      "liccUsesSharedPlayer": true,
+      "masterStemAndInstrumentExclusive": true,
+      "maximumConcurrentScheduledSources": 1,
+      "method": "Actual source start/stop intervals and UI behavior, routed through a muted output bus.",
+      "nativeAndScoreExclusiveAfterPauseFade": true,
+      "noteClickPreservesVoice": true,
+      "passed": true,
+      "pauseFadeMilliseconds": 10
+    }
+  }
+}

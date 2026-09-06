@@ -1,0 +1,48 @@
+{
+  "method": "Saved Chrome functional probe at the recorded context rate. Byte counts describe unique held decoded PCM references, including selected cached buffers and active repeat copies.",
+  "limitations": [
+    "The captures cover the recorded interactions and timing sequences in Chrome.",
+    "Audio was routed to a zero-gain bus or muted native media. These are signal and control checks, not an audition.",
+    "Physical iPhone and Safari behavior, browser heap, and subjective musical expression were not measured."
+  ],
+  "result": {
+    "audioAudition": false,
+    "contextSampleRate": 48000,
+    "figures": 8,
+    "floatingRangeExit": true,
+    "inconsolataLoaded": true,
+    "loop": {
+      "bytes": 61541776,
+      "parts": 2,
+      "seconds": 5.294833333333333
+    },
+    "method": "Actual Chrome audio decoding and controls, routed through a separate zero-gain output bus.",
+    "minimumInterfacePixels": 16,
+    "organ": {
+      "bytes": 28499440,
+      "gainDb": -2.01,
+      "sampleRate": 48000,
+      "seconds": 74.21729166666667
+    },
+    "pair": {
+      "bytes": 57475344,
+      "parts": [
+        "alto",
+        "soprano"
+      ]
+    },
+    "passed": true,
+    "piano": {
+      "bytes": 28737672,
+      "gainDb": 0,
+      "sampleRate": 48000,
+      "seconds": 74.8376875
+    },
+    "realMasterAndStemIdentity": true,
+    "repeatEndpointsZero": true,
+    "retainedHallTail": true,
+    "sharedScorePosition": true,
+    "synchronizedVoiceState": true,
+    "viewport": 1440
+  }
+}

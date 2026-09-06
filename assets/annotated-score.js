@@ -67,6 +67,7 @@ export async function mountAnnotatedScore(host, {
   host.replaceChildren();
   const toolbar = document.createElement('div');
   toolbar.className = 'score-toolbar';
+  toolbar.setAttribute('role', 'group');
   toolbar.setAttribute('aria-label', `${title}: ${voiceControlLabel.toLowerCase()} a voice`);
   const toolbarLabel = document.createElement('span');
   toolbarLabel.textContent = voiceControlLabel;
@@ -112,6 +113,7 @@ export async function mountAnnotatedScore(host, {
 
   const controls = document.createElement('div');
   controls.className = 'annotation-controls';
+  controls.setAttribute('role', 'group');
   controls.setAttribute('aria-label', `${title}: analytical annotations`);
   const readout = document.createElement('p');
   readout.className = 'score-readout';

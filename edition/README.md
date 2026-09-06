@@ -1,6 +1,6 @@
 # Editorial sources
 
-This directory supplies the webpage's editorial inputs and the complete TeX source for the 15-page analytical paper.
+This directory supplies the webpage's editorial inputs and the complete TeX source for the analytical paper.
 
 ## Webpage
 
@@ -12,11 +12,11 @@ uv run --no-project python build_edition.py
 
 The builder reads `analysis.md`, `process.md`, the two HTML fragments in `includes/`, and `../template.html`. It writes `../index.html`. With the supplied inputs and Pandoc 3.8.3, this reproduces the published HTML byte for byte. Browser scripts, styles, recordings and notation assets have separate build steps described in the repository README.
 
-`analysis.md` contains the reference cell and eight annotated-example containers, including their Listen controls. `../assets/excerpts/` supplies the engravings and note identities; `../assets/figures.json` supplies the analytical brackets and explanations. `classical-analysis.md` preserves the prose before webpage figure containers were inserted, with its local source links adjusted for this directory.
+`analysis.md` contains the reference cell and eight annotated-example containers, including their Listen controls. `process.md` contains the composition and production appendix. `../assets/excerpts/` supplies the engravings and note identities; `../assets/figures.json` supplies the analytical brackets and explanations.
 
 ## Printable paper
 
-Install XeLaTeX and latexmk with the Libertinus fonts and TeX Live's `inconsolata` package. The paper was built with TeX Live 2025. From this directory, run:
+Install XeLaTeX and latexmk with the Libertinus fonts and TeX Live's `inconsolata` and `placeins` packages. The paper was built with TeX Live 2025. From this directory, run:
 
 ```sh
 latexmk -xelatex -interaction=nonstopmode -halt-on-error -outdir=../rebuilt/paper fuga-inversa-analysis.tex

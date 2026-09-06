@@ -1,0 +1,16 @@
+{
+  "method": "An isolated iframe received a controlled 503 for figures.json. Native audio stayed muted. Loopback media URLs are represented by their public asset paths.",
+  "limitations": [
+    "The capture tests this one initialization failure and the resulting native-player controls."
+  ],
+  "result": {
+    "enhanced": false,
+    "excerptHidden": true,
+    "finalStatus": "Use the audio controls to play the piano recording. Excerpt playback and voice isolation are unavailable in this view.",
+    "initialStatus": "The interactive player could not load. Use the audio controls to play the organ recording. The engraved scores and recording links remain available.",
+    "label": "Steinway Grand Piano · recital hall",
+    "nativeSource": "assets/audio/piano.mp3",
+    "passed": true,
+    "simulation": "503 response for figures.json in an isolated iframe; native audio muted"
+  }
+}

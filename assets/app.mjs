@@ -1,6 +1,7 @@
 import { mountAnnotatedScore } from '../assets/annotated-score.js';
 import { ScorePlayer,             } from './player.mjs';
 import { coordinateAudio } from './audio-coordination.mjs';
+import { initializeNativePlayback } from './native-playback.mjs';
 import { formatTime } from '../assets/timeline.mjs';
 
                                     
@@ -30,47 +31,51 @@ const json = async    (url        )             => {
 const playIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4v16l14-8z"/></svg>';
 const pauseIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zm8 0h4v16h-4z"/></svg>';
 
-const [manifest, configs, organ, piano, recordings] = await Promise.all([
-  json          ('./assets/excerpts/manifest.json'), json         ('./assets/figures.json'),
-  json        ('./assets/timeline-organ.json'), json        ('./assets/timeline-piano.json'),
-  json                               ('./assets/recordings.json'),
-]);
-const figures = new Map(manifest.figures.map(figure => [figure.name, figure]));
-const views = new Map              ();
-const failures           = [];
-await Promise.all($$('[data-score]').map(async host => {
-  const name = host.dataset.score ;
-  try {
-    const view = await mountAnnotatedScore(host, {
-      figure: figures.get(name) , assetBase: './assets/excerpts/', ...configs[name],
-      voiceControlLabel: 'AudioContext' in window ? 'Solo' : 'Highlight',
-    });
-    views.set(name, view);
-  } catch (error) {
-    failures.push(`${name}: ${error instanceof Error ? error.message : String(error)}`);
-    const message = document.createElement('p');
-    message.className = 'lab-note';
-    message.textContent = 'Interactive notes are unavailable. The engraved excerpt and its PDF remain readable.';
-    host.append(message);
-    console.error(error);
-  }
-}));
-
 const fallback = $                  ('#fallback-audio');
-if (!('AudioContext' in window)) {
-  for (const button of $$                   ('[data-instrument]')) button.addEventListener('click', () => {
-    const instrument = button.dataset.instrument ;
-    fallback.src = `./assets/audio/${instrument}.mp3`;
-    for (const tab of $$('[data-instrument]')) tab.setAttribute('aria-pressed', String(tab === button));
-  });
-} else {
+const nativePlayback = initializeNativePlayback({
+  audio: fallback, buttons: $$                   ('[data-instrument]'),
+  registration: $('#registration'), status: $('#player-status'),
+});
+async function enhanceEdition() {
+  const [manifest, configs, organ, piano, recordings] = await Promise.all([
+    json          ('./assets/excerpts/manifest.json'), json         ('./assets/figures.json'),
+    json        ('./assets/timeline-organ.json'), json        ('./assets/timeline-piano.json'),
+    json                               ('./assets/recordings.json'),
+  ]);
+  const canEnhanceAudio = typeof window.AudioContext === 'function';
+  const figures = new Map(manifest.figures.map(figure => [figure.name, figure]));
+  const views = new Map              ();
+  const failures           = [];
+  await Promise.all($$('[data-score]').map(async host => {
+    const name = host.dataset.score ;
+    try {
+      const view = await mountAnnotatedScore(host, {
+        figure: figures.get(name) , assetBase: './assets/excerpts/', ...configs[name],
+        voiceControlLabel: canEnhanceAudio ? 'Solo' : 'Highlight',
+      });
+      views.set(name, view);
+    } catch (error) {
+      failures.push(`${name}: ${error instanceof Error ? error.message : String(error)}`);
+      const message = document.createElement('p');
+      message.className = 'lab-note';
+      message.textContent = 'Interactive notes are unavailable. The engraved excerpt and its PDF remain readable.';
+      host.append(message);
+      console.error(error);
+    }
+  }));
+  if (!canEnhanceAudio) return;
   const player = new ScorePlayer({ timings: { organ, piano } });
+  await player.setInstrument(nativePlayback.instrument);
+  let contextRequest = 0;
+  const cancelComparison = () => { contextRequest++; };
+  fallback.addEventListener('play', cancelComparison);
+  window.addEventListener('pagehide', cancelComparison);
   coordinateAudio(player, fallback);
   for (const host of $$('[data-score]')) host.addEventListener('voicefocus', event => {
+    contextRequest++;
     const voice = (event                                            ).detail.voice;
-    player.setVoices(voice === 'all' ? VOICES : [SHORT_VOICES[voice]]);
+    player.setVoices(voice === 'all' ? VOICES : [SHORT_VOICES[voice]]).catch(report);
   });
-  $('.player').classList.add('enhanced');
   const position = $                  ('#position');
   let seeking = false;
   let playerVisible = true;
@@ -103,17 +108,23 @@ if (!('AudioContext' in window)) {
     for (const button of $$('.voice-controls [data-voice]')) button.setAttribute('aria-pressed', String(player.voices.has(button.dataset.voice         )));
     const selected = [...player.voices].map(voice => VOICE_SHORT[voice]);
     for (const view of views.values()) view.focusVoices(selected);
-    $('#clear-excerpt').hidden = player.range === null;
+    for (const button of $$('[data-clear-excerpt]')) button.hidden = player.range === null;
+    for (const button of $$('[data-context]')) {
+      const expected          = button.dataset.context === 'upper' ? ['soprano', 'alto'] : VOICES;
+      button.setAttribute('aria-pressed', String(player.voices.size === expected.length && expected.every(voice => player.voices.has(voice))));
+    }
     for (const button of $$('[data-loop]')) {
       const figure = figures.get(button.dataset.loop ) ;
       button.setAttribute('aria-pressed', String(Boolean(player.range?.repeat && player.range.startQuarter === (figure.start_measure - 1) * 4)));
     }
-    if (player.loading) $('#player-status').textContent = `Loading the ${player.instrument} recording and voice parts…`;
+    const voiceNames = VOICES.filter(voice => player.voices.has(voice));
+    const voiceSummary = voiceNames.length ? `Hearing ${voiceNames.length === 3 ? 'all voices' : voiceNames.join(' and ')}.` : 'No voices selected.';
+    if (player.loading) $('#player-status').textContent = `Loading the ${player.instrument} ${player.voices.size === 3 ? 'recording' : 'selected voices'}…`;
     else if (player.range) {
       const first = player.range.startQuarter / 4 + 1;
       const last = player.range.endQuarter / 4;
-      $('#player-status').textContent = `${player.range.repeat ? 'Repeating' : 'Excerpt'} · measures ${first}–${last}. Choose “Whole piece” to continue beyond the excerpt.`;
-    } else $('#player-status').textContent = player.voices.size === 3 ? record.description : player.voices.size === 0 ? 'No voices selected. Choose a voice or All voices.' : 'Voice study uses separate renders at the full recording’s gain. The selected voices are not made louder.';
+      $('#player-status').textContent = `${player.range.repeat ? 'Repeating' : 'Excerpt'} · measures ${first}–${last}. ${voiceSummary} Choose “Whole piece” to leave the excerpt; the voice selection stays active.`;
+    } else $('#player-status').textContent = player.voices.size === 3 ? record.description : player.voices.size === 0 ? 'No voices selected. Turn on a voice or choose All voices.' : `${voiceSummary} Choose All voices to restore the complete texture. The selected voices use the full recording’s gain.`;
     tickUI();
   }
 
@@ -126,7 +137,7 @@ if (!('AudioContext' in window)) {
     $('#duration').textContent = formatTime(player.duration);
     $('#measure').textContent = q >= 104 ? 'Final resonance' : `Measure ${measure} of 26`;
     $('#mini-label').textContent = `${player.instrument === 'organ' ? 'Organ' : 'Piano'} · ${q >= 104 ? 'final resonance' : `measure ${measure}`}`;
-    $('#floating-player').classList.toggle('visible', player.playing && !playerVisible);
+    $('#floating-player').classList.toggle('visible', !playerVisible && (player.playing || player.loading || player.range !== null));
     const state = `${player.playing}:${Math.floor(q * 20)}:${[...player.voices].join()}`;
     if (state !== lastState) {
       for (const note of noteElements) note.element?.classList.toggle('is-sounding',
@@ -135,21 +146,36 @@ if (!('AudioContext' in window)) {
     }
   }
 
-  const toggle = () => player.playing || player.loading ? player.pause() : player.play().catch(report);
+  const toggle = () => {
+    contextRequest++;
+    if (player.playing || player.loading) player.pause();
+    else player.play().catch(report);
+  };
   $('#play').addEventListener('click', toggle);
   $('#mini-play').addEventListener('click', toggle);
-  for (const button of $$('[data-instrument]')) button.addEventListener('click', () => player.setInstrument(button.dataset.instrument              ).catch(report));
+  for (const button of $$('[data-instrument]')) button.addEventListener('click', () => {
+    contextRequest++;
+    player.setInstrument(button.dataset.instrument              ).catch(report);
+  });
   for (const button of $$('.voice-controls [data-voice]')) button.addEventListener('click', () => {
+    contextRequest++;
     const voice = button.dataset.voice         ;
     const enabled = new Set(player.voices);
     if (enabled.has(voice)) enabled.delete(voice); else enabled.add(voice);
-    player.setVoices([...enabled]);
+    player.setVoices([...enabled]).catch(report);
   });
-  $('#reset-voices').addEventListener('click', () => player.setVoices(VOICES));
-  $('#clear-excerpt').addEventListener('click', () => player.clearExcerpt());
+  $('#reset-voices').addEventListener('click', () => {
+    contextRequest++;
+    player.setVoices(VOICES).catch(report);
+  });
+  for (const button of $$('[data-clear-excerpt]')) button.addEventListener('click', () => {
+    contextRequest++;
+    player.clearExcerpt();
+  });
   position.addEventListener('input', () => { seeking = true; });
-  position.addEventListener('change', () => { seeking = false; player.seekQuarter(Number(position.value)); });
+  position.addEventListener('change', () => { contextRequest++; seeking = false; player.seekQuarter(Number(position.value)); });
   for (const button of $$('[data-listen], [data-loop]')) button.addEventListener('click', () => {
+    contextRequest++;
     const name = button.dataset.listen ?? button.dataset.loop;
     const figure = figures.get(name ) ;
     if (button.dataset.loop && button.getAttribute('aria-pressed') === 'true') {
@@ -158,25 +184,37 @@ if (!('AudioContext' in window)) {
     }
     player.playExcerpt(figure.start_measure, figure.end_measure, Boolean(button.dataset.loop)).catch(report);
   });
-  for (const button of $$('[data-context]')) button.addEventListener('click', () => {
-    player.setVoices(button.dataset.context === 'upper' ? ['soprano', 'alto'] : VOICES);
-    player.playExcerpt(19, 20).catch(report);
+  for (const button of $$('[data-context]')) button.addEventListener('click', async () => {
+    const request = ++contextRequest;
+    try {
+      await player.setVoices(button.dataset.context === 'upper' ? ['soprano', 'alto'] : VOICES);
+      if (request !== contextRequest) return;
+      await player.playExcerpt(19, 20);
+    } catch (error) {
+      if (request === contextRequest) report(error         );
+    }
   });
   player.addEventListener('change', update);
   new IntersectionObserver(entries => { playerVisible = entries[0].isIntersecting; tickUI(); }).observe($('.player'));
   function frame() { player.poll(); tickUI(); requestAnimationFrame(frame); }
   update();
+  nativePlayback.dispose();
+  $('.player').classList.add('enhanced');
+  document.body.classList.add('audio-enhanced');
   requestAnimationFrame(frame);
   window.fugueEdition = { ready: true, manifest, configs, views, player, failures };
 }
+enhanceEdition().catch(error => {
+  $('#player-status').textContent = `The interactive player could not load. Use the audio controls to play the ${nativePlayback.instrument} recording. The engraved scores and recording links remain available.`;
+  console.error(error);
+});
 
 const links = $$('.contents a[href^="#"]');
 const targets = links.map(link => document.querySelector(link.getAttribute('href') )).filter((target)                    => target !== null);
 function updateContents() {
   const current = targets.map(target => ({ target, top: target.getBoundingClientRect().top }))
     .filter(item => item.top <= window.innerHeight * .22).sort((a, b) => b.top - a.top)[0];
-  if (!current) return;
-  const id = current.target.id;
+  const id = current?.target.id ?? 'analysis';
   for (const link of links) link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
 }
 let contentsPending = false;

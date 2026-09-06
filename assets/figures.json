@@ -138,7 +138,8 @@
           "fig-exposition-s-m5-n6"
         ],
         "description": "F–G–F–E–C♯–D places the counterline above the subject. This first-bar pair inverts at the fifteenth.",
-        "dashed": true
+        "dashed": true,
+        "lift": 8
       }
     ]
   },
@@ -383,7 +384,8 @@
           "fig-suspensions-s-m17-n2",
           "fig-suspensions-s-m17-n3"
         ],
-        "description": "A4 is prepared above F3, suspended over B-flat2, and resolves to G4. The later G over A is a prepared dominant seventh."
+        "description": "A4 is prepared above F3, suspended over B-flat2, and resolves to G4. The later G over A is a prepared dominant seventh.",
+        "lift": 8
       },
       {
         "id": "nine-eight",
@@ -394,7 +396,8 @@
           "fig-suspensions-s-m18-n2",
           "fig-suspensions-s-m18-n3"
         ],
-        "description": "F4 is prepared over D3, held over E3, and resolves to E4 on the second eighth of beat 2."
+        "description": "F4 is prepared over D3, held over E3, and resolves to E4 on the second eighth of beat 2.",
+        "lift": 8
       }
     ]
   },
@@ -442,7 +445,7 @@
       },
       {
         "id": "stretto-a",
-        "label": "Alto · A · +⅛",
+        "label": "Alto · A · one eighth later",
         "color": "#316f78",
         "noteIds": [
           "fig-return-a-m19-n2",

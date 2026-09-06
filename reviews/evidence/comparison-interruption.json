@@ -1,0 +1,31 @@
+{
+  "method": "Saved Chrome probe of a pending comparison interrupted by muted native playback or a dispatched pagehide event, with a controlled delay before real stem fetch/decode.",
+  "limitations": [
+    "The captures cover the recorded interactions and timing sequences in Chrome.",
+    "Audio was routed to a zero-gain bus or muted native media. These are signal and control checks, not an audition.",
+    "Physical iPhone and Safari behavior, browser heap, and subjective musical expression were not measured.",
+    "A dispatched pagehide event tests the registered handler; it does not reproduce browser suspension or every navigation lifecycle."
+  ],
+  "result": {
+    "audioAudition": false,
+    "cases": [
+      {
+        "interruption": "native playback",
+        "lateExcerptStarts": 0,
+        "passed": true,
+        "pendingStemLoads": 2,
+        "remainingSources": 0
+      },
+      {
+        "interruption": "pagehide",
+        "lateExcerptStarts": 0,
+        "passed": true,
+        "pendingStemLoads": 2,
+        "remainingSources": 0
+      }
+    ],
+    "contextSampleRate": 48000,
+    "method": "Actual Chrome app and playback engine with a controlled wait before real stem fetch/decode. Native media played muted; pagehide was dispatched on the live test page.",
+    "passed": true
+  }
+}

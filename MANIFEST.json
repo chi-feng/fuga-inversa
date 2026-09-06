@@ -13,8 +13,8 @@
     },
     {
       "path": "CREDITS.md",
-      "bytes": 5302,
-      "sha256": "657aee5ec2e0b80a7d5c04ccfbc067e1df185e96d4624ec94ba4fe6d264171ca"
+      "bytes": 5858,
+      "sha256": "36e15f0271acf8b1de916ef0338315da3ba7864d5fb5b4ad452e8a9a77adf12d"
     },
     {
       "path": "PROMPT.md",
@@ -23,23 +23,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 2893,
-      "sha256": "c7473b3b029646faf2b6a46edb8c257e3d55ff723644dc871af0c1182f5ed69b"
+      "bytes": 3700,
+      "sha256": "c1d323b833c5a9325af8d377c72e74c10a1d10115199ec7140ed362dfafe7577"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 13590,
+      "sha256": "7bb7737917a7fecbdfde3f4e85e88b0982203d838a78b64451ce7a209b47c4df"
     },
     {
       "path": "assets/annotated-score.css",
       "bytes": 2053,
-      "sha256": "ec0fcbed5b59be2b7b1000481cc2f395372cf68d5cb5b66956aaa037d94c1f4f"
+      "sha256": "562fc175a397e088110c09044a18771f2f556df6df5f25fe0cd022f31487ba0b"
     },
     {
       "path": "assets/annotated-score.js",
-      "bytes": 11478,
-      "sha256": "c1d5049b48290ebaf5c9bbef5372ff74f5cc1cbf55f2bdaeee051b4924543cad"
+      "bytes": 11561,
+      "sha256": "841faa49318436c74dcaf27e21231332d52ea004c0b8e4d394e483f55e7ebd73"
     },
     {
       "path": "assets/app.mjs",
-      "bytes": 10653,
-      "sha256": "063bf24b5f2b27ac74f9debcf505f2700aeafca6de4b6fed09afb97e28ae9846"
+      "bytes": 12504,
+      "sha256": "df2b470f6320dabf46875ea8622107c5dfcc1bf8b5f474d0251341edecaaf9c7"
     },
     {
       "path": "assets/audio/fugue-organ.wav",
@@ -192,21 +197,6 @@
       "sha256": "5c36f5e31aff4a9477e988cb05b688a848a31a5faa449af1b5bc71c57f24cd1a"
     },
     {
-      "path": "assets/excerpts/g-entry.cropped.pdf",
-      "bytes": 28438,
-      "sha256": "b9716bfecbfeb2d9b3cfd98189fb221b8c583df3b9e5ceed4da65c6051a5d2bb"
-    },
-    {
-      "path": "assets/excerpts/g-entry.ly",
-      "bytes": 5211,
-      "sha256": "08b18fe2f2a6d0779a84e184dba34c2977c814b97e91d38c9638ee91f70ff859"
-    },
-    {
-      "path": "assets/excerpts/g-entry.svg",
-      "bytes": 33117,
-      "sha256": "c549fc889270068ed58d490aaacf75f0f72c55a614ad047fee85170ed9c9edc1"
-    },
-    {
       "path": "assets/excerpts/head.cropped.pdf",
       "bytes": 26238,
       "sha256": "6dd1486feb8c29ee4a6d7ea7f542797ec62291a285bd5470baa61f9cd31414cb"
@@ -223,8 +213,8 @@
     },
     {
       "path": "assets/excerpts/manifest.json",
-      "bytes": 127095,
-      "sha256": "ba05843b607c46960f141422ed88cd0544372aadf851ea7289bcb6acf8fc92ac"
+      "bytes": 114466,
+      "sha256": "bb5d74c2a936abdb2d7cafc46ee40d97222f3ffa9362ac88bb6f0477aba25049"
     },
     {
       "path": "assets/excerpts/return.cropped.pdf",
@@ -278,23 +268,48 @@
     },
     {
       "path": "assets/figures.json",
-      "bytes": 24267,
-      "sha256": "b4f4c1bcedf151b1a1218b5ef3e1ebd590cc6582026716608efac47997e9c64f"
+      "bytes": 24336,
+      "sha256": "3632b8b6b141f00aea06648436ab1189de6668438c7d53f9c0104a2954369d04"
+    },
+    {
+      "path": "assets/fonts/Inconsolatazi4-Regular.otf",
+      "bytes": 37420,
+      "sha256": "fa4d0728e461e228e4c3b706cc0836f72cb146852a757127c92647d8c405b638"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4406,
+      "sha256": "2785c333cd73316222d596ca535e8d2cc2d6a78833301c45b9b60aefdf28d213"
+    },
+    {
+      "path": "assets/fonts/README.md",
+      "bytes": 374,
+      "sha256": "97421b99d19e0f8d3c4cef52228ce7ab78dbeb0804c96160aabedb6cb675c967"
+    },
+    {
+      "path": "assets/native-playback.mjs",
+      "bytes": 1285,
+      "sha256": "d93a084ff1b0a0ae85347bc0b580b96ae57d9c314945b674bf6b11b32b5a3899"
     },
     {
       "path": "assets/pdf/fuga-inversa-analysis.pdf",
-      "bytes": 370134,
-      "sha256": "74cce394b3d07ca90306d21573662c7b13f76232153438bb66d689291bba7cae"
+      "bytes": 370655,
+      "sha256": "9564b29c807d2035952ae2bd8ae846a69005aff5a1d7650bf26e383c86b40aa2"
     },
     {
       "path": "assets/player.mjs",
-      "bytes": 8564,
-      "sha256": "5cabdaafdbc9fef31819e86c9d90da88deb934adf962854bbf2214a522011baf"
+      "bytes": 13986,
+      "sha256": "823fe31710345b19a04878641a33d39d08d564928b60e9e2b2f86d52b183101a"
     },
     {
       "path": "assets/recordings.json",
-      "bytes": 440,
-      "sha256": "c58b1a2be0a350778758984db0209753b1e5da2870800beefa4acfc685a1f802"
+      "bytes": 433,
+      "sha256": "8c312bf57e30a059efff9e4382a133cefe689e6759f471866ebb953b6d006ee5"
+    },
+    {
+      "path": "assets/score/fugue-2x.png",
+      "bytes": 331705,
+      "sha256": "274070b5dc8ca3bd354b1f5e71fc10bbbba47504dc251576a01bdcafc06aad51"
     },
     {
       "path": "assets/score/fugue-piano.midi",
@@ -343,18 +358,18 @@
     },
     {
       "path": "assets/site.css",
-      "bytes": 14903,
-      "sha256": "1c198fa9f742ec89fb78adb1c40027c78a95789926179880f12fe3d1fe45607e"
+      "bytes": 15706,
+      "sha256": "e888968f5688c1ded956ceb0999736a66d80c18967eb50a6b16ed3b0d97031de"
     },
     {
       "path": "assets/timeline-organ.json",
-      "bytes": 85311,
-      "sha256": "8a1a8ba49425805e0f6f9c4b578508d06ee7b7cae0444bda7a1ef2e0d4539fc4"
+      "bytes": 16064,
+      "sha256": "0a0f571b3ca82410250a6579c77119739919c4b5de1ef7cf261879f41776dd01"
     },
     {
       "path": "assets/timeline-piano.json",
-      "bytes": 95429,
-      "sha256": "8d0d3ebf5d9d9e5630c727fb419f016ec272e6e7421563a69bea0883b351225a"
+      "bytes": 22510,
+      "sha256": "8d11618ee78d240a805747c00cecbbab2dac0ec8cc7db685014a9dc15c894f34"
     },
     {
       "path": "assets/timeline.mjs",
@@ -373,98 +388,93 @@
     },
     {
       "path": "edition/README.md",
-      "bytes": 2959,
-      "sha256": "37e458a38874e2390d6194b43f503100e9f7632036401f720765b675c6f4d0dc"
+      "bytes": 2881,
+      "sha256": "ab8d8b72c696e948bc4eeb6bf0c9492bb82c6a2eb2f673864da87959f4dc68b4"
     },
     {
       "path": "edition/analysis.md",
-      "bytes": 27409,
-      "sha256": "1d40155d141ed60992640c6d98123cc72ce5921cf970a0ba3073ea093865f3e8"
+      "bytes": 29088,
+      "sha256": "7cf5f52f250723bc7feeacc44cbde85a0278ef07c51bf47ab80282d5e1fb0c04"
     },
     {
       "path": "edition/annotated/c-entry.pdf",
-      "bytes": 28176,
-      "sha256": "6e93f60320a2ac21d04145d2619f6bdf17748d07f14d8f10a9d2b8f354186a5d"
+      "bytes": 28168,
+      "sha256": "a58a765a47f02e62233175b2ccc22d051ad73c225d92974c2456d41b6f0b6f15"
     },
     {
       "path": "edition/annotated/c-entry.svg",
-      "bytes": 40931,
-      "sha256": "4a3d7568515518764f72639c2ae13da6d84c04eef434c6997254cc5d5219b156"
+      "bytes": 42292,
+      "sha256": "13abb1ca86d3931a330a3533275c5fa0c578383c469ba2bbf8d95fce976ee78e"
     },
     {
       "path": "edition/annotated/coda.pdf",
-      "bytes": 41704,
-      "sha256": "685b820676387dc9a3c390d8231bf31ae9129c39390b0765d96d3f6165f80439"
+      "bytes": 41740,
+      "sha256": "7fca81f37b3beb12e02810dd6b39b1a373d0c84a5714c3da1244551ce258aaaa"
     },
     {
       "path": "edition/annotated/coda.svg",
-      "bytes": 43562,
-      "sha256": "88421f636e1bfd5dfb3384f48556df76452bdfbc237c0783e16eaeb1d4bde2d9"
+      "bytes": 44794,
+      "sha256": "eb8755421f7128a9423cf07a21f52267ddb865ef2e151a8fb2b428d060130c9a"
     },
     {
       "path": "edition/annotated/episode-one.pdf",
-      "bytes": 30407,
-      "sha256": "0b3cbc390d2721dca2bc45e36cfccb6f940fe0b4b2d9ecf66aeab496e23ee0c7"
+      "bytes": 30388,
+      "sha256": "b50457cc203a42ede445168144206815187e40361dfcc918d462956198bfa856"
     },
     {
       "path": "edition/annotated/episode-one.svg",
-      "bytes": 39626,
-      "sha256": "d59c6527cf026e5cec9bb4e5eef9a5e255848550826ee82adaf2bb6ae965fa16"
+      "bytes": 40718,
+      "sha256": "230d30e7c6481e729139dce2621a272507fbd47e6a157015f0e6003ddf214feb"
     },
     {
       "path": "edition/annotated/episode-two.pdf",
-      "bytes": 34038,
-      "sha256": "8066c38fe9d02c1ced43bf9c452617ef04214f6445ca3b1e4086c96453453036"
+      "bytes": 34070,
+      "sha256": "ddd75a29276e05fae6bfa2c63e223ffb25502864d42ced61be2d219483effc37"
     },
     {
       "path": "edition/annotated/episode-two.svg",
-      "bytes": 44468,
-      "sha256": "b88ca1799282db342730f174d2a734d42e053b3289800595d50fda0324e6a2b3"
+      "bytes": 45577,
+      "sha256": "a979d337ae1f301c5451d022d9a88d2a714efb18939c0c8882db3b928ade79ee"
     },
     {
       "path": "edition/annotated/exposition.pdf",
-      "bytes": 38678,
-      "sha256": "3d84a0642502964b72fe5222dcc7f4feb9bb46e702f5660d237916e967276787"
+      "bytes": 38685,
+      "sha256": "754f50471e70ee7b1b83fca0637c93ce11e3f7f2ee072fb5e885d42251829798"
     },
     {
       "path": "edition/annotated/exposition.svg",
-      "bytes": 66822,
-      "sha256": "efc08034e69dca0c408450040830f1c880eb862caa9b5632bb488db6295fd669"
+      "bytes": 69103,
+      "sha256": "a23ceb4ba33fb06b4fed923b14f4d461fac62b9d1016441627cc0aa9771d33dd"
     },
     {
       "path": "edition/annotated/head.pdf",
-      "bytes": 27160,
-      "sha256": "ff4f6564a6d4e166a4ffadcd6da55d6f2d455d93028b57c3dc89c27bfcab4435"
+      "bytes": 27161,
+      "sha256": "dab9fcf765a12e6d03a12784fa4feba9ee26b655b2fba742ea311fa67e6e6adc"
     },
     {
       "path": "edition/annotated/head.svg",
-      "bytes": 16120,
-      "sha256": "2de53290dbb0ecabebffd410af0450c3ae88cb9541c57358eeb74c8537114803"
+      "bytes": 16546,
+      "sha256": "c90339ee4733ebf83f4abd294d9721dd28751342d8d4675f8a86c8d25bb94ea4"
     },
     {
       "path": "edition/annotated/return.pdf",
-      "bytes": 34148,
-      "sha256": "b1d44b390a4fd77f7a544b927c29cf3d012528c08e93ad68892f3240adc13423"
+      "bytes": 31245,
+      "sha256": "36bee36b46c5cdbc5d732eca5a22e592f5036e0570b8c0e3249618f1df79d796"
     },
     {
       "path": "edition/annotated/return.svg",
-      "bytes": 39332,
-      "sha256": "0c3d6885712473e1c43dded35dc330ceecf8fa6e7732100246f44ec50163e4f0"
+      "bytes": 40523,
+      "sha256": "5c8a251daa06d1fbaff3908c946992b9532fe945422b61af581df93682442711"
     },
     {
       "path": "edition/annotated/suspensions.pdf",
-      "bytes": 36328,
-      "sha256": "fe27ce1015469b14062d5196d3710a0afb45697c5f557bacfc46948ba5280625"
+      "bytes": 36297,
+      "sha256": "ea22e64836f088013a6fc9c909bf47b073ec4bed49754125f570f9d308e583b6"
     },
     {
       "path": "edition/annotated/suspensions.svg",
-      "bytes": 67739,
-      "sha256": "4db36687cb8f5b60b01b47dab6a3618448b9a537499e5bcc8a04233f04b43c6a"
-    },
-    {
-      "path": "edition/classical-analysis.md",
-      "bytes": 22094,
-      "sha256": "826c7085dea2749dac8c7ef036df6bdb598555713077dda7ddd9f01ce318c133"
+      "bytes": 70219,
+      "sha256": "f4b8f08bf7c07ab844f74a1f345323227dbb432f1c4e0a56358c32a95dd41068"
     },
     {
       "path": "edition/export-annotated.js",
@@ -473,23 +483,23 @@
     },
     {
       "path": "edition/fuga-inversa-analysis.tex",
-      "bytes": 47623,
-      "sha256": "6c64013e393ddd533486176810a3b879dc84fdbd9bcaee9af847bbceb5c491ed"
+      "bytes": 50424,
+      "sha256": "a3899cb971da60aebf4c003c54eec7d2acd5d1c8ced8df63c9f0b3d169adf9a2"
     },
     {
       "path": "edition/includes/performance-figure.html",
-      "bytes": 630,
-      "sha256": "c430512745c7930a1fe6dce6925aae3099c36121e2a480ecd3f31e663cd2c9e4"
+      "bytes": 686,
+      "sha256": "9c441bce7b6a510f75a234dde420581010c7950a40b86b12c4cf53e564fa2ec2"
     },
     {
       "path": "edition/includes/stretto-callout.html",
-      "bytes": 384,
-      "sha256": "b5711cacdc57162fcf2a63e22f48ce7382d241c4055d394e0467266045ebb5f6"
+      "bytes": 645,
+      "sha256": "1bf043f0b4dbadcdf850c0df982332445736accaa6476f9c2c19f85fd095e862"
     },
     {
       "path": "edition/process.md",
-      "bytes": 16641,
-      "sha256": "b9c3fb90567d61cbb7edce65d885f4a3fa1f36e3c8e912b17c0f661be04cd7d8"
+      "bytes": 17781,
+      "sha256": "5e8cc6f24ab1f43e7735cc4a42fc16bd176ab16d3a3063671f6a17e6089284e9"
     },
     {
       "path": "eslint.config.mjs",
@@ -498,8 +508,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 56998,
-      "sha256": "c634249128b853d7a8b855dcb3172dc2cc69370d0ddf297f46222b1cf4cc6b59"
+      "bytes": 60928,
+      "sha256": "9fee163e17f5df9a50a930ad36e1ebe21dd67e3bdb9c249ee033bb533e4f9a5f"
     },
     {
       "path": "package-lock.json",
@@ -922,9 +932,119 @@
       "sha256": "8a44b3d6a3dd6c3ee1c4c74199e3713c2e4e47903465aae65ef9c22e244e86b8"
     },
     {
+      "path": "reviews/2026-09-07-fable-followup.md",
+      "bytes": 8272,
+      "sha256": "f8ddd27f3d5d32e4d2df7729d22f4d1dfa6079cad74ce7cf5b40046f030a7c64"
+    },
+    {
+      "path": "reviews/2026-09-07-fable-initial.md",
+      "bytes": 18036,
+      "sha256": "89c1f5f92aaa225229c07433155ab1f16497efaf35f51da291f0e1a05270cac3"
+    },
+    {
+      "path": "reviews/checks/README.md",
+      "bytes": 1642,
+      "sha256": "a802ce04d1d4410b606683ca1240fd315d3b795b5feebd6a2b5c8821b6cb74d6"
+    },
+    {
+      "path": "reviews/checks/browser-functional.js",
+      "bytes": 6761,
+      "sha256": "30e334a8115c300723dd7157bc0de2e577d9297556e37062293d5f9a8e1d9f30"
+    },
+    {
+      "path": "reviews/checks/browser-layout.js",
+      "bytes": 3348,
+      "sha256": "eab98b47807850491a1f4e349a6dbf45cdfe120f648eeb2f87d13775db61c2db"
+    },
+    {
+      "path": "reviews/checks/browser-muted-setup.js",
+      "bytes": 826,
+      "sha256": "30a818780413cd867d6989d13293bb8ab46c7a89689d34bbdb291f5b42ace159"
+    },
+    {
+      "path": "reviews/checks/browser-stress.js",
+      "bytes": 6034,
+      "sha256": "419294093a475bee4aa9bf065c9a35eaa11d6a9d41f8ab9db3adc46354972c3c"
+    },
+    {
+      "path": "reviews/checks/comparison-interruption.js",
+      "bytes": 2859,
+      "sha256": "54913acb880d8ffca7e282ecadb0e7e5c704c0fe135c395c229f5bbc8fa6865f"
+    },
+    {
+      "path": "reviews/evidence/browser-default-rate.json",
+      "bytes": 2382,
+      "sha256": "618d020318b9d628e4cf36936adc80385423352e94dc16800323beb1986e04c9"
+    },
+    {
+      "path": "reviews/evidence/browser-fallback.json",
+      "bytes": 748,
+      "sha256": "9c2492abd653c125aacbfba157c6ee99c173ce4fe13bbc224af3ebd1c408dc91"
+    },
+    {
+      "path": "reviews/evidence/browser-functional.json",
+      "bytes": 1503,
+      "sha256": "dad9534394d5aa4ae4980a4f73b50d35eaf31c29cdfc386789a361234fe43ea5"
+    },
+    {
+      "path": "reviews/evidence/browser-layout.json",
+      "bytes": 1609,
+      "sha256": "c16f34db12189182539a3ede661927f7d82d618fbba0cd3db6d6376e5d64aa32"
+    },
+    {
+      "path": "reviews/evidence/browser-load-failure.json",
+      "bytes": 889,
+      "sha256": "6d25ea30804d953b2b13aae13336261a4f340cb0d05c8e5991bb1c03b287fc77"
+    },
+    {
+      "path": "reviews/evidence/browser-stress.json",
+      "bytes": 998,
+      "sha256": "9c9db71f21b5fba9279ffc7e2bea4ca6e8afa3eead46357bb4cd2a9aef3b815b"
+    },
+    {
+      "path": "reviews/evidence/comparison-interruption-before-fix.txt",
+      "bytes": 1863,
+      "sha256": "493602385d9f6ccae01a46be5899d58ddeb035fb01e23957bb27d9c5fea1009a"
+    },
+    {
+      "path": "reviews/evidence/comparison-interruption.json",
+      "bytes": 1309,
+      "sha256": "00eed09859c43ec812ccf248d0e179837fc3ca5220e77c66324e577ae835c9ea"
+    },
+    {
+      "path": "reviews/evidence/fable-followup-metadata.json",
+      "bytes": 1015,
+      "sha256": "7dac49b7f9e7eda934c4066469fbb3196e93df4ef1194be02866798c08148be4"
+    },
+    {
+      "path": "reviews/evidence/fable-followup-snapshot.json",
+      "bytes": 36560,
+      "sha256": "aee20906ae790f3bef1b27c6a69e4504665fa468811a805c745dda66b578e960"
+    },
+    {
+      "path": "reviews/evidence/followup-presentation.json",
+      "bytes": 567,
+      "sha256": "33636b5664ac977a8c36d2e14b59196c1916c01e35ff76b6d61bb4ad4c810df5"
+    },
+    {
+      "path": "reviews/evidence/musical-triage.json",
+      "bytes": 8791,
+      "sha256": "501046ce5363c1114dbc22c782c5b19963ced1ffdaea21c937a84bfa28a87bea"
+    },
+    {
+      "path": "reviews/evidence/paper-validation.json",
+      "bytes": 6476,
+      "sha256": "efccaedea98b9f1e0f80a539f91ac7a3139ac8f4edbb4b8695de75dacce22016"
+    },
+    {
+      "path": "reviews/evidence/validation.json",
+      "bytes": 25548,
+      "sha256": "7653f352455f6c560fa59f98ab5517f87fba34530e712086ccd32f8f427d005f"
+    },
+    {
       "path": "source/app.ts",
-      "bytes": 10651,
-      "sha256": "95ec047f6e7f610d6fbdbb6230ab2d6863f358cb634e91324037e44301eea5cd"
+      "bytes": 12501,
+      "sha256": "a726c99d62ebf5f5951ddeac24b53cecc217d67b686724a40d11af7b2876b0fc"
     },
     {
       "path": "source/audio-coordination.ts",
@@ -932,14 +1052,19 @@
       "sha256": "0928bcf3c8a57524364be38b062e164e3710abc5d85f1f8035142336029916e5"
     },
     {
+      "path": "source/native-playback.ts",
+      "bytes": 1285,
+      "sha256": "725c94e804483803cc75230466d64713b1f2e5a4da39745ead8cc031a7eea517"
+    },
+    {
       "path": "source/player.ts",
-      "bytes": 8564,
-      "sha256": "d3cf1b2ad6092776bd3c4583627fe652935c649ed6c1ca5c52d38e5ec0c47211"
+      "bytes": 13986,
+      "sha256": "d5c9747d8220ca041a63ef5d419b2fe0151e7a34f970f0369fc07f1d73260e1c"
     },
     {
       "path": "template.html",
-      "bytes": 7880,
-      "sha256": "6fc6c44857110ee867443b9f5d71ebc9d847a4b40526701d2a48acc824faa21e"
+      "bytes": 8512,
+      "sha256": "e7038d0a0e9442dff2ba34b754799de3e3541d76220afe95d4d9009e5d88cde8"
     },
     {
       "path": "tests/audio-coordination.test.mjs",
@@ -947,14 +1072,24 @@
       "sha256": "ff01852bf121f92a32a862af6b39dd4d8194df6903ee53cf7f4e96c43a03ba48"
     },
     {
+      "path": "tests/native-playback.test.mjs",
+      "bytes": 2982,
+      "sha256": "f7505cbc2c5646f9e9a4fe00b6ccb3affeac405e337d5237912d9d455d2afd1e"
+    },
+    {
       "path": "tests/player.test.mjs",
-      "bytes": 3931,
-      "sha256": "56a526fef5ef9577f4ff539cb146dd9595dbfbffe07550abfe5e8c6ab6523714"
+      "bytes": 13293,
+      "sha256": "5da7cf3ce6c88652ef3118d7bb80f0519d1e117deab30c03afa8049678481b6d"
     },
     {
       "path": "tests/timeline.test.mjs",
       "bytes": 1699,
       "sha256": "46d9abc0a7a8cae28a6b1fcfb1dccdf7ca9bbf9d716bd9280539985379263fc7"
+    },
+    {
+      "path": "tests/ui-controls.test.mjs",
+      "bytes": 7583,
+      "sha256": "3b804d8b38358a6407aa3198cb9b4c894b85997ba744769922b43e0b02a87a21"
     },
     {
       "path": "tsconfig.json",

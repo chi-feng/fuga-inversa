@@ -1,0 +1,50 @@
+✔ stretto comparison waits for voice loading and displays the persistent voice selection (6.356ms)
+✔ the floating player keeps Whole piece reachable when an excerpt is paused or finished (2.047875ms)
+✔ a superseded stretto preset cannot restart playback after a later choice (2.135917ms)
+✔ cancelling a pending comparison prevents its later playback continuation (1.8875ms)
+✖ native playback cancels a pending comparison before its continuation (2.658541ms)
+✖ page hide cancels a pending comparison before its continuation (1.63275ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 4
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 61.27225
+
+✖ failing tests:
+
+test at tests/ui-controls.test.mjs:170:3
+✖ native playback cancels a pending comparison before its continuation (2.658541ms)
+  AssertionError [ERR_ASSERTION]: The cancelled comparison must not schedule another excerpt.
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (tests/ui-controls.test.mjs:187:12)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/ui-controls.test.mjs:170:3
+✖ page hide cancels a pending comparison before its continuation (1.63275ms)
+  AssertionError [ERR_ASSERTION]: The cancelled comparison must not schedule another excerpt.
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (tests/ui-controls.test.mjs:187:12)
+      at async Test.run (node:internal/test_runner/test:1113:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:788:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

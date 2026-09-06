@@ -4,7 +4,9 @@ The score supports the designation **three-voice fugue**, with the compact scale
 
 ## Subject and answer
 
-The commission asked for “a 3-part fugue using the inverted LICC in the style of Bach, arranged for single manual.” Here LICC refers to the Lick, stated on D as D–E–F–G–E–C–D. Its successive semitone intervals are +2, +1, +2, −3, −4, +2. Reversing each direction while retaining its size produces D–C–B♮–A–C–E–D: −2, −1, −2, +3, +4, −2. This is the exact inversion used in the score. Substituting B♭ would change two intervals and remove the defining chromatic constraint.
+The commission asked for “a 3-part fugue using the inverted LICC in the style of Bach, arranged for single manual.” LICC is the commission's spelling of the Lick, a seven-note jazz figure that became an internet meme. Its online circulation includes Alex Heitlinger's 2011 video compilation. [Judd 2022](https://doi.org/10.1017/S1478572222000263).
+
+Stated on D, the cell is D–E–F–G–E–C–D. Its successive semitone intervals are +2, +1, +2, −3, −4, +2. Reversing each direction while retaining its size produces D–C–B♮–A–C–E–D: −2, −1, −2, +3, +4, −2. This is the exact inversion used in the score. Substituting B♭ would change two intervals and remove the defining chromatic constraint.
 
 <figure class="analysis-figure licc-reference"><div class="figure-heading"><span>The LICC and its inversion</span><button type="button" data-listen="head">Hear the subject</button></div><img src="assets/score/licc-reference.svg" alt="Two staves compare the original LICC, D E F G E C D, with its exact inversion, D C B-natural A C E D" loading="lazy"><figcaption>The original cell and its reflection about D share the same rhythm. Each directed interval changes sign.</figcaption></figure>
 
@@ -12,7 +14,7 @@ The alto presents this cell alone in m. 1. Four eighth notes descend through a p
 
 <figure class="analysis-figure" id="ex01-subject">
 <div class="figure-heading"><span>Example 1 · mm. 1–2</span>
-<div class="figure-actions"><button type="button" data-listen="head"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="head" aria-pressed="false">Repeat</button><a href="assets/excerpts/head.cropped.pdf" aria-label="Download Example 1">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="head"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="head" aria-pressed="false">Repeat</button><a href="assets/excerpts/head.cropped.pdf" download aria-label="Download Example 1 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="head"><img class="figure-fallback" src="assets/excerpts/head.svg" alt="Subject head and continuation" loading="lazy"></div>
 <figcaption><strong>Example 1.</strong> Alto, mm. 1–2. The bracketed head preserves every directed semitone interval of the inversion. The continuation supplies F♮ and ends on E; the tie carries the final head note across the bar line.</figcaption></figure>
 
@@ -26,15 +28,17 @@ The bass enters in m. 5 with the opening subject an octave below the alto's orig
 
 The alto's accompaniment to the answer introduces a recurring one-bar counterline: C4–D4–C4–B3–G♯3–A3 in m. 3. The soprano transposes it up a fourth in m. 5, giving F4–G4–F4–E4–C♯4–D4. Its opening quarter note allows the subject's first two eighth notes to register against a held tone. Its concluding leading-tone motion supplies the C♯–D that the D-based head itself lacks.
 
-This counterline performs a countersubject's role beside the head, while its continuation remains flexible. It returns in the alto at m. 9 and the soprano at mm. 11, 15, and 21. The C-major version, E5–F5–E5–D5–B4–C5, changes the quality of the opening step to fit the major mode. The distinction is audible and analytical: the subject head preserves chromatic intervals, while the counterline preserves a tonal pattern through modal adjustment.
+This counterline performs a countersubject's role beside the head, while its continuation remains flexible. It returns in the alto at m. 9 and the soprano at mm. 11, 15, and 21. The C-major version, E5–F5–E5–D5–B4–C5, and the F-major version, A4–B♭4–A4–G4–E4–F4, both replace the opening whole-tone turn with a semitone turn, followed by a whole-tone descent. These modal adjustments preserve the contour, rhythm, and leading-tone close; the subject head retains its directed chromatic intervals.
 
 <figure class="analysis-figure" id="ex02-exposition">
 <div class="figure-heading"><span>Example 2 · mm. 3–6</span>
-<div class="figure-actions"><button type="button" data-listen="exposition"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="exposition" aria-pressed="false">Repeat</button><a href="assets/excerpts/exposition.cropped.pdf" aria-label="Download Example 2">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="exposition"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="exposition" aria-pressed="false">Repeat</button><a href="assets/excerpts/exposition.cropped.pdf" download aria-label="Download Example 2 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="exposition"><img class="figure-fallback" src="assets/excerpts/exposition.svg" alt="Answer, counterline, and bass entry" loading="lazy"></div>
 <figcaption><strong>Example 2.</strong> Mm. 3–6. The first-bar subject and counterline exchange positions at the fifteenth. The consonant fifth at m. 3, beat 1½, becomes a correctly treated passing fourth in m. 5.</figcaption></figure>
 
-The first-bar pair demonstrates invertible counterpoint at the fifteenth. Transposing both m. 3 voices up a fourth, then lowering the subject by two octaves, produces the bass subject and soprano counterline of m. 5 exactly. This exchanges the positions of two lines, a different operation from the melodic inversion that produced the subject. It also changes one interval's function: G4 above C4 at m. 3, beat 1½, is a consonant fifth; the corresponding F4 above C3 in m. 5 is a compound fourth, made permissible by the weak passing bass C3 between D3 and B2. The claim is limited to the first-bar combination. The two-bar continuations are not literal derivatives.
+The first-bar pair demonstrates invertible counterpoint at the fifteenth. Transposing both m. 3 voices up a fourth, then lowering the subject by two octaves, produces the bass subject and soprano counterline of m. 5 exactly. This exchanges the positions of two lines, a different operation from the melodic inversion that produced the subject. It also changes one interval's function: G4 above C4 at m. 3, beat 1½, is a consonant fifth; the corresponding F4 above C3 in m. 5 is a compound fourth, made permissible by the weak passing bass C3 between D3 and B2. This exact derivation applies to the first bar; the continuations are adjusted separately.
+
+The continuation bars reduce the independence of the thematic pair. Soprano and alto move throughout m. 4 in parallel sixths; soprano and bass move throughout mm. 6, 16, and 22 in parallel tenths. In m. 12, the upper voices mostly maintain tenths, interrupted by the 9–8 suspension and its octave resolution. These consonant pairings stabilize the continuations, but their shared rhythm and contour offer less contrast than the counterline beside the head.
 
 Bach's BWV 847 offers a useful comparison: Hutchinson's annotated score tracks a recurring countersubject between voices and identifies fragments of both subject and counterpoint in episodes. *Fuga inversa* uses these resources on a smaller scale, with a less stable continuation and one principal ornamental episode figure. [Hutchinson, §30.8](https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html).
 
@@ -43,7 +47,7 @@ Bach's BWV 847 offers a useful comparison: Hutchinson's annotated score tracks a
 | Mm. 1–2 | Alto, D4 | Exact head and original continuation; F♮ establishes the minor third. |
 | Mm. 3–4 | Soprano, A4 | Exact fifth-transposed head; final continuation note adjusted to A4. |
 | Mm. 5–6 | Bass, D3 | Complete opening subject transposed down an octave. |
-| Mm. 9–10 | Soprano, G4 | Exact head after D-major harmony; B♭ supports a local G-minor region. |
+| Mm. 9–10 | Soprano, G4 | Exact head after D-major harmony; B♭ supports G minor. The continuation ends D5–C5 in place of a literal B♭4–A4. |
 | Mm. 11–12 | Alto, C4 | Exact C-based head with B♭; E♮ in accompaniment and continuation supports C major. |
 | Mm. 15–16 | Bass, F3 | Exact F-based head with E♭; A♮ supplies a major third. |
 | M. 19 into m. 20 | Soprano, D5; alto, A4 one eighth later | Complete overlapping heads; both continuations recomposed. |
@@ -59,7 +63,7 @@ Its bass, D3–G2–C3–F2, makes the sequence's descending-fifth relations cle
 
 <figure class="analysis-figure" id="ex03-first-episode">
 <div class="figure-heading"><span>Example 3 · mm. 7–8</span>
-<div class="figure-actions"><button type="button" data-listen="episode-one"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="episode-one" aria-pressed="false">Repeat</button><a href="assets/excerpts/episode-one.cropped.pdf" aria-label="Download Example 3">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="episode-one"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="episode-one" aria-pressed="false">Repeat</button><a href="assets/excerpts/episode-one.cropped.pdf" download aria-label="Download Example 3 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="episode-one"><img class="figure-fallback" src="assets/excerpts/episode-one.svg" alt="First episode and G preparation" loading="lazy"></div>
 <figcaption><strong>Example 3.</strong> Mm. 7–8. Lower-neighbor sixteenths animate the soprano above the bass sequence. The final A-major and D-major sonorities prepare the G-based entry. The tied E4 in m. 8 remains consonant against the bass.</figcaption></figure>
 
@@ -69,17 +73,19 @@ The major-mode entries reveal the value of separating the invariant head from it
 
 <figure class="analysis-figure" id="ex04-c-entry">
 <div class="figure-heading"><span>Example 4 · mm. 11–12</span>
-<div class="figure-actions"><button type="button" data-listen="c-entry"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="c-entry" aria-pressed="false">Repeat</button><a href="assets/excerpts/c-entry.cropped.pdf" aria-label="Download Example 4">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="c-entry"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="c-entry" aria-pressed="false">Repeat</button><a href="assets/excerpts/c-entry.cropped.pdf" download aria-label="Download Example 4 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="c-entry"><img class="figure-fallback" src="assets/excerpts/c-entry.svg" alt="C entry and suspension" loading="lazy"></div>
 <figcaption><strong>Example 4.</strong> Mm. 11–12. The C-based head retains B♭, while the surrounding voices establish a major-mode context. G minor becomes G major in m. 11; the following bar contains a prepared G5–F5 suspension.</figcaption></figure>
 
 The second episode transfers the sixteenth-note figure to the alto. Its quarter-note framework in mm. 13–14 is G4–A4–F4–G4, then E4–F4–D4–E4. The soprano now provides the slower line. This exchange makes the middle voice carry an idea previously associated with the top voice, while the two-bar bass sequence expands the earlier episode's harmonic travel.
 
-The bass roots are C–F–B♭–E♭–A–D–G–C. Most adjacent roots follow descending-fifth relations, with a tritone link from E♭ to A. The sequence also changes chord quality: the E♭-major sonority gives way to A minor, whose E♮ restores the pitch required for the subsequent approach to F. Calling the entire passage an exact chain of perfect fifths would conceal this adjustment. Its final C-major harmony makes the F entry intelligible without a separate connecting passage.
+The bass roots are C–F–B♭–E♭–A–D–G–C. Most adjacent roots follow descending-fifth relations, with a tritone link from E♭ to A. The sequence also changes chord quality: the E♭-major sonority gives way to A minor, whose E♮ restores the pitch required for the subsequent approach to F. Its final C-major harmony makes the F entry intelligible without a separate connecting passage.
+
+The outer voices alternate compound thirds with double octaves on the quarter-note beats. The double octaves fall on beats 2 and 4 of both bars. The first arrives by contrary motion; the other three arrive by similar motion with a step in the soprano. The alto's sixteenths provide activity within this regular outer framework.
 
 <figure class="analysis-figure" id="ex05-second-episode">
 <div class="figure-heading"><span>Example 5 · mm. 13–14</span>
-<div class="figure-actions"><button type="button" data-listen="episode-two"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="episode-two" aria-pressed="false">Repeat</button><a href="assets/excerpts/episode-two.cropped.pdf" aria-label="Download Example 5">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="episode-two"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="episode-two" aria-pressed="false">Repeat</button><a href="assets/excerpts/episode-two.cropped.pdf" download aria-label="Download Example 5 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="episode-two"><img class="figure-fallback" src="assets/excerpts/episode-two.svg" alt="Episode transferred to alto" loading="lazy"></div>
 <figcaption><strong>Example 5.</strong> Mm. 13–14. The ornamental figure moves to the alto. The bass-root sequence C–F–B♭–E♭–A–D–G–C includes a tritone link and ends with C-major preparation for F.</figcaption></figure>
 
@@ -103,7 +109,7 @@ The tied E4 in m. 8 supplies a useful counterexample: it is a sixth above G2 and
 
 <figure class="analysis-figure" id="ex06-f-entry-preparation">
 <div class="figure-heading"><span>Example 6 · mm. 15–18</span>
-<div class="figure-actions"><button type="button" data-listen="suspensions"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="suspensions" aria-pressed="false">Repeat</button><a href="assets/excerpts/suspensions.cropped.pdf" aria-label="Download Example 6">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="suspensions"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="suspensions" aria-pressed="false">Repeat</button><a href="assets/excerpts/suspensions.cropped.pdf" download aria-label="Download Example 6 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="suspensions"><img class="figure-fallback" src="assets/excerpts/suspensions.svg" alt="F entry and suspension preparation" loading="lazy"></div>
 <figcaption><strong>Example 6.</strong> Mm. 15–18. The F-based entry combines an invariant E♭ with major-mode A♮. The following preparation contains a 7–6 suspension over B♭, a prepared dominant seventh, and a 9–8 suspension over E. These labels refer to different events.</figcaption></figure>
 
@@ -115,7 +121,7 @@ Both seven-note heads are complete. Their continuations change, so the passage i
 
 <figure class="analysis-figure" id="ex07-return">
 <div class="figure-heading"><span>Example 7 · mm. 19–20</span>
-<div class="figure-actions"><button type="button" data-listen="return"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="return" aria-pressed="false">Repeat</button><a href="assets/excerpts/return.cropped.pdf" aria-label="Download Example 7">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="return"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="return" aria-pressed="false">Repeat</button><a href="assets/excerpts/return.cropped.pdf" download aria-label="Download Example 7 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="return"><img class="figure-fallback" src="assets/excerpts/return.svg" alt="Stretto and restored bass entry" loading="lazy"></div>
 <figcaption><strong>Example 7.</strong> Mm. 19–20. Brackets identify two exact heads separated by one eighth note. The bass supports both upper fourths. The continuations diverge before the complete three-voice return of mm. 5–6 begins at m. 21.</figcaption></figure>
 
@@ -133,7 +139,7 @@ Both seven-note heads are complete. Their continuations change, so the passage i
 
 The fourths in this table are supported consonances: each upper note is consonant against the bass. Gran's account of three-voice canonic writing distinguishes this case from a fourth formed with the lowest voice. [Gran 2024, §§3.7–3.8](https://mtosmt.org/issues/mto.24.30.2/mto.24.30.2.gran.html). At m. 20, beat 1½, the alto G4 is a dissonant ninth above F3. It passes downward between A4 and F4 on a weak eighth note.
 
-The D-major chord in m. 19 is followed by C major, with F♯4 falling to E4. A reading that treats F♯ as a leading tone resolving to G would contradict the written line. The harmonic succession accommodates the exact overlapping heads through changing consonant support. The tonic return has two stages: thematic D returns over F in m. 19; root-position D and the original accompaniment return in m. 21 after A7. The second arrival consolidates a tonic that the overlapping heads have already recalled.
+The D-major chord in m. 19 is followed by C major, with F♯4 falling to E4. The harmonic succession accommodates the exact overlapping heads through changing consonant support. The tonic return has two stages: thematic D returns over F in m. 19; root-position D and the original accompaniment return in m. 21 after A7. The second arrival consolidates a tonic that the overlapping heads have already recalled.
 
 ## Cadence and keyboard writing
 
@@ -143,19 +149,19 @@ The six-four has dominant function here: its D and F resolve to C♯ and E above
 
 <figure class="analysis-figure" id="ex08-cadence">
 <div class="figure-heading"><span>Example 8 · mm. 23–26</span>
-<div class="figure-actions"><button type="button" data-listen="coda"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="coda" aria-pressed="false">Repeat</button><a href="assets/excerpts/coda.cropped.pdf" aria-label="Download Example 8">PDF ↗</a></div></div>
+<div class="figure-actions"><button type="button" data-listen="coda"><span aria-hidden="true">▶</span> Listen</button><button type="button" data-loop="coda" aria-pressed="false">Repeat</button><a href="assets/excerpts/coda.cropped.pdf" download aria-label="Download Example 8 PDF">PDF ↓</a></div></div>
 <div class="score-host" data-score="coda"><img class="figure-fallback" src="assets/excerpts/coda.svg" alt="Neapolitan and final cadence" loading="lazy"></div>
 <figcaption><strong>Example 8.</strong> Mm. 23–26. N6 proceeds through a cadential six-four to V and the final major tonic. The soprano traces E♭4–D4–C♯4, and the alto resolves F3–E3. The right hand plays the arpeggio while the left sustains bass and alto.</figcaption></figure>
 
-The final arpeggio E4–A4–C♯5–E5 prolongs the dominant and returns the soprano to a higher register, below the G5 peak reached in m. 12. The final D5 above D3 and F♯3 gives a Picardy-third close with the fifth omitted. Its force comes from the preceding dominant duration, the soprano's descent E5–D5, the bass A2–D3, and the broad final note values.
+The final arpeggio E4–A4–C♯5–E5 prolongs the dominant and returns the soprano to a higher register, below the G5 peak reached in m. 12. It replaces a direct leading-tone resolution with an arpeggiated approach: C♯4 at m. 25, beat 2, rises to E4, and the later C♯5 rises to E5 before D5 arrives. The final D5 above D3 and F♯3 gives a Picardy-third close with the fifth omitted and a minor thirteenth between the upper parts. The extended dominant, E5–D5 descent, bass A2–D3, and broad final values articulate the cadence through that open voicing.
 
-The single-manual requirement is met through hand redistribution. Voice identity persists when the alto changes staff. At mm. 11–12 the left hand takes bass and alto while the soprano occupies the higher register. At mm. 25–26 the same division allows the right hand's arpeggio above sustained lower notes. Reading soprano and alto as an inseparable right-hand pair would invent a two-octave stretch at the end that the printed allocation avoids. The written ranges are soprano C♯4–G5, alto E3–B4, and bass F2–C4. Instantaneous spans are compatible with an octave hand; fluent legato still depends on fingering and timely transfers.
+The single-manual requirement is met through hand redistribution. Voice identity persists when the alto changes staff. At mm. 11–12 the left hand takes bass and alto while the soprano occupies the higher register. Their separation reaches a major thirteenth, G3–E5, at m. 11, beat 2½. This allocation permits the register contrast while leaving a wide space below the soprano. At mm. 25–26 the same division allows the right hand's arpeggio above sustained lower notes; the two-octave E3–E5 interval at m. 25, beat 4½, spans the two hands. The written ranges are soprano C♯4–G5, alto E3–B4, and bass F2–C4. Instantaneous spans are compatible with an octave hand; fluent legato still depends on fingering and timely transfers.
 
 ## Scale and limitations
 
-The piece's strongest formal contrast is the change from successive entries to the late compressed overlap. The transfer of the episode figure and the distinction between exact head and flexible tonal counterline prepare that contrast. The resulting unity has clear limits. The continuation is less memorable and less consistently retained than the head. Both main episodes rely on closely related neighbor figures and descending-fifth procedures. Local key areas receive only brief confirmation, and the stretto supplies a single concentrated test of the head's contrapuntal potential.
+The piece's strongest formal contrast is the change from successive entries to the late compressed overlap. The transfer of the episode figure and the distinction between exact head and flexible tonal counterline prepare that contrast. The continuation is less distinctive and less consistently retained than the head; its persistent parallel sixths and tenths also reduce melodic independence. Both main episodes rely on closely related neighbor figures and descending-fifth procedures, with the second constrained by its regular outer third-and-octave pattern. Local key areas receive only brief confirmation, and the stretto supplies a single concentrated test of the head's contrapuntal potential. Wide voicings at the C entry and the close reinforce register contrasts while thinning the middle of the texture.
 
-Those limits support the description of a compact fugue or fughetta. They also set a boundary on the Bach comparison. The score uses thematic recurrence, functional bass motion, controlled suspensions, and a late increase in imitative density. It does not demonstrate the broader network of sustained canons, multiple countersubjects, or thematic transformations found across Bach's output. Such devices are not a checklist for an individual fugue. Here their limited presence means that the final cadence closes a concise exploration of one cell, with the return's changed temporal relation carrying most of the formal argument.
+Those limits support the description of a compact fugue or fughetta. The Bach comparison rests on thematic recurrence, functional bass motion, controlled suspensions, and a late increase in imitative density. The piece explores less of the sustained canonic writing, multiple countersubjects, and thematic transformations found across Bach's output. Its final cadence closes a concise exploration of one cell, with the return's changed temporal relation carrying most of the formal argument.
 
 ## Sources and score reference
 
@@ -164,6 +170,7 @@ Pitch names use scientific pitch notation, with middle C designated C4. Half-bea
 - **Score:** GPT-6 Astra. 2026. *Fuga inversa*, for a single manual, in three voices. [LilyPond source](assets/score/fugue.ly). The accompanying [excerpt and evidence file](assets/evidence/excerpt-specifications.json) records the source and MIDI hashes for this edition.
 - **Gran, Jacob.** 2024. “A General Method for Composing a Canon Against a Cantus Firmus Using Sergei Taneev's Double-Shifting Counterpoint.” *Music Theory Online* 30 (2), June. [Article and examples](https://mtosmt.org/issues/mto.24.30.2/mto.24.30.2.gran.html). DOI: 10.30535/mto.30.2.4, especially §§3.7–3.8.
 - **Hutchinson, Robert.** *Music Theory for the 21st-Century Classroom*. Website copyright 2017. [§10.9, “Suspension”](https://musictheory.pugetsound.edu/mt21c/Suspension.html); [§16.3, “The Cadential Six-Four Chord”](https://musictheory.pugetsound.edu/mt21c/TheCadentialSixFourChord.html); [§29.3, “Voice Leading the Neapolitan Chord”](https://musictheory.pugetsound.edu/mt21c/VoiceLeadingNeapolitanChord.html); [§30.8, “Fugue Analysis”](https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html). The BWV 847 comparison refers to the score examples and commentary in §30.8.
+- **Judd, Hannah.** 2022. “Virals, Memes, and the Lick's Circulation through Online Jazz Communities.” *Twentieth-Century Music* 19 (3): 393–410. Published online 28 November 2022. [Publisher abstract and article record](https://doi.org/10.1017/S1478572222000263).
 - **Prout, Ebenezer.** 1891. *Fugue*, chapter 10, “Fughetta and Fugato,” especially §§350–353. [Public-domain text](https://en.wikisource.org/wiki/Fugue_(Prout)/Chapter_10).
 - **University of California, Santa Barbara.** “Fugue: Subject and Tonal Answer.” Undated course handout hosted on Lee Rothfarb's faculty site. [Two-page PDF](https://rothfarb.faculty.music.ucsb.edu/courses/103/subject_answer.pdf).
 

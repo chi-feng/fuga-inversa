@@ -1,0 +1,1 @@
+Inconsolatazi4 Regular is the unmodified OpenType font supplied by the Inconsolata package, version 1.121, in TeX Live 2025. The font derives from Inconsolata by Raph Levien and Cyreal, with the TeX font adaptations by Michael Sharpe. The accompanying [SIL Open Font License](OFL.txt) applies to this regular face. [Package documentation](https://ctan.org/pkg/inconsolata).

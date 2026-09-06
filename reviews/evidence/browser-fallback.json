@@ -1,0 +1,16 @@
+{
+  "method": "AudioContext was made unavailable in an isolated iframe. Native audio stayed muted. Loopback media URLs are represented by their public asset paths.",
+  "limitations": [
+    "This tests the simulated missing-AudioContext path and visible controls; it is not a physical-device compatibility test."
+  ],
+  "result": {
+    "displayedRegistration": "Steinway Grand Piano · recital hall",
+    "excerptButtonDisabled": false,
+    "excerptControlUsableOrUnavailable": true,
+    "nativeInstrument": "assets/audio/piano.mp3",
+    "passed": true,
+    "selectedInstrumentLabelAccurate": true,
+    "simulation": "AudioContext unavailable in a separate iframe; native audio muted",
+    "toolbarLabel": "HighlightAll voicesSopranoAltoBass"
+  }
+}

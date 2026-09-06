@@ -15,11 +15,12 @@
 \usepackage{graphicx,booktabs,longtable,array,calc}
 \usepackage{amsmath}
 \usepackage{titlesec,needspace,etoolbox}
+\usepackage{placeins}
 \usepackage{enumitem}
 \usepackage{caption}
 \usepackage{fancyhdr}
 \usepackage{xurl}
-\usepackage[unicode=true,colorlinks=true,linkcolor=accent,urlcolor=accent,bookmarksopen=true,pdftitle={Fuga inversa — Analysis and process},pdfauthor={GPT-6 Astra agents; directed by chi-feng}]{hyperref}
+\usepackage[pdfversion=1.7,unicode=true,colorlinks=true,linkcolor=accent,urlcolor=accent,bookmarksopen=true,pdftitle={Fuga inversa — Analysis and process},pdfauthor={GPT-6 Astra agents; directed by chi-feng}]{hyperref}
 \usepackage{bookmark}
 \usepackage{newunicodechar}
 \newunicodechar{♭}{\ensuremath{\flat}}
@@ -31,8 +32,8 @@
 \titleformat{\subsection}{\normalfont\sffamily\normalsize\color{accent}}{}{0pt}{}
 \titlespacing*{\section}{0pt}{3.2ex plus .6ex}{1.4ex}
 \titlespacing*{\subsection}{0pt}{2.7ex plus .5ex}{1.1ex}
-\pretocmd{\section}{\Needspace{6\baselineskip}}{}{}
-\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
+\pretocmd{\section}{\FloatBarrier\Needspace{6\baselineskip}}{}{}
+\pretocmd{\subsection}{\FloatBarrier\Needspace{5\baselineskip}}{}{}
 \renewcommand{\figurename}{Example}
 \captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false,skip=9pt}
 \setlength{\parindent}{0pt}
@@ -64,6 +65,7 @@
 \widowpenalty=10000
 \displaywidowpenalty=10000
 \begin{document}
+\hypersetup{pageanchor=false}
 \begin{titlepage}
 \thispagestyle{empty}
 {\sffamily\small\color{accent}\MakeUppercase{An annotated edition}}\par
@@ -87,13 +89,16 @@ Directed by chi-feng\\[5pt]7 September 2026}\par
 {\small\href{https://chi-feng.github.io/fuga-inversa/}{Recordings, interactive score and source edition}}\par
 \end{titlepage}
 \setcounter{page}{1}
+\hypersetup{pageanchor=true}
 \section{The composition}\label{the-composition}
 
 The score supports the designation \textbf{three-voice fugue}, with the compact scale also suggested by \emph{fughetta}. It contains a complete exposition, intervening episodes, middle entries at new pitch levels, a tonic return, and a separate cadential close. The distinction between fugue and fughetta has no dependable bar-count threshold. Prout already acknowledged its uncertainty in his nineteenth-century account, describing a fughetta as a compressed but complete composition. His terminology helps describe the scale here without making brevity a failure of form. \href{https://en.wikisource.org/wiki/Fugue_(Prout)/Chapter_10}{Prout, \emph{Fugue}, §§350--353}.
 
 \section{Subject and answer}\label{subject-and-answer}
 
-The commission asked for ``a 3-part fugue using the inverted LICC in the style of Bach, arranged for single manual.'' Here LICC refers to the Lick, stated on D as D--E--F--G--E--C--D. Its successive semitone intervals are +2, +1, +2, −3, −4, +2. Reversing each direction while retaining its size produces D--C--B♮--A--C--E--D: −2, −1, −2, +3, +4, −2. This is the exact inversion used in the score. Substituting B♭ would change two intervals and remove the defining chromatic constraint.
+The commission asked for ``a 3-part fugue using the inverted LICC in the style of Bach, arranged for single manual.'' LICC is the commission's spelling of the Lick, a seven-note jazz figure that became an internet meme. Its online circulation includes Alex Heitlinger's 2011 video compilation. \href{https://doi.org/10.1017/S1478572222000263}{Judd 2022}.
+
+Stated on D, the cell is D--E--F--G--E--C--D. Its successive semitone intervals are +2, +1, +2, −3, −4, +2. Reversing each direction while retaining its size produces D--C--B♮--A--C--E--D: −2, −1, −2, +3, +4, −2. This is the exact inversion used in the score. Substituting B♭ would change two intervals and remove the defining chromatic constraint.
 
 \begin{figure}[!htbp]
 \centering
@@ -120,7 +125,7 @@ The bass enters in m.~5 with the opening subject an octave below the alto's orig
 
 The alto's accompaniment to the answer introduces a recurring one-bar counterline: C4--D4--C4--B3--G♯3--A3 in m.~3. The soprano transposes it up a fourth in m.~5, giving F4--G4--F4--E4--C♯4--D4. Its opening quarter note allows the subject's first two eighth notes to register against a held tone. Its concluding leading-tone motion supplies the C♯--D that the D-based head itself lacks.
 
-This counterline performs a countersubject's role beside the head, while its continuation remains flexible. It returns in the alto at m.~9 and the soprano at mm.~11, 15, and 21. The C-major version, E5--F5--E5--D5--B4--C5, changes the quality of the opening step to fit the major mode. The distinction is audible and analytical: the subject head preserves chromatic intervals, while the counterline preserves a tonal pattern through modal adjustment.
+This counterline performs a countersubject's role beside the head, while its continuation remains flexible. It returns in the alto at m.~9 and the soprano at mm.~11, 15, and 21. The C-major version, E5--F5--E5--D5--B4--C5, and the F-major version, A4--B♭4--A4--G4--E4--F4, both replace the opening whole-tone turn with a semitone turn, followed by a whole-tone descent. These modal adjustments preserve the contour, rhythm, and leading-tone close; the subject head retains its directed chromatic intervals.
 
 \begin{figure}[!htbp]
 \centering
@@ -129,7 +134,9 @@ This counterline performs a countersubject's role beside the head, while its con
 \label{ex02-exposition}
 \end{figure}
 
-The first-bar pair demonstrates invertible counterpoint at the fifteenth. Transposing both m.~3 voices up a fourth, then lowering the subject by two octaves, produces the bass subject and soprano counterline of m.~5 exactly. This exchanges the positions of two lines, a different operation from the melodic inversion that produced the subject. It also changes one interval's function: G4 above C4 at m.~3, beat 1½, is a consonant fifth; the corresponding F4 above C3 in m.~5 is a compound fourth, made permissible by the weak passing bass C3 between D3 and B2. The claim is limited to the first-bar combination. The two-bar continuations are not literal derivatives.
+The first-bar pair demonstrates invertible counterpoint at the fifteenth. Transposing both m.~3 voices up a fourth, then lowering the subject by two octaves, produces the bass subject and soprano counterline of m.~5 exactly. This exchanges the positions of two lines, a different operation from the melodic inversion that produced the subject. It also changes one interval's function: G4 above C4 at m.~3, beat 1½, is a consonant fifth; the corresponding F4 above C3 in m.~5 is a compound fourth, made permissible by the weak passing bass C3 between D3 and B2. This exact derivation applies to the first bar; the continuations are adjusted separately.
+
+The continuation bars reduce the independence of the thematic pair. Soprano and alto move throughout m.~4 in parallel sixths; soprano and bass move throughout mm.~6, 16, and 22 in parallel tenths. In m.~12, the upper voices mostly maintain tenths, interrupted by the 9--8 suspension and its octave resolution. These consonant pairings stabilize the continuations, but their shared rhythm and contour offer less contrast than the counterline beside the head.
 
 Bach's BWV 847 offers a useful comparison: Hutchinson's annotated score tracks a recurring countersubject between voices and identifies fragments of both subject and counterpoint in episodes. \emph{Fuga inversa} uses these resources on a smaller scale, with a less stable continuation and one principal ornamental episode figure. \href{https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html}{Hutchinson, §30.8}.
 
@@ -153,7 +160,7 @@ Thematic and tonal evidence
 Mm. 1--2 & Alto, D4 & Exact head and original continuation; F♮ establishes the minor third. \\
 Mm. 3--4 & Soprano, A4 & Exact fifth-transposed head; final continuation note adjusted to A4. \\
 Mm. 5--6 & Bass, D3 & Complete opening subject transposed down an octave. \\
-Mm. 9--10 & Soprano, G4 & Exact head after D-major harmony; B♭ supports a local G-minor region. \\
+Mm. 9--10 & Soprano, G4 & Exact head after D-major harmony; B♭ supports G minor. The continuation ends D5--C5 in place of a literal B♭4--A4. \\
 Mm. 11--12 & Alto, C4 & Exact C-based head with B♭; E♮ in accompaniment and continuation supports C major. \\
 Mm. 15--16 & Bass, F3 & Exact F-based head with E♭; A♮ supplies a major third. \\
 M. 19 into m.~20 & Soprano, D5; alto, A4 one eighth later & Complete overlapping heads; both continuations recomposed. \\
@@ -192,7 +199,9 @@ The major-mode entries reveal the value of separating the invariant head from it
 
 The second episode transfers the sixteenth-note figure to the alto. Its quarter-note framework in mm.~13--14 is G4--A4--F4--G4, then E4--F4--D4--E4. The soprano now provides the slower line. This exchange makes the middle voice carry an idea previously associated with the top voice, while the two-bar bass sequence expands the earlier episode's harmonic travel.
 
-The bass roots are C--F--B♭--E♭--A--D--G--C. Most adjacent roots follow descending-fifth relations, with a tritone link from E♭ to A. The sequence also changes chord quality: the E♭-major sonority gives way to A minor, whose E♮ restores the pitch required for the subsequent approach to F. Calling the entire passage an exact chain of perfect fifths would conceal this adjustment. Its final C-major harmony makes the F entry intelligible without a separate connecting passage.
+The bass roots are C--F--B♭--E♭--A--D--G--C. Most adjacent roots follow descending-fifth relations, with a tritone link from E♭ to A. The sequence also changes chord quality: the E♭-major sonority gives way to A minor, whose E♮ restores the pitch required for the subsequent approach to F. Its final C-major harmony makes the F entry intelligible without a separate connecting passage.
+
+The outer voices alternate compound thirds with double octaves on the quarter-note beats. The double octaves fall on beats 2 and 4 of both bars. The first arrives by contrary motion; the other three arrive by similar motion with a step in the soprano. The alto's sixteenths provide activity within this regular outer framework.
 
 \begin{figure}[!htbp]
 \centering
@@ -299,7 +308,7 @@ M. 20, beat 1 & D5 & A4 & F3 & Upper fourth supported by third and sixth above F
 
 The fourths in this table are supported consonances: each upper note is consonant against the bass. Gran's account of three-voice canonic writing distinguishes this case from a fourth formed with the lowest voice. \href{https://mtosmt.org/issues/mto.24.30.2/mto.24.30.2.gran.html}{Gran 2024, §§3.7--3.8}. At m.~20, beat 1½, the alto G4 is a dissonant ninth above F3. It passes downward between A4 and F4 on a weak eighth note.
 
-The D-major chord in m.~19 is followed by C major, with F♯4 falling to E4. A reading that treats F♯ as a leading tone resolving to G would contradict the written line. The harmonic succession accommodates the exact overlapping heads through changing consonant support. The tonic return has two stages: thematic D returns over F in m.~19; root-position D and the original accompaniment return in m.~21 after A7. The second arrival consolidates a tonic that the overlapping heads have already recalled.
+The D-major chord in m.~19 is followed by C major, with F♯4 falling to E4. The harmonic succession accommodates the exact overlapping heads through changing consonant support. The tonic return has two stages: thematic D returns over F in m.~19; root-position D and the original accompaniment return in m.~21 after A7. The second arrival consolidates a tonic that the overlapping heads have already recalled.
 
 \section{Cadence and keyboard writing}\label{cadence-and-keyboard-writing}
 
@@ -314,15 +323,15 @@ The six-four has dominant function here: its D and F resolve to C♯ and E above
 \label{ex08-cadence}
 \end{figure}
 
-The final arpeggio E4--A4--C♯5--E5 prolongs the dominant and returns the soprano to a higher register, below the G5 peak reached in m.~12. The final D5 above D3 and F♯3 gives a Picardy-third close with the fifth omitted. Its force comes from the preceding dominant duration, the soprano's descent E5--D5, the bass A2--D3, and the broad final note values.
+The final arpeggio E4--A4--C♯5--E5 prolongs the dominant and returns the soprano to a higher register, below the G5 peak reached in m.~12. It replaces a direct leading-tone resolution with an arpeggiated approach: C♯4 at m.~25, beat 2, rises to E4, and the later C♯5 rises to E5 before D5 arrives. The final D5 above D3 and F♯3 gives a Picardy-third close with the fifth omitted and a minor thirteenth between the upper parts. The extended dominant, E5--D5 descent, bass A2--D3, and broad final values articulate the cadence through that open voicing.
 
-The single-manual requirement is met through hand redistribution. Voice identity persists when the alto changes staff. At mm.~11--12 the left hand takes bass and alto while the soprano occupies the higher register. At mm.~25--26 the same division allows the right hand's arpeggio above sustained lower notes. Reading soprano and alto as an inseparable right-hand pair would invent a two-octave stretch at the end that the printed allocation avoids. The written ranges are soprano C♯4--G5, alto E3--B4, and bass F2--C4. Instantaneous spans are compatible with an octave hand; fluent legato still depends on fingering and timely transfers.
+The single-manual requirement is met through hand redistribution. Voice identity persists when the alto changes staff. At mm.~11--12 the left hand takes bass and alto while the soprano occupies the higher register. Their separation reaches a major thirteenth, G3--E5, at m.~11, beat 2½. This allocation permits the register contrast while leaving a wide space below the soprano. At mm.~25--26 the same division allows the right hand's arpeggio above sustained lower notes; the two-octave E3--E5 interval at m.~25, beat 4½, spans the two hands. The written ranges are soprano C♯4--G5, alto E3--B4, and bass F2--C4. Instantaneous spans are compatible with an octave hand; fluent legato still depends on fingering and timely transfers.
 
 \section{Scale and limitations}\label{scale-and-limitations}
 
-The piece's strongest formal contrast is the change from successive entries to the late compressed overlap. The transfer of the episode figure and the distinction between exact head and flexible tonal counterline prepare that contrast. The resulting unity has clear limits. The continuation is less memorable and less consistently retained than the head. Both main episodes rely on closely related neighbor figures and descending-fifth procedures. Local key areas receive only brief confirmation, and the stretto supplies a single concentrated test of the head's contrapuntal potential.
+The piece's strongest formal contrast is the change from successive entries to the late compressed overlap. The transfer of the episode figure and the distinction between exact head and flexible tonal counterline prepare that contrast. The continuation is less distinctive and less consistently retained than the head; its persistent parallel sixths and tenths also reduce melodic independence. Both main episodes rely on closely related neighbor figures and descending-fifth procedures, with the second constrained by its regular outer third-and-octave pattern. Local key areas receive only brief confirmation, and the stretto supplies a single concentrated test of the head's contrapuntal potential. Wide voicings at the C entry and the close reinforce register contrasts while thinning the middle of the texture.
 
-Those limits support the description of a compact fugue or fughetta. They also set a boundary on the Bach comparison. The score uses thematic recurrence, functional bass motion, controlled suspensions, and a late increase in imitative density. It does not demonstrate the broader network of sustained canons, multiple countersubjects, or thematic transformations found across Bach's output. Such devices are not a checklist for an individual fugue. Here their limited presence means that the final cadence closes a concise exploration of one cell, with the return's changed temporal relation carrying most of the formal argument.
+Those limits support the description of a compact fugue or fughetta. The Bach comparison rests on thematic recurrence, functional bass motion, controlled suspensions, and a late increase in imitative density. The piece explores less of the sustained canonic writing, multiple countersubjects, and thematic transformations found across Bach's output. Its final cadence closes a concise exploration of one cell, with the return's changed temporal relation carrying most of the formal argument.
 
 \section{Sources and score reference}\label{sources-and-score-reference}
 
@@ -337,6 +346,8 @@ Pitch names use scientific pitch notation, with middle C designated C4. Half-bea
 \item
   \textbf{Hutchinson, Robert.} \emph{Music Theory for the 21st-Century Classroom}. Website copyright 2017. \href{https://musictheory.pugetsound.edu/mt21c/Suspension.html}{§10.9, ``Suspension''}; \href{https://musictheory.pugetsound.edu/mt21c/TheCadentialSixFourChord.html}{§16.3, ``The Cadential Six-Four Chord''}; \href{https://musictheory.pugetsound.edu/mt21c/VoiceLeadingNeapolitanChord.html}{§29.3, ``Voice Leading the Neapolitan Chord''}; \href{https://musictheory.pugetsound.edu/mt21c/FugueAnalysis.html}{§30.8, ``Fugue Analysis''}. The BWV 847 comparison refers to the score examples and commentary in §30.8.
 \item
+  \textbf{Judd, Hannah.} 2022. ``Virals, Memes, and the Lick's Circulation through Online Jazz Communities.'' \emph{Twentieth-Century Music} 19 (3): 393--410. Published online 28 November 2022. \href{https://doi.org/10.1017/S1478572222000263}{Publisher abstract and article record}.
+\item
   \textbf{Prout, Ebenezer.} 1891. \emph{Fugue}, chapter 10, ``Fughetta and Fugato,'' especially §§350--353. \href{https://en.wikisource.org/wiki/Fugue_(Prout)/Chapter_10}{Public-domain text}.
 \item
   \textbf{University of California, Santa Barbara.} ``Fugue: Subject and Tonal Answer.'' Undated course handout hosted on Lee Rothfarb's faculty site. \href{https://rothfarb.faculty.music.ucsb.edu/courses/103/subject_answer.pdf}{Two-page PDF}.
@@ -344,7 +355,7 @@ Pitch names use scientific pitch notation, with middle C designated C4. Half-bea
 
 External sources consulted 7 September 2026. The original score analysis, pitch tables, and evaluations are specific to \emph{Fuga inversa}.
 
-\clearpage
+\FloatBarrier
 
 \section{Appendix}\label{appendix}
 
@@ -360,13 +371,13 @@ The compositional working brief specified three monophonic voices on one organ m
 
 At the user's request, three GPT-6 Astra composing agents worked at maximum reasoning effort. Each produced a separate candidate, compiled a score, and supplied notes for review. Their initial proposals were separate assignments, but the later revisions shared a brief, an auditor, coordinator feedback, and cross-reviews. This was a comparison of compositions produced under a common method.
 
-The recommendation was not unanimous. A and C recommended B. Both valued B's recurring two-bar countermelody, high-register entry, and clear rise and return. B recommended C because its episodes move between voices and its middle section travels through G, C, and F. The coordinator retained C. C's own review identified its regular phrase lengths and frequent parallel thirds and sixths as limitations relative to B. That objection remains relevant to the comparison; passing an interval audit does not settle it. The reviews also predate the final stretto and expanded closing register, so they should not be presented as votes on the finished version.
+A and C recommended B. Both valued B's recurring two-bar countermelody, high-register entry, and clear rise and return. B recommended C because its episodes move between voices and its middle section travels through G, C, and F. The coordinator retained C. C's own review identified its regular phrase lengths and frequent parallel thirds and sixths as limitations relative to B. That objection remains relevant to the comparison. These recommendations concern versions that precede the final stretto and expanded closing register.
 
 \subsection{Revisions that changed the score}\label{revisions-that-changed-the-score}
 
-The saved reports contain failures as well as successful revisions. An early A audit found parallel octaves in bar 6: soprano C-sharp5--D5 above bass C-sharp3--D3, from the second half of beat 2 to beat 3. Later A files contain revised notes. These snapshots establish a correction history; they do not show that the present A source still contains those octaves.
+An early A audit found parallel octaves in bar 6: soprano C-sharp5--D5 above bass C-sharp3--D3, from the second half of beat 2 to beat 3. The later A source revises those notes. The saved reports preserve both stages of this correction.
 
-C's first saved audit covered only ten bars. Its adjacent-event scan found no perfect-interval flag, yet bar 10 contained two problems. On the quarter-note grid, alto C4 above bass F2 moved to E4 above A2, producing successive fifths. The intervening eighth-note sonority prompted a review of the underlying motion. At beat 4, G2--B3--D5 also exceeded the intended hand reach: either adjacent pair required more than an octave. The final version revises both the approach and the sonority, reaching B2--G4--D5 at that beat. The upper pair then fits comfortably within an octave. Unequal draft lengths make the first audit reports unsuitable for ranking the agents by failure count.
+C's first saved audit covered only ten bars. Its adjacent-event scan found no perfect-interval flag, yet bar 10 contained two problems. On the quarter-note grid, alto C4 above bass F2 moved to E4 above A2, producing successive fifths. The intervening eighth-note sonority prompted a review of the underlying motion. At beat 4, G2--B3--D5 also exceeded the intended hand reach: either adjacent pair required more than an octave. The final version revises both the approach and the sonority, reaching B2--G4--D5 at that beat. The upper pair then fits comfortably within an octave.
 
 The closing revision changes musical direction without adding a voice. The final soprano reads:
 
@@ -380,25 +391,29 @@ A later request for greater ambition led to a separate stretto study. The earlie
 
 The study included unchanged bars 18 and 21 so that the approach and exit could be examined. It was engraved, compiled, and audited before the coordinator adopted its replacement for bars 19--20. The complete score was then compiled and audited again. This adds a ninth literal head within the existing 26 bars. The return now layers a tonic subject and dominant answer over an independent bass.
 
-One harmonic qualification matters. The alto's F-sharp4 on the second half of beat 2 in bar 19 belongs to the exact G4--F-sharp4--E4 descent. It is consonant above D3, and the next sonority is C major. The D-major sonority colors the line; it does not produce a dominant resolution into G. A modal and linear reading is therefore more precise than an unqualified ``V of G'' label.
+The alto's F-sharp4 on the second half of beat 2 in bar 19 belongs to the exact G4--F-sharp4--E4 descent. It is consonant above D3, then descends to E4 as the bass moves to C3. The D-major sonority accommodates the overlapping heads through this linear connection to C major.
 
 \subsection{What the audit tests}\label{what-the-audit-tests}
 
 The auditor uses the actual LilyPond MIDI as its input. It groups notes by MIDI track and channel, checks monophony and crossings, and examines every voice pair at successive note events. It flags successive perfect fifths and octaves, distinguishes similar from contrary motion, and reports direct outer perfect intervals when the upper voice leaps by more than a whole tone. A second pass samples quarter-note positions. The two resolutions caught different problems in the drafts.
 
-The final report identifies three monophonic voices and nine literal heads, with no flags from either perfect-interval pass and no crossings. In every three-note sonority, at least one adjacent pitch pair lies within an octave; the remaining note can go to the other hand. These results apply to the compiled symbolic MIDI identified by the report's SHA-256 digest. They do not prove the absence of every objection a contrapuntal analyst could raise. A quarter-note grid is only one possible reduction; it cannot determine which notes carry harmonic weight across a longer phrase.
+The final report identifies three monophonic voices and nine literal heads, with no flags from either perfect-interval pass and no crossings. Every simultaneous sonority permits an allocation between two hands within an octave. This last result concerns possible allocations; a separate check of the printed transfers is described below. The report's SHA-256 digest identifies the compiled symbolic MIDI to which the findings apply.
 
-The subject matcher checks directed pitch intervals and relative attack times: 0, ½, 1, 1½, 2, 3, and 3½ quarter-note units. It does not independently establish every written duration or tie. Those require source inspection. MIDI also loses enharmonic spelling. The auditor cannot decide whether a pitch functions as a suspension, chord member, modal inflection, or harmonic goal.
+The subject matcher checks directed pitch intervals and relative attack times: 0, ½, 1, 1½, 2, 3, and 3½ quarter-note units. Source inspection supplies the written durations, ties, and enharmonic spelling that this MIDI-based match leaves unresolved.
 
 Dissonance reports were therefore reviewed against the score. In bar 17, for example, the soprano A4 is prepared over F3, held while the bass moves to B-flat2, and resolved to G4 halfway through beat 2. The preparation and resolution explain the flagged seventh as a 7--6 suspension. Likewise, diminished sonorities need their resolutions examined. A stepwise melodic shape alone does not establish that a note is a permissible passing tone.
 
-The auditor's fixtures include deliberate parallel fifths and octaves, a direct outer perfect interval, and examples of thirds and oblique motion that should pass. These tests passed and cover those specific program behaviors. The agents and coordinator also used the same auditor, which leaves a shared source of possible error despite their separate score readings.
+The auditor's fixtures include deliberate parallel fifths and octaves, a direct outer perfect interval, and examples of thirds and oblique motion that should pass. The tests passed for those specific program behaviors.
+
+A later read-only review by Claude Fable 5.1 (\texttt{claude-fable-5-1}) examined \href{https://github.com/chi-feng/fuga-inversa/commit/7a156b0}{published commit 7a156b0}, including source, prose, PDF proofs, screenshots, and supplied test evidence. The reviewer did not listen to the recordings, operate the site, or execute the tests. Its findings were checked against the score before revision. That check also corrected two details in the review: the C-entry gap reaches a major thirteenth, and three of the four double-octave arrivals in bars 13--14 use similar motion. The review therefore supplied questions for investigation as well as proposed corrections.
 
 \subsection{Notation and performance}\label{notation-and-performance}
 
-The reach check asks whether one adjacent pair of the three sounding pitches can fit within an octave, leaving the other pitch to the other hand. This is an instantaneous condition. It does not supply fingering or establish that successive allocations preserve legato comfortably. The final score explicitly puts the alto in the left hand at bars 3--4, the end of bar 9, bars 11--12, and bars 25--26. At bar 9 beat 4, the low F-sharp3--G3 belongs with the left hand; at bar 11, C4 above bass C3 gives an octave. The closing F3--E3--F-sharp3 remains below the rising soprano. A separate check against the actual printed hand transfers found no simultaneous span above an octave in either hand. No live keyboard trial forms part of the evidence recorded here.
+The abstract reach check asks whether one adjacent pair of the three sounding pitches can fit within an octave, leaving the other pitch to the other hand. The final score explicitly puts the alto in the left hand at bars 3--4, the end of bar 9, bars 11--12, and bars 25--26. At bar 9 beat 4, the low F-sharp3--G3 belongs with the left hand; at bar 11, C4 above bass C3 gives an octave. The closing F3--E3--F-sharp3 remains below the rising soprano.
 
-A MIDI fixture exposed a separate technical issue. LilyPond's voice channel setting still reused channel numbers across different staves. The audit could distinguish those notes by track and channel, but rendering required globally distinct voice channels. The preparation script remaps them and asserts that pitches and attack times survive. All organ voices then use the same registration. This finding concerns channel identity; it is not evidence that an audible note cutoff was heard in the candidate recordings.
+A separate checker reads those printed staff assignments and transfers, matches all 382 notes to the MIDI, and checks each interval bounded by a note attack, note ending, or hand transfer. The maximum span is 12 semitones in each hand, including held notes. A deliberate omission of the alto's left-hand transfer at bar 11 makes the checker fail: the right hand would require C4--E5 at the downbeat and G3--E5 at beat 2½, spans of 16 and 21 semitones. The abstract allocation check still passes that fixture because its pitches are unchanged. This comparison tests whether the printed instructions provide the allocation that the notes require.
+
+A MIDI fixture exposed a separate technical issue. LilyPond's voice channel setting still reused channel numbers across different staves. The audit could distinguish those notes by track and channel, but rendering required globally distinct voice channels. The preparation script remaps them and asserts that pitches and attack times survive. All organ voices then use the same registration.
 
 The printed score and the MIDI export also serve different purposes. The printed score has two staves with hand transfers. A separate MIDI score keeps each contrapuntal voice on its own staff, preventing those printed transfers from splitting its identity. The symbolic MIDI remains the authority for interval analysis. Performance changes belong in derived files.
 
@@ -406,7 +421,7 @@ The organ realization uses Joseph Basquin's Jeux d'orgues 2.1 samples of the Sti
 
 The first piano realization used the Salamander Grand Piano SoundFont. The user found it too mechanical, despite its existing tempo, velocity, and articulation changes. That feedback prompted two separate revisions: a more pronounced interpretation and a different piano instrument. The final piano MIDI follows a smooth tempo curve, with the episodes approaching quarter note = 98--100, relaxation around the suspensions, and a broader cadential approach. The last whole note is held at quarter note = 54. The curve follows formal and harmonic events rather than random timing variation.
 
-Note-on velocities range from 50 to 89. The entering head receives prominence even when it lies in the bass or alto; accompanying voices remain quieter. The descending head, local peaks, prepared dissonances, and resolutions have distinct attack weights. Releases vary with note length, melodic role, repetition, leap, and phrase boundary. Selected arrivals have small offsets, up to 17 milliseconds. Seven short harmonic spans use the damper pedal, with the remaining counterpoint kept clear of sustained pedal. The source and derived MIDI retain the same 382 pitches in the same order within each voice. These checks establish the interpretation's relation to the score; they do not measure its resemblance to a human pianist.
+Note-on velocities range from 50 to 89. The entering head receives prominence even when it lies in the bass or alto; accompanying voices remain quieter. The descending head, local peaks, prepared dissonances, and resolutions have distinct attack weights. Releases vary with note length, melodic role, repetition, leap, and phrase boundary. Selected arrivals have small offsets, up to 17 milliseconds. Seven short harmonic spans use the damper pedal, with the remaining counterpoint kept clear of sustained pedal. The source and derived MIDI retain the same 382 pitches in the same order within each voice.
 
 \begin{figure}[!htbp]
 \centering
@@ -414,19 +429,27 @@ Note-on velocities range from 50 to 89. The entering head receives prominence ev
 \caption*{\textbf{Figure A1.} The final piano MIDI's tempo, note-on velocities, and pedal spans. Velocity is a MIDI control value, not a measurement of recorded loudness.}
 \end{figure}
 
-The revised MIDI drives GarageBand's installed Steinway Grand Piano. The complete performance uses one piano track, which gives the instrument a common pedal and acoustic identity. The native export disables the patch's reverb, echo, and compressor. The full mix and three separate voices were exported at 44.1 kHz and 24-bit PCM, with automatic normalization disabled. Their frame counts and embedded tempo markers agree. Native piano-roll observations preserve all pitches and place attacks within one native tick of the imported MIDI. The native project did not provide a round-trip check of note lengths or velocities; those were checked in the imported MIDI. Separate voice renders use the same performance times and gain for analytical listening. The complete master remains the default recording; isolated voices are study aids.
+The revised MIDI drives GarageBand's installed Steinway Grand Piano. The complete performance uses one piano track, which gives the instrument a common pedal and acoustic identity. The native export disables the patch's reverb, echo, and compressor. The full mix and three separate voices were exported at 44.1 kHz and 24-bit PCM, with automatic normalization disabled. Their frame counts and embedded tempo markers agree. Native piano-roll observations preserve all pitches and place attacks within one native tick of the imported MIDI. Note lengths and velocities were checked in the imported MIDI; the native project supplied no round-trip check of those values. Separate voice renders use the same performance times and gain for analytical listening. The complete master remains the default recording; isolated voices are study aids.
 
-The room treatment convolves a mono send with James Cadwallader's measured stereo response from Spokane Woman's Club, while retaining the original stereo piano as the direct signal. The OpenAIR metadata identifies an X/Y microphone at the rear of the hall, 24 metres from the stage source. Blending that capture with a dry piano creates a room perspective; it does not reconstruct a documented seat or a live concert. \href{https://www.openair.hosted.york.ac.uk/?page_id=659}{OpenAIR dataset}.
+The room treatment convolves a mono send with James Cadwallader's measured stereo response from Spokane Woman's Club, while retaining the original stereo piano as the direct signal. The OpenAIR metadata identifies an X/Y microphone at the rear of the hall, 24 metres from the stage source. The blend creates an artificial listening perspective from those measured reflections and the dry piano. \href{https://www.openair.hosted.york.ac.uk/?page_id=659}{OpenAIR dataset}.
 
 The processor removes the response's direct impulse, admits the measured reflections through a short fade, and filters only the room signal below 140 Hz and above 8 kHz. The retained response lasts 3.5 seconds. Its original broadband decay yields a 2.23-second T60 estimate from a fit over the −5 to −25 dB interval; this is an extrapolated acoustic measurement. The principal mix adds the room at −14 dB relative to the dry signal's RMS level, with 6 milliseconds of extra delay. A closer alternative uses −18 dB and 12 milliseconds. The alternatives are matched for integrated loudness, using static gain. No compressor or limiter is added to the piano master. The response is credited to James Cadwallader and OpenAIR under CC BY 4.0, with the processing changes identified in the edition's credits.
-
-The initial candidate recommendations came from score and MIDI inspection. The production agents used source checks, render settings, waveform measurements, and loudness comparisons; they did not supply an auditory evaluation of the final recordings. The user's listening feedback changed the production plan. A pianist's performance of the engraved score, and a listening comparison with the rendered interpretation, would provide evidence beyond the symbolic checks recorded here.
 
 \subsection{Digital edition}\label{digital-edition}
 
 The musical examples are regenerated from the authoritative LilyPond source. A strict parser retains pitches, spellings, durations, rests, and ties; each compiled excerpt is compared with the corresponding full-score MIDI range. LilyPond 2.26's SVG output attaches source note identifiers to the engraving. The webpage uses those identifiers for analytical brackets, note explanations, and voice focus. It follows the selected recording through a time map that retains tempo changes within a beat. The organ and piano can therefore switch at the same score position.
 
+The enhanced player lowers organ playback by 2.01 dB, matching the two masters' measured integrated loudness; downloads retain their original levels. Pause uses a 10-millisecond fade. Repeated excerpts taper for 5 milliseconds at each boundary, while whole-piece playback retains the recording's final decay.
+
 Verovio was tested as a JavaScript notation renderer, including its semantic note identifiers. The final edition uses LilyPond SVG because the performing score was already authoritative and the paper needed short excerpts with matching printed figures. This choice preserves one engraving source. It gives up live musical reflow: phone readers scroll the fixed excerpts horizontally. The PDF uses the same annotated vector figures, typeset with XeLaTeX. \href{https://lilypond.org/doc/v2.26/Documentation/notation/alternative-output-formats}{LilyPond SVG output}, \href{https://book.verovio.org/interactive-notation/css-and-svg.html}{Verovio semantic SVG}.
+
+\subsection{Evidence and limits}\label{evidence-and-limits}
+
+The interval audit tests specified note relations; harmonic function and contrapuntal weight still require score analysis. Its quarter-note grid is one possible reduction. The agents' use of the same auditor leaves a shared source of possible error, despite their separate readings. The early reports cover unequal draft lengths, and the candidate recommendations concern earlier versions.
+
+The printed-hand check establishes instantaneous reach, including sustained notes. Fingering, successive hand motions, articulation, and fluent legato remain untested by a live player. The MIDI channel fixture establishes a routing issue; it does not document an audible cutoff in the candidate recordings. These are separate questions from the score's formal and stylistic qualities.
+
+The initial candidate recommendations came from score and MIDI inspection; A and C explicitly recorded no rendered-audio comparison. The production agents checked source data, render settings, waveforms, and loudness, but supplied no auditory evaluation of the final recordings. The user's listening feedback changed the production plan. The room treatment combines a measured response with a separate instrument recording, without documenting a concert or a particular seat. The checks cover specified pitches, intervals, timing, instantaneous hand spans, and signal levels; assessing musical effect and performance demands still requires listening and a player's trial.
 
 \subsection{Primary artifacts}\label{primary-artifacts}
 
@@ -461,7 +484,5 @@ Evidence
 \addvspace{\LTpost}
 }
 
-The complete file manifest accompanies this edition. The musical claims above should be read together with the checks' stated limits.
-
-The complete performing score and recordings accompany this paper at \href{https://chi-feng.github.io/fuga-inversa/}{the online edition}. The \href{https://github.com/chi-feng/fuga-inversa}{source repository} preserves the scripts and the public revision evidence.
+The complete file manifest accompanies this edition. The musical claims above should be read together with the checks' stated limits. The \href{https://chi-feng.github.io/fuga-inversa/}{score and recordings} and \href{https://github.com/chi-feng/fuga-inversa}{source repository} are available online.
 \end{document}

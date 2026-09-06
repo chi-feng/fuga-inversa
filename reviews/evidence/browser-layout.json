@@ -1,0 +1,47 @@
+{
+  "method": "Saved Chrome geometry checks at 1440 × 1000 and 390 × 844 CSS pixels. The minimum text size covers the visible interface selectors used by browser-layout.js.",
+  "limitations": [
+    "The narrow viewport is desktop Chrome at devicePixelRatio 1; it is not a physical-phone test.",
+    "The aspect-ratio comparison is numerical. The larger score asset is measured at its natural dimensions."
+  ],
+  "result": {
+    "desktop": {
+      "devicePixelRatio": 1,
+      "downloadGapPixels": 18,
+      "fullScoreRatioError": 7.679193201548529e-06,
+      "highDensityScore": {
+        "height": 3511,
+        "width": 2482
+      },
+      "horizontalPageOverflow": false,
+      "introductionReselected": true,
+      "method": "Chrome at the recorded CSS viewport; a narrow viewport does not establish physical phone behavior.",
+      "minimumInterfacePixels": 16,
+      "passed": true,
+      "phoneHeroEngravingHidden": null,
+      "viewport": {
+        "height": 1000,
+        "width": 1440
+      }
+    },
+    "narrow_viewport": {
+      "devicePixelRatio": 1,
+      "downloadGapPixels": 18,
+      "fullScoreRatioError": 2.242904947091784e-05,
+      "highDensityScore": {
+        "height": 3511,
+        "width": 2482
+      },
+      "horizontalPageOverflow": false,
+      "introductionReselected": true,
+      "method": "Chrome at the recorded CSS viewport; a narrow viewport does not establish physical phone behavior.",
+      "minimumInterfacePixels": 16,
+      "passed": true,
+      "phoneHeroEngravingHidden": true,
+      "viewport": {
+        "height": 844,
+        "width": 390
+      }
+    }
+  }
+}
